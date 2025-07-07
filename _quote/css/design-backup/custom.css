@@ -1,0 +1,8 @@
+.q-banner-image {
+	padding-left: 1.2em;
+	padding-right: 1.2em;
+}
+.q-banner-image img {
+	max-width: 100%;
+	height: auto;
+}

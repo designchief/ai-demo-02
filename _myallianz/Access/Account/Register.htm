@@ -1,0 +1,230 @@
+﻿<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MyAllianz</title>
+<link rel="stylesheet" href="..\..\Content\css\css\Customcss.css?v=wlDggyClePuvbwwziiQkuagdzJgY4wN0qvxPOMwtU741" media="all">
+
+<!-- CSS Edits & Overides -->
+<link rel="stylesheet" type="text/css" href="../../Content/css/css/Customcss-new.css">
+<script src="..\..\Scripts\Custom\vendor\custom.modernizr.js"></script>
+</head>
+<body>
+<header>
+	<div class="row">
+		<div class="large-24 columns"> <a href="/MyAllianzPhase2/Product/DashBoard" class="allianz-logo"></a>
+			<h1> MyAllianz<br>
+				<span class="tagline subheader"> Take control of your Insurance</span> </h1>
+		</div>
+	</div>
+</header>
+<nav class="nav-bar row hide-for-small">
+	<!--Removed buttons, but leave placeholder for layout reasons--> 
+</nav>
+<section id="content-section-01" class="row content-section">
+	<div class="large-24 columns hero-header"> <span class="my-allianz-icn"></span>
+		<h1 class="icn-header"> MyAllianz<br>
+			<span class="tagline subheader"> Take control of your Insurance</span> </h1>
+	</div>
+	<div class="large-24 columns sidebar-right-white">
+		<div class="row">
+			<div id="hero-section" class="large-17 columns hero register">
+				<div id="register-section">
+					<h2>Register here</h2>
+					<p><a href="../../Access.htm" target="_blank">Sign In</a> if you have already registered.</p>
+					<hr>
+					<form action="/MyAllianzPhase2/Access/Account/Register" autocomplete="off" class="form-horizontal" method="post" role="form">
+						<input name="__RequestVerificationToken" type="hidden" value="Rh1CQpb3Vma8yFo9_4XIYe_4WtXHd37OCkNVzjqVziI7lt5BMoYZyu1SZIStW0_dQmNhzWEIqVnO6NyPBixTbijakIxCwdLC5WBwBW54Ph01">
+						<div class="row">
+							<div class="large-24 columns">
+								<label for="Email">Your email</label>
+								<input data-val="true" data-val-regex="Please enter a valid email address." data-val-regex-pattern="^[&#39;\w-]+(\.[&#39;\w-]+)*@([a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*?\.[A-Za-z]{2,6}|(\d{1,3}\.){3}\d{1,3})(:\d{4})?$" data-val-required="Your email address cannot be empty." id="Email" name="Email" placeholder="Your email address" type="email" value="">
+								<span class="field-validation-valid templateerror" data-valmsg-for="Email" data-valmsg-replace="true"></span> </div>
+						</div>
+						<div class="row">
+							<div class="large-24 columns">
+								<label for="MobileNumber">Mobile number</label>
+								<input data-val="true" data-val-regex="Please enter your valid phone number." data-val-regex-pattern="(\d{10,11})" data-val-required="Your Mobile Number cannot be empty." id="MobileNumber" maxlength="11" name="MobileNumber" placeholder="Your mobile number" type="tel" value="">
+								<span class="field-validation-valid templateerror" data-valmsg-for="MobileNumber" data-valmsg-replace="true"></span> </div>
+						</div>
+						<div class="row">
+							<div class="large-24 columns">
+								<label for="PolicyClaimNumber">Enter active policy number in format XXXXX9999999 <span data-tooltip="" class="has-tip tip-icn" title="The policy number you enter needs to be an active number. Cancelled policies cannot be entered."><span class="icn info-icn"></span></span></label>
+								<input data-val="true" data-val-regex="Please enter the policy/claim number in the correct format." data-val-regex-pattern="([a-zA-Z]{2}[\s]?[a-zA-Z]{3}[\s]?\d{6,7})|(\d{7,9})" data-val-required="Your Policy/Claim number cannot be empty." id="PolicyClaimNumber" maxlength="14" name="PolicyClaimNumber" placeholder="Your active policy number/claim number" type="text" value="">
+								<span class="field-validation-valid templateerror" data-valmsg-for="PolicyClaimNumber" data-valmsg-replace="true"></span> </div>
+						</div>
+						<div class="row">
+							<div class="large-24 columns">
+								<label for="Password">Password <span data-tooltip="" class="has-tip tip-icn" title="Passwords must be at least 8 characters long and contain at least one uppercase character, lowercase character, numeric digit and special character"><span class="icn info-icn"></span></span></label>
+								<input autocomplete="off" data-val="true" data-val-meetpasswordpolicy="" id="Password" name="Password" placeholder="Enter a password" type="password">
+								<span class="field-validation-valid templateerror" data-valmsg-for="Password" data-valmsg-replace="true"></span> </div>
+						</div>
+						<fieldset id="passwordComplexity">
+							<img src="..\..\Content\img\tick.png" id="rulesmet">
+							<legend>Password must contain:</legend>
+							<ul>
+								<li id="rule1">an uppercase letter</li>
+								<li id="rule2">a lowercase letter</li>
+								<li id="rule3">a numeric character</li>
+								<li id="rule4">a special character !"£$%^&*()?.,#~@:;{}</li>
+								<li id="rule5">and be at least 8 characters</li>
+							</ul>
+						</fieldset>
+						<div class="row">
+							<div class="large-24 columns">
+								<label for="ConfirmPassword">Confirm password</label>
+								<input autocomplete="off" data-val="true" data-val-equalto="Both password fields must match." data-val-equalto-other="*.Password" data-val-required="Please confirm your password." id="ConfirmPassword" name="ConfirmPassword" placeholder="Enter confirm password" type="password">
+								<span class="field-validation-valid templateerror" data-valmsg-for="ConfirmPassword" data-valmsg-replace="true"></span> </div>
+						</div>
+						<div class="row">
+							<div class="large-24 columns">
+								<label>User Authentication</label>
+								<div class="white-holder">
+									<div class="row">
+										<div class="large-24 columns"> 
+									<script src="//www.google.com/recaptcha/api.js?hl=en-GB" async="" defer=""></script>
+									<div class="g-recaptcha" data-sitekey="6LcSw_4SAAAAAAj42SOyDQJL2QLb_MiDoToNCPTX"></div>
+								</div>
+									</div>
+									<div class="row">
+										<div class="large-24 columns">
+									<label class="checkbox-long">
+										<input data-val="true" data-val-mandatory="Please tick to confirm that you are the policyholder." data-val-required="Please tick to confirm that you are the policyholder." id="IsAttested" name="IsAttested" type="checkbox" value="true">
+										<input name="IsAttested" type="hidden" value="false">
+										I am the policyholder. This service is solely for use by the policyholder and must not be accessed otherwise.</label>
+									<br>
+									<span class="field-validation-valid templateerror" data-valmsg-for="IsAttested" data-valmsg-replace="true"></span>
+									<label class="checkbox-long">
+										<input data-val="true" data-val-mandatory="Please tick to confirm in order to proceed." data-val-required="Please tick to confirm in order to proceed." id="IsConfirmed" name="IsConfirmed" type="checkbox" value="true">
+										<input name="IsConfirmed" type="hidden" value="false">
+										I confirm that I have read and accepted the <a class="sessionlogout first" href="https://www.allianz.ie/Terms-and-Conditions/MyAllianz-Terms-of-Service.html" target="_blank">MyAllianz Terms of Service</a>, <a href="http://www.allianz.ie/Terms-and-Conditions/Terms_Conditions_Terms_of_Business.html" target="_blank">Terms and Conditions</a>, <a href="http://www.allianz.ie/Data_Protection_Policy/Data_Protection_Policy.html" target="_blank">Data Protection Policy</a>, <a href="http://www.allianz.ie/Privacy_Statement_and_Security/Privacy_Statement_and_Security.html" target="_blank">Privacy Statement and Security and Use of Cookies</a>.</label>
+									<br>
+									<span class="field-validation-valid templateerror" data-valmsg-for="IsConfirmed" data-valmsg-replace="true"></span> </div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<input type="submit" value="Register" class="button large">
+					</form>
+				</div>
+			</div>
+			<div class="large-7 columns sidebar sidebar-white reg-info">
+				<h3>Registration is easy, here’s&nbsp;how...</h3>
+				<p> <strong>1. Register your policy</strong><br>
+					To sign up for MyAllianz, all you need is a valid email address, mobile phone number and your <span data-tooltip="" class="has-tip" title="The policy number you enter needs to be an active number. Cancelled policies cannot be entered.">active policy/claim number</span>. Enter these details and click register. </p>
+				<p> <strong>2. Activate your account</strong><br>
+					You’ll then receive a confirmation email with a link, which must be clicked within 30 minutes. When you click on the link in the email an SMS will be sent to your mobile.  Enter the code from the SMS within 30 minutes, to complete the registration process. </p>
+				<p> <strong>3. Sign in and get going</strong><br>
+					Using your email address and password, you can access MyAllianz using the secure login and take control of your insurance at a time that suits you. </p>
+					<hr>
+				<p><strong>Already registered?</strong> If you already have registered for a MyAllianz account, you can <a href="../../Access.htm">Sign In here</a>.</p>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="content-section-02-register" class="row content-section about-ma">
+	<div class="large-24 columns">
+		<h3>With MyAllianz you can:</h3>
+		<ul class="icn-list no-bullet large-block-grid-3">
+			<li> <span class="icn policy-icn-blue"></span>Manage your policies online <br>
+				all in one place </li>
+			<li> <span class="icn payments-icn-blue"></span>Pay premiums by card or<br>
+				direct debit </li>
+			<li> <span class="icn document-icn-blue"></span>Get instant access to all of <br>
+				your insurance documents </li>
+			<li> <span class="icn changes-icn-blue"></span>Easily request changes to <br>
+				any of your policies </li>
+			<li> <span class="icn claims-icn-blue"></span>Notify us of a claim and <br>
+				track the progress online </li>
+			<li><em>…all at a time that suits you!</em></li>
+		</ul>
+	</div>
+</section>
+<footer>
+	<div id="confirm-browse" class="reveal-modal small">
+		<h6> Browse away from the site will result in session being terminated. </h6>
+		<br>
+		<a id="browesaway" href="#" target="_blank" class="button">Ok</a> <a class="button secondary close-reveal-modal modal-close-button">Cancel</a> <a class="close-reveal-modal">×</a> </div>
+	<div class="footer-links row hide-for-print">
+		<div class="large-8 medium-7 columns">
+			<ul class="no-bullet">
+				<li><strong>More from Allianz</strong></li>
+				<li> <a class="sessionlogout" href="http://www.allianz.ie" target="_blank">Main Allianz.ie Site</a> </li>
+				<li> <a class="sessionlogout" href="https://www.allianz.ie/Terms-and-Conditions/MyAllianz-Terms-of-Service.html" target="_blank">Terms of Service</a> </li>
+			</ul>
+		</div>
+		<div class="large-8 medium-7 columns">
+			<ul class="no-bullet">
+				<li><strong>Need Help?</strong></li>
+				<li> <a class="sessionlogout" href="http://www.allianz.ie/contact_us" target="_blank">Contact Allianz</a> </li>
+				<li> <a href="tel:01 448 48 48" target="_blank" class="callable phonenumber">Call: 01 448 48 48</a> </li>
+				<li> <a class="sessionlogout" href="mailto:info@allianzdirect.ie" target="_blank">Email: info@allianzdirect.ie</a> </li>
+			</ul>
+		</div>
+		<div class="large-8 medium-10 columns">
+			<ul class="no-bullet">
+				<li><strong>Terms &amp; Privacy</strong></li>
+				<li> <a class="sessionlogout" href="http://www.allianz.ie/Terms-and-Conditions/Terms_Conditions_Terms_of_Business.html" target="_blank">Terms &amp; Conditions / Terms of Business / Customer Information</a> </li>
+				<li> <a class="sessionlogout" href="http://www.allianz.ie/Data_Protection_Policy/Data_Protection_Policy.html" target="_blank">Data Protection Policy</a> </li>
+				<li> <a class="sessionlogout" href="http://www.allianz.ie/Privacy_Statement_and_Security/Privacy_Statement_and_Security.html" target="_blank">Use of Cookies, Privacy &amp; Security</a> </li>
+			</ul>
+		</div>
+	</div>
+	<div class="row content-section hide-for-print">
+		<div class="large-24 columns">
+			<div class="social-links"> <a class="sessionlogout button radius social-btn facebook-btn" href="http://www.facebook.com/AllianzIreland/" target="_blank"></a> <a class="sessionlogout button radius social-btn twitter-btn" href="http://twitter.com/AllianzIreland/" target="_blank"></a> <a class="sessionlogout button radius social-btn youtube-btn" href="http://www.youtube.com/AllianzIreland/" target="_blank"></a> <a class="sessionlogout button radius social-btn google-plus-btn" href="https://plus.google.com/105861600555318600955#105861600555318600955/posts" target="_blank"></a> </div>
+		</div>
+	</div>
+	<div class="sign-off row">
+		<div class="large-24 columns">
+			<p class="small"> Allianz p.l.c. is regulated by the Central Bank of Ireland. <br>
+				Terms and conditions apply. Calls may be recorded. </p>
+		</div>
+	</div>
+</footer>
+<script src="..\..\Scripts\jquery-2.1.4.js"></script> 
+<script src="..\..\Areas\AccessManagement\Scripts\passwordpolicy.js"></script> 
+<script src="..\..\Scripts\Custom\foundation\foundation.js"></script> 
+<script src="..\..\Scripts\Custom\foundation\foundation.abide.js"></script> 
+<script src="..\..\Scripts\Custom\foundation\foundation.alerts.js"></script> 
+<script src="..\..\Scripts\Custom\foundation\foundation.dropdown.js"></script> 
+<script src="..\..\Scripts\Custom\foundation\foundation.forms.js"></script> 
+<script src="..\..\Scripts\Custom\foundation\foundation.magellan.js"></script> 
+<script src="..\..\Scripts\Custom\allianz.foundation.magellan.js"></script> 
+<script src="..\..\Scripts\Custom\foundation\foundation.orbit.js"></script> 
+<script src="..\..\Scripts\Custom\allianz.foundation.orbit.js"></script> 
+<script src="..\..\Scripts\Custom\foundation\foundation.reveal.js"></script> 
+<script src="..\..\Scripts\Custom\foundation\foundation.section.js"></script> 
+<script src="..\..\Scripts\Custom\foundation\foundation.tooltips.js"></script> 
+<script src="..\..\Scripts\Custom\foundation\foundation.topbar.js"></script> 
+<script src="..\..\Scripts\Custom\foundation\foundation.placeholder.js"></script> 
+<script src="..\..\Scripts\Custom\vendor\pickdate\picker.js"></script> 
+<script src="..\..\Scripts\Custom\vendor\pickdate\picker.date.js"></script> 
+<script src="..\..\Scripts\Custom\vendor\pickdate\picker.time.js"></script> 
+<script src="..\..\Scripts\Custom\vendor\pickdate\legacy.js"></script> 
+<script src="..\..\Scripts\Custom\custom.js"></script> 
+<script>
+        $(document).foundation();
+    </script> 
+<script src="..\..\Scripts\jquery.validate.js"></script> 
+<script src="..\..\Scripts\jquery.validate.unobtrusive.js"></script> 
+<script src="..\..\Scripts\External\date-en-IE.js"></script> 
+<script src="..\..\Scripts\custom\allianz.jquery.library.js"></script> 
+<script type="text/javascript">
+    (function ($) {
+        $(function () {
+            if (!$.ALZ) {
+                $.ALZ = {};
+            }
+            if (!$.ALZ.AddressConfiguration) {
+                $.ALZ.AddressConfiguration = { ApplicationRoot: "/MyAllianzPhase2" };
+            }
+        });
+    }(jQuery));
+    </script>
+</body>
+</html>

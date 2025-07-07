@@ -1,0 +1,475 @@
+.rateit {
+  display: -moz-inline-box;
+  display: inline-block;
+  position: relative;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  margin-bottom: 5px
+}
+
+.average {
+  pointer-events: none
+}
+
+.rateit .rateit-range {
+  position: relative;
+  display: -moz-inline-box;
+  display: inline-block;
+  background: url("star.gif.html");
+  height: 16px;
+  outline: none
+}
+
+.rateit .rateit-range * {
+  display: block
+}
+
+* html .rateit, * html .rateit .rateit-range {
+  display: inline
+}
+
+*+html .rateit, *+html .rateit .rateit-range {
+  display: inline
+}
+
+.rateit .rateit-hover, .rateit .rateit-selected {
+  position: absolute;
+  left: 0
+}
+
+.rateit .rateit-hover-rtl, .rateit .rateit-selected-rtl {
+  left: auto;
+  right: 0
+}
+
+.rateit .rateit-hover {
+  background: url("../img/star.gif") left -32px
+}
+
+.rateit .rateit-hover-rtl {
+  background-position: right -32px
+}
+
+.rateit .rateit-selected {
+  background: url("../img/star.gif") left -32px
+}
+
+.rateit .rateit-selected-rtl {
+  background-position: right -16px
+}
+
+.rateit .rateit-preset {
+  background: url("../img/star.gif") left -48px
+}
+
+.rateit .rateit-preset-rtl {
+  background: url("../img/star.gif") left -48px
+}
+
+.rateit button.rateit-reset:hover, .rateit button.rateit-reset:focus {
+  background-position: 0 -16px
+}
+
+.note {
+  float: left;
+  padding-right: 5%;
+  padding-top: .5em;
+  line-height: 1.2em;
+  display: block;
+  color: #929292;
+  font-size: 11px;
+  clear: both
+}
+
+@media screen and (max-width:49em) {
+  .templateerror1 {
+    font-size: 13px;
+    color: red;
+    position: relative;
+    top: 1em
+  }
+  .texttemplateerror1 {
+    font-size: 13px;
+    text-align: left;
+    color: red;
+    position: relative;
+    bottom: 2em
+  }
+  .scaletemplateerror {
+    font-size: 13px;
+    text-align: left;
+    color: red;
+    position: relative;
+    float: left;
+    clear: both;
+    padding-left: 1.8em
+  }
+  .textboxtemplateerror1 {
+    font-size: 13px;
+    float: left!important;
+    color: red;
+    position: relative;
+    padding-top: 1em;
+    padding-right: 50%
+  }
+  .radiotemplateerror {
+    font-size: 13px;
+    color: red;
+    position: relative;
+    top: 1em;
+    float: left;
+    padding-left: 1.4em;
+    padding-bottom: 1.4em;
+    clear: both
+  }
+  .radiohorizontaltemplateerror {
+    font-size: 13px;
+    color: red;
+    position: relative;
+    top: 1em;
+    padding-top: 1em;
+    float: left;
+    padding-left: 1.2em
+  }
+  .forminputradiohorizontal {
+    display: inline-block;
+    width: 8%;
+    color: #125e8c
+  }
+  div.bigstars div.rateit-range {
+    background: url("../img/star-white32.png");
+    height: 32px
+  }
+  div.bigstars div.rateit-hover {
+    background: url("../img/star-gold32.png")
+  }
+  div.bigstars div.rateit-selected {
+    background: url("../img/star-gold32.png")
+  }
+  div.bigstars div.rateit-reset {
+    background: url("../img/star-gold32.png");
+    width: 32px;
+    height: 32px
+  }
+  div.bigstars div.rateit-reset:hover {
+    background: url("../img/star-gold32.png")
+  }
+}
+
+@media screen and (max-width:41em) {
+  .templateerror1 {
+    font-size: 13px;
+    color: red;
+    position: relative;
+    top: 1em;
+    padding-top: 1em;
+    float: left;
+    padding-left: .2em
+  }
+  .texttemplateerror1 {
+    font-size: 13px;
+    text-align: left;
+    color: red;
+    position: relative;
+    bottom: 2em
+  }
+  .scaletemplateerror {
+    font-size: 13px;
+    text-align: left;
+    color: red;
+    position: relative;
+    padding-left: 1.8em
+  }
+  .textboxtemplateerror1 {
+    font-size: 13px;
+    float: left!important;
+    color: red;
+    position: relative;
+    padding-top: 1em;
+    padding-right: 1%;
+    padding-left: 1.5em
+  }
+  .forminputRadioTextAbove {
+    width: 10px!important
+  }
+  .forminputRadioTextBelow {
+    width: 10px!important
+  }
+  .radiotemplateerror {
+    font-size: 13px;
+    color: red;
+    position: relative;
+    top: 1em;
+    float: left;
+    padding-left: 1.4em;
+    padding-bottom: 1.4em;
+    clear: both
+  }
+  .radiohorizontaltemplateerror {
+    font-size: 13px;
+    color: red;
+    position: relative;
+    top: 1em;
+    padding-top: 1em;
+    float: left;
+    padding-left: 1.2em
+  }
+  .forminputradiohorizontal {
+    display: inline-block;
+    width: 25%;
+    color: #125e8c
+  }
+  div.bigstars div.rateit-range {
+    background: url("../img/star-white32.png");
+    height: 32px
+  }
+  div.bigstars div.rateit-hover {
+    background: url("../img/star-gold32.png")
+  }
+  div.bigstars div.rateit-selected {
+    background: url("../img/star-gold32.png")
+  }
+  div.bigstars div.rateit-reset {
+    background: url("../img/star-gold32.png");
+    width: 32px;
+    height: 32px
+  }
+  div.bigstars div.rateit-reset:hover {
+    background: url("../img/star-gold32.png")
+  }
+}
+
+@media screen and (min-width:30em) and (max-width:49em) {
+  .templateerror1 {
+    font-size: 13px;
+    color: red;
+    position: relative;
+    top: 1em
+  }
+  .texttemplateerror1 {
+    font-size: 13px;
+    text-align: left;
+    color: red;
+    position: relative;
+    bottom: 2em
+  }
+  .scaletemplateerror {
+    font-size: 13px;
+    text-align: left;
+    color: red;
+    position: relative;
+    padding-left: 1.8em
+  }
+  .radiotemplateerror {
+    font-size: 13px;
+    color: red;
+    position: relative;
+    top: 1em;
+    float: left;
+    padding-left: 1.4em;
+    padding-bottom: 1.4em;
+    clear: both
+  }
+  .radiohorizontaltemplateerror {
+    font-size: 13px;
+    color: red;
+    position: relative;
+    top: 1em;
+    padding-top: 1em;
+    float: left;
+    padding-left: 1.2em
+  }
+  .textboxtemplateerror1 {
+    font-size: 13px;
+    float: left!important;
+    color: red;
+    position: relative;
+    padding-top: 1em;
+    padding-right: 50%
+  }
+  .forminputradiohorizontal {
+    display: inline-block;
+    width: 8%;
+    color: #125e8c
+  }
+  div.bigstars div.rateit-range {
+    background: url("../img/star-white32.png");
+    height: 32px
+  }
+  div.bigstars div.rateit-hover {
+    background: url("../img/star-gold32.png")
+  }
+  div.bigstars div.rateit-selected {
+    background: url("../img/star-gold32.png")
+  }
+  div.bigstars div.rateit-reset {
+    background: url("../img/star-gold32.png");
+    width: 32px;
+    height: 32px
+  }
+  div.bigstars div.rateit-reset:hover {
+    background: url("../img/star-gold32.png")
+  }
+}
+
+@media screen and (min-width:640px) {
+  .templateerror1 {
+    font-size: 13px;
+    color: red;
+    position: relative;
+    top: 1em;
+    float: left
+  }
+  .texttemplateerror1 {
+    font-size: 13px;
+    text-align: left;
+    color: red;
+    position: relative;
+    bottom: 2em
+  }
+  .scaletemplateerror {
+    font-size: 13px;
+    text-align: left;
+    color: red;
+    position: relative;
+    padding-left: 1.8em;
+    float: left;
+    clear: both
+  }
+  .radiotemplateerror {
+    font-size: 13px;
+    color: red;
+    position: relative;
+    top: 1em;
+    float: left;
+    padding-left: 1.4em;
+    padding-bottom: 1.4em;
+    clear: both
+  }
+  .radiohorizontaltemplateerror {
+    font-size: 13px;
+    color: red;
+    position: relative;
+    top: 1em;
+    padding-top: 1em;
+    float: left;
+    padding-left: 1.2em
+  }
+  .textboxtemplateerror1 {
+    font-size: 13px;
+    float: left!important;
+    color: red;
+    position: relative;
+    padding-top: 1em;
+    padding-right: 60%;
+    padding-left: 2em
+  }
+  .forminputradiohorizontal {
+    display: inline-block;
+    width: 12%;
+    color: #125e8c
+  }
+  .forminputRadioTextBelow {
+    width: 10px!important
+  }
+  div.bigstars div.rateit-range {
+    background: url("../img/star-white32.png");
+    height: 32px
+  }
+  div.bigstars div.rateit-hover {
+    background: url("../img/star-gold32.png")
+  }
+  div.bigstars div.rateit-selected {
+    background: url("../img/star-gold32.png")
+  }
+  div.bigstars div.rateit-reset {
+    background: url("../img/star-gold32.png");
+    width: 32px;
+    height: 32px
+  }
+  div.bigstars div.rateit-reset:hover {
+    background: url("../img/star-gold32.png")
+  }
+}
+
+@media screen and (min-width:840px) {
+  .templateerror1 {
+    font-size: 13px;
+    color: red;
+    position: relative;
+    top: 1em;
+    float: left
+  }
+  .texttemplateerror1 {
+    font-size: 13px;
+    text-align: left;
+    color: red;
+    position: relative;
+    bottom: 2em
+  }
+  .scaletemplateerror {
+    font-size: 13px;
+    text-align: left;
+    color: red;
+    position: relative;
+    padding-left: 1.8em;
+    float: left;
+    clear: both
+  }
+  .radiotemplateerror {
+    font-size: 13px;
+    color: red;
+    position: relative;
+    top: 1em;
+    float: left;
+    padding-left: 1.4em;
+    padding-bottom: 1.4em;
+    clear: both
+  }
+  .radiohorizontaltemplateerror {
+    font-size: 13px;
+    color: red;
+    position: relative;
+    top: 1em;
+    padding-top: 1em;
+    float: left;
+    padding-left: 1.2em
+  }
+  .textboxtemplateerror1 {
+    font-size: 13px;
+    float: left!important;
+    color: red;
+    position: relative;
+    padding-top: 1em;
+    padding-right: 60%;
+    padding-left: 2em
+  }
+  .forminputradiohorizontal {
+    display: inline-block;
+    width: 12%;
+    color: #125e8c
+  }
+  div.bigstars div.rateit-range {
+    background: url("../img/star-white32.png");
+    height: 32px
+  }
+  div.bigstars div.rateit-hover {
+    background: url("../img/star-gold32.png")
+  }
+  div.bigstars div.rateit-selected {
+    background: url("../img/star-gold32.png")
+  }
+  div.bigstars div.rateit-reset {
+    background: url("../img/star-gold32.png");
+    width: 32px;
+    height: 32px
+  }
+  div.bigstars div.rateit-reset:hover {
+    background: url("../img/star-gold32.png")
+  }
+}

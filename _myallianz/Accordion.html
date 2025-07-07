@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MyAllianz</title>
+
+<!-- New Style Sheet Font Update -->
+<link rel="stylesheet" type="text/css" href="Content/css/app-font-update-01.css">
+
+<link rel="stylesheet" type="text/css" href="Content/css/common/global.css">
+<link rel="stylesheet" type="text/css" href="Scripts/jquery-ui-1.11.2.custom/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="Content/css/cr2.css">
+
+<script src="Scripts/Custom/vendor/custom.modernizr.js"></script>
+</head>
+<body>
+<header>
+    <div class="row">
+        <div class="large-24 columns">
+            <a href="http://localhost/MyAllianzPhase2/Product/DashBoard" class="allianz-logo"></a>
+            <h1>
+                MyAllianz<br>
+                <span class="tagline subheader"> Take control of your Insurance</span>
+            </h1>
+        </div>
+    </div>
+</header>
+<form action="http://localhost/MyAllianzPhase2/Access/Account/LogOff" id="logoutForm" method="post"><input name="__RequestVerificationToken" type="hidden" value="Lk4YHQovO80Rmn60uOYarAzRQYSEs45pbPQNoivUpk62Age9836Vb60tZ160C_6uT4X8Qfa1MIdTcLjphzaStigx0TS69r4XALzN-nIB6cjh4g--I0YAUJI_PvV8KdV50"></form>    
+<nav class="nav-bar row hide-for-print">
+    <div class="large-24 columns">
+        <a id="nav-home" href="http://localhost/MyAllianzPhase2/Product/DashBoard" class="button secondary"><span class="icn home-btn"></span>Home</a>
+        <a id="nav-inbox" href="http://localhost/MyAllianzPhase2/Product/Motor/RequestChange?qEJPI3i2ZkTrata8TquvqnBC0fPjE3%2f6rNHzpjSYwfYrywTGfEZU7rmYdxoWdvCf#" class="button secondary no-popup" data-dropdown="inbox-drop" data-count=""><span class="icn inbox-btn"></span>Inbox</a>
+        <a id="nav-profile" class="button secondary no-popup" href="http://localhost/MyAllianzPhase2/Product/Motor/RequestChange?qEJPI3i2ZkTrata8TquvqnBC0fPjE3%2f6rNHzpjSYwfYrywTGfEZU7rmYdxoWdvCf#" data-dropdown="profile-drop"><span class="icn profile-btn"></span><span class="mobile-hide">My</span> Profile</a>
+        <ul id="profile-drop" class="f-dropdown small content" data-dropdown-content="">
+            <li><a href="http://localhost/MyAllianzPhase2/Product/ContactDetails/Inbox">Inbox</a></li>
+            <li><a href="http://localhost/MyAllianzPhase2/Product/ContactDetails/Details">Current Contact Details</a></li>
+            <li><a href="http://localhost/MyAllianzPhase2/Product/ContactDetails/UpdateName">Update your Name</a></li>
+            <li><a href="http://localhost/MyAllianzPhase2/Product/ContactDetails/ChangePhoneNumber">Change your Phone Number</a></li>
+            <li><a href="http://localhost/MyAllianzPhase2/Product/ContactDetails/ChangeAddress">Change Contact Address</a></li>
+            <li><a href="http://localhost/MyAllianzPhase2/Access/Account/ChangePassword">Change Password</a></li>
+            <li><a href="http://localhost/MyAllianzPhase2/Access/Account/RemoveAccount">Remove MyAllianz Account</a></li>
+            <li class="show-for-small"><a href="javascript:document.getElementById('logoutForm').submit()
+">Logout</a></li>
+        </ul>
+        <a class="mobile-hide" href="javascript:document.getElementById('logoutForm').submit()
+">Logout</a>
+    </div>
+</nav>
+
+
+
+<section id="content-section-01" class="row content-section">
+    <input id="PolicyNumber" name="PolicyNumber" type="hidden" value="DNDMR8000687">
+    <div class="large-24 columns">
+
+<div class="car policy">
+
+
+
+<a href="http://localhost/MyAllianzPhase2/Product/Motor/RequestChange?qEJPI3i2ZkTrata8TquvqnBC0fPjE3%2f6rNHzpjSYwfYrywTGfEZU7rmYdxoWdvCf#" data-dropdown="menu-drop-DNDMR8000687" class="button menu-btn" data-options="is_hover:true"><span class="mobile-hide">Menu</span><span class="icn menu-icn"></span></a>
+<ul id="menu-drop-DNDMR8000687" class="f-dropdown content icn-list menu-drop" data-dropdown-content="">
+    <li><a href="http://localhost/MyAllianzPhase2/Product/Motor/PolicyDetails?uJ3e%2bwZSk7osYCDZyyBHu%2boafrCjG%2bvdmqw2qtB5hOg%3d" class="tab-icn"><span class="icn policy-icn"></span>Policy Details</a></li>
+    <li><a href="http://localhost/MyAllianzPhase2/Product/Motor/Payments?uJ3e%2bwZSk7osYCDZyyBHu%2boafrCjG%2bvdmqw2qtB5hOg%3d" class="tab-icn"><span class="icn policy-icn"></span>Payments</a></li>
+    <li><a href="http://localhost/MyAllianzPhase2/Product/Motor/ViewDocuments?uJ3e%2bwZSk7osYCDZyyBHu%2boafrCjG%2bvdmqw2qtB5hOg%3d" class="tab-icn"><span class="icn document-icn"></span>View Documents</a></li>
+    <li><a href="./Accordion_files/Accordion.html" class="tab-icn"><span class="icn changes-icn"></span>Request Changes</a></li>
+        <li><a href="http://localhost/MyAllianzPhase2/Product/Motor/ClaimsHistory?uJ3e%2bwZSk7osYCDZyyBHu%2boafrCjG%2bvdmqw2qtB5hOg%3d" class="tab-icn"><span class="icn policy-icn"></span>Claims History</a></li>
+    <li><a href="http://localhost/MyAllianzPhase2/Product/Motor/ClaimNotification?uJ3e%2bwZSk7osYCDZyyBHu%2boafrCjG%2bvdmqw2qtB5hOg%3d" class="tab-icn"><span class="icn claims-icn"></span>Claim Notification</a></li>
+    
+    <li><a href="http://localhost/MyAllianzPhase2/Access/Account/RemoveUserPolicy?uJ3e%2bwZSk7osYCDZyyBHuzB5Z78RtsyQ3VXRiIDGDbbBFxlBAdhm21cosgLU5RQg" class="txt-link">Remove Policy from View</a></li>
+    <li><a href="http://localhost/MyAllianzPhase2/Product/DashBoard" class="txt-link">View Another Policy</a></li>
+</ul>
+
+    <h2 class="icn-title"><a href="http://localhost/MyAllianzPhase2/Product/Motor/PolicyDetails?uJ3e%2bwZSk7osYCDZyyBHu%2boafrCjG%2bvdmqw2qtB5hOg%3d"><span class="icn car-icn"></span>Car Policy</a></h2>
+    <dl class="inline-def-list">
+        <dt>Policy Number:</dt>
+        <dd>DNDMR8000687</dd>
+        <dt>Car Registration:</dt>
+        <dd>05D6873</dd>
+            <dt>Policy Renewal Date:</dt>
+            <dd>12/07/2016</dd>
+                    <span>
+                    <dt><b style="color:#993333">Balance: </b></dt>
+                <dd>
+Payment pending. Updates occur every 24 hours, during business hours.                </dd>
+            </span>
+    </dl>
+</div>
+
+    </div>
+    <div class="large-24 columns sec-collapse">
+        <div id="vertical-tabs" class="section-container vertical-tabs" data-section="vertical-tabs" style="min-height:370px;" data-section-resized="true">
+            <section class="">
+                <p class="title" data-section-title="" style="top: 0px;"><a href="http://localhost/MyAllianzPhase2/Product/Motor/PolicyDetails?uJ3e%2bwZSk7osYCDZyyBHu%2boafrCjG%2bvdmqw2qtB5hOg%3d" class="tab-icn"><span class="icn policy-icn"></span>Policy Details</a></p>
+            </section>
+            <section class="">
+                <p class="title" data-section-title="" style="top: 46px;"><a href="http://localhost/MyAllianzPhase2/Product/Motor/Payments?uJ3e%2bwZSk7osYCDZyyBHu%2boafrCjG%2bvdmqw2qtB5hOg%3d" class="tab-icn"><span class="icn changes-icn"></span>Payments</a></p>
+            </section>
+            <section class="">
+                <p class="title" data-section-title="" style="top: 92px;"><a href="http://localhost/MyAllianzPhase2/Product/Motor/ViewDocuments?uJ3e%2bwZSk7osYCDZyyBHu%2boafrCjG%2bvdmqw2qtB5hOg%3d" class="tab-icn"><span class="icn document-icn"></span>View Documents</a></p>
+            </section>
+            <section class="active">
+                <p class="title" data-section-title="" style="top: 138px;"><a href="http://localhost/MyAllianzPhase2/Product/Motor/RequestChange?m0s7n1edicJsp6JPSipGfQ%3d%3d" class="tab-icn"><span class="icn changes-icn"></span>Request Changes</a></p>
+
+
+
+    <input id="productName" name="productName" type="hidden" value="Motor">
+    <input id="isReload" name="isReload" type="hidden" value="False">
+    <div class="content" data-slug="request-changes" data-section-content="">
+        <div data-alert="" class="alert-box radius">
+            Need to make a change to your policy or update your contact details? Notify us here and we’ll take care of the rest. To review your change requests see your
+            <a href="http://localhost/MyAllianzPhase2/Product/Motor/RequestChangeHistory">Requested Changes</a>.
+        </div>
+        <div id="rc-submit-box-01" class="contain-to-grid sticky sticky-buttons rc-submit-general">
+            <nav class="top-bar">
+                <ul class="title-area">
+                    <!-- Title Area -->
+                    <li class="name"></li>
+                    <li class="toggle-topbar menu-icon"><a href="http://localhost/MyAllianzPhase2/Product/Motor/RequestChange?qEJPI3i2ZkTrata8TquvqnBC0fPjE3%2f6rNHzpjSYwfYrywTGfEZU7rmYdxoWdvCf#"><span>Menu</span></a></li>
+                </ul>
+                
+            <section class="top-bar-section">
+                    <ul class="left">
+                        <li class="has-form">
+                            <a class="button rc-common-submit-btn" data-reveal-id="rc-confirm-submit">Submit All Requests</a>
+                        </li>
+                    </ul>
+                </section></nav>
+        </div>
+        <div class="form-expand row">
+            <div id="rc-forms-select" class="section-container accordion" data-section="accordion">
+                <!--RC SELECT SECTION OPTIONS -->
+                <section class="active">
+                    <p class="title" data-section-title=""><a href="http://localhost/MyAllianzPhase2/Product/Motor/RequestChange?qEJPI3i2ZkTrata8TquvqnBC0fPjE3%2f6rNHzpjSYwfYrywTGfEZU7rmYdxoWdvCf#">Change request options</a></p>
+                    <div class="content content-form" data-section-content="">
+                        <div class="content-wrapper">
+                            <div class="row">
+                                <div class="large-24 columns">
+                                    <div id="rc-forms" class="section-container accordion" data-section="accordion" data-options="one_up: false; deep_linking: true; multi_expand: true;">
+
+
+
+<!--RC SECTION - Update Your Marital Status, Occupation & Change Your Employment Status-->
+<section id="rc-umoes-section" class="rc-accordion-sections">
+    <p class="title" data-section-title=""><a href="http://localhost/MyAllianzPhase2/Product/Motor/RequestChange?qEJPI3i2ZkTrata8TquvqnBC0fPjE3%2f6rNHzpjSYwfYrywTGfEZU7rmYdxoWdvCf#rc-umsoes" id="rc-umsoes" data-url="/MyAllianzPhase2/Product/Motor/RequestChange?tehOvNCXA9UZ%2bQUDZc3lHQ%3d%3d" class="rc-common-link">Update Your Marital Status, Occupation &amp; Change Your Employment Status<span class="icn"></span></a></p>
+    <div class="content content-form" data-slug="rc-ot" data-section-content="">
+<form action="/MyAllianz/Product/Home/RequestChange" id="OT.RequestChange" method="post" novalidate>            <div id="occupancyTypeContainer">
+
+
+<div class="rc-form">
+
+    <input id="OT_IsValidSubmitRequestChange" name="OT.IsValidSubmitRequestChange" type="hidden" value="False">
+    <div class="allfieldsvalid">
+
+        <input id="OT_IsAllFieldsValid" name="OT.IsAllFieldsValid" type="hidden" value="False">
+    </div>
+    <div class="summary panel">
+        <h5>Current Occupancy Type, Change From</h5>
+        <dl class="inline-def-list">
+            <dt>Occupancy Type:</dt>
+            <dd>Your home is owner occupied.</dd>
+        </dl>
+    </div>
+    <fieldset>
+        <legend>Amend To</legend>
+        <div class="row">
+            <div class="medium-12 columns">
+                <label>Occupancy Type</label>
+
+                <select class="submitdisplay" id="OT_typesoccupancy_Occupancy_Type" name="OT.typesoccupancy.Occupancy Type"><option value="">-- Please select --</option>
+<option value="1">Main Family Residence Owner Occupied</option>
+<option value="2">Main Family Residence With Up to 6 Paying Guests</option>
+<option value="3">Main Family Residence With Up to 12 Paying Guests</option>
+<option value="4">Main Residence and Self Contained Unit (Granny Flat)</option>
+<option value="5">Property Let As One Unit</option>
+<option value="6">Property Let As More Than One Unit</option>
+<option value="7">Holiday Home</option>
+<option value="8">Holiday Home That Is Also Let</option>
+<option value="9">Second Property (Occupied By A Relative)</option>
+<option value="10">Rented Property (You Are The Only Tenant)</option>
+<option value="11">Rented Property (You Are One Of Multi Tenants)</option>
+</select>
+            </div>
+        </div>
+    </fieldset>
+    <div class="alert-box radius">
+        If the occupancy type you wish to select is not available, please provide the applicable occupancy type in the additional comments box below.
+    </div>
+    <div class="row initialstatehidden occupancytypeerror">
+        <div class="large-24 templateerror columns">
+            Please select occupancy type or enter the occupancy type in the Additional Comments box.
+        </div>
+    </div>
+    <div>
+
+
+
+<div class="rc-form">
+    <label>Additional Comments:</label>
+
+<textarea class="generic-additional-comments" cols="20" data-val="true" data-val-regex="Please note special characters are not permitted." data-val-regex-pattern="^[a-zA-Z0-9\-\–\+\£\€\(\)\.\,_\-\'\@\:\s\\\/\|\?]+$" id="OT.Additional Comments" name="OT.Additional Comments" rows="10"></textarea>    <span class="field-validation-valid templateerror" data-valmsg-for="OT.Additional Comments" data-valmsg-replace="true"></span>
+    <span id="maxCharGenericAdditionalComments" class="initialstatehidden templateerror">** You have entered maximum characters allowed for this field</span>
+    <div>
+        <div>
+            <label for="Proposed_Date_And_Time_Of_Change">Proposed Date And Time Of Change</label>
+            <ul class="large-block-grid-4">
+
+
+                <li style="width:37%">
+                    
+
+<div class="formitem formselect cf">
+    <div class="formlabel cf">
+        <label for="OT_Proposed Date of Change"></label>
+    </div>
+    <div class="input_textbox_with_icon date_picker">
+        <input id="OT_Proposed Date of Change" name="OT.Proposed Date of Change" style="; padding-left: 2px; font-size:13px;" data-val="true" data-val-required="Proposed Date of Change is mandatory." data-val-date="The field Proposed Date of Change must be a date." placeholder="DD/MM/YYYY" type="text" value="" readonly class="proposeddate date_picker_text">
+    </div>
+    <img src="/MyAllianz/Scripts/jquery-ui-1.11.2.custom/images/calendar.png" class="date_picker_img" id="input_img_OT_Proposed Date of Change" style="cursor: pointer;">
+</div>
+
+                </li>
+
+
+                <li style="padding-top:4px;width:90px;">
+                    <input class="proposedtime time-picker-changeRequest picker__input" data-val="true" id="OT_Proposed_Time_of_Change" name="OT.Proposed Time of Change" placeholder="HH:MM" readonly required="required" style="width:85px;height:32px;" type="text" value="" aria-required="true">
+                </li>
+
+            </ul>
+        </div>
+        <div class="row initialstatehidden datetimeerror">
+            <div class="large-24 templateerror columns">
+                Date and time of change must be in the future
+            </div>
+        </div>
+        <div>
+
+            <span class="field-validation-valid templateerror" data-valmsg-for="OT.Proposed Date of Change" data-valmsg-replace="true"></span>
+
+            <span class="field-validation-valid templateerror" data-valmsg-for="OT.Proposed Time of Change" data-valmsg-replace="true"></span>
+        </div>
+<div>
+    <ul style="list-style-position:outside; margin-left:15px;">
+        <li>We will respond as soon as possible and no longer than 4 hours from receipt of this request (during business hours; our business hours are Mon-Fri 8am-6pm, Sat 9am-1pm).</li>
+        <li>The requested change(s) will not be effective until confirmed by us.</li>
+        <li>Additional information may be required to support your request.</li>
+        <li>This change request may affect your premium and restrictions in cover and limitations may apply.</li>
+        <li>We will ask you to confirm your change request before we make any change(s) to your policy.</li>
+        <li>Revised documents, where applicable, will be available for you to view within your MyAllianz account and we will send you an SMS and Email to let you know when they may be viewed.</li>
+    </ul>
+</div>
+
+    </div>
+</div>
+
+    </div>    
+
+
+<div class="row">
+    <div class="large-24 columns">
+        <a href="#rc-forms-select" class="button rc-save-btn saveoccupancytype">Continue</a>
+        <a href="#rc-forms-select" class="button rc-cancel-btn">Cancel</a>
+    </div>
+</div>
+
+</div>
+<div class="rc-request">
+    <div class="summary panel">
+        <dl class="inline-def-list">
+            <dd class="occupancytypesummary"></dd>
+        </dl>
+    </div>
+    <div class="submitsummary initialstatehidden">
+        <dl class="inline-def-list">
+            <dt>Occupancy Type:</dt>
+            <dd></dd>
+        </dl>
+    </div>
+    <div class="row">
+        <div class="large-24 columns">
+            <a href="#rc-ot" class="button small secondary rc-edit-btn">Edit Changes</a>
+            <a href="#rc-forms-select" class="button small secondary rc-cancel-btn">Cancel</a>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</form>    </div>
+</section>
+
+<!--RC SECTION - Update my Bank Details-->
+
+
+
+
+<!--RC SECTION - Permanent Change Of Car-->
+<section id="rc-pcc-section" class="rc-accordion-sections loading">
+    <p class="title" data-section-title=""><a href="http://localhost/MyAllianzPhase2/Product/Motor/RequestChange?qEJPI3i2ZkTrata8TquvqnBC0fPjE3%2f6rNHzpjSYwfYrywTGfEZU7rmYdxoWdvCf#rc-pccop" id="rc-pccop" data-url="/MyAllianzPhase2/Product/Motor/RequestChange?ALMQWFIrekP0D%2bJdCq483g%3d%3d" class="rc-common-link">Permanent Change Of Car<span class="icn"></span></a></p>
+    <div class="content content-form" data-slug="rc-pccop" data-section-content="">
+<form action="http://localhost/MyAllianzPhase2/Product/Motor/RequestChange" id="PCCOP.RequestChange" method="post">            <div id="pccopContainer">
+            </div>
+<div>
+    <span>For multiple Change Requests, click “Submit All Requests” (at the top or bottom of this page) when you have completed all requests</span>
+</div>
+</form>    </div>
+</section>
+
+<!--RC SECTION - Enquire About Permanent Change Of Car-->
+<section id="rc-cce-section" class="rc-accordion-sections">
+    <p class="title" data-section-title="">  <a href="http://localhost/MyAllianzPhase2/Product/Motor/RequestChange?qEJPI3i2ZkTrata8TquvqnBC0fPjE3%2f6rNHzpjSYwfYrywTGfEZU7rmYdxoWdvCf#rc-pcce" id="rc-pcce" data-url="/MyAllianzPhase2/Product/Motor/RequestChange?5JbsB%2bZbJ%2fik6t3QtDi2fg%3d%3d" class="rc-common-link">Enquire About Permanent Change Of Car<span class="icn"> </span> </a> </p>
+    <div class="content content-form" data-slug="rc-pcce" data-section-content="">
+<form action="http://localhost/MyAllianzPhase2/Product/Motor/RequestChange" id="PCCE.RequestChange" method="post">            <div id="pcceContainer">
+            </div>
+<div>
+    <span>For multiple Change Requests, click “Submit All Requests” (at the top or bottom of this page) when you have completed all requests</span>
+</div>
+</form>    </div>
+</section>
+
+<!--RC SECTION - Temporary Change Of Car-->
+<section id="rc-tcc-section" class="rc-accordion-sections">
+    <p class="title" data-section-title=""><a href="http://localhost/MyAllianzPhase2/Product/Motor/RequestChange?qEJPI3i2ZkTrata8TquvqnBC0fPjE3%2f6rNHzpjSYwfYrywTGfEZU7rmYdxoWdvCf#rc-tcc" id="rc-tcc" data-url="/MyAllianzPhase2/Product/Motor/RequestChange?o%2bolNbuojBx1WTwY6zGnag%3d%3d" class="rc-common-link">Temporary Change Of Car<span class="icn"></span></a></p>
+    <div class="content content-form" data-slug="rc-tcc" data-section-content="">
+<form action="http://localhost/MyAllianzPhase2/Product/Motor/RequestChange" id="TCC.RequestChange" method="post">            <div id="tccContainer">
+            </div>
+<div>
+    <span>For multiple Change Requests, click “Submit All Requests” (at the top or bottom of this page) when you have completed all requests</span>
+</div>
+</form>    </div>
+</section>
+
+<!--RC SECTION - Change Of Car Address-->
+<section id="rc-cra-section" class="rc-accordion-sections">
+    <p class="title" data-section-title=""><a href="http://localhost/MyAllianzPhase2/Product/Motor/RequestChange?qEJPI3i2ZkTrata8TquvqnBC0fPjE3%2f6rNHzpjSYwfYrywTGfEZU7rmYdxoWdvCf#rc-cra" id="rc-cra" data-url="/MyAllianzPhase2/Product/Motor/RequestChange?FtvkfRS4my0EB4P6LMORtg%3d%3d" class="rc-common-link">Change Of Car Address<span class="icn"></span></a></p>
+    <div class="content content-form" data-slug="rc-cra" data-section-content="">
+<form action="http://localhost/MyAllianzPhase2/Product/Motor/RequestChange" id="CRA.RequestChange" method="post">            <div id="craContainer">
+            </div>
+<div>
+    <span>For multiple Change Requests, click “Submit All Requests” (at the top or bottom of this page) when you have completed all requests</span>
+</div>
+</form>    </div>
+</section>
+
+<!--RC SECTION - Delete Drivers-->
+<section id="rc-dd-section" class="rc-accordion-sections">
+    <p class="title" data-section-title=""><a href="http://localhost/MyAllianzPhase2/Product/Motor/RequestChange?qEJPI3i2ZkTrata8TquvqnBC0fPjE3%2f6rNHzpjSYwfYrywTGfEZU7rmYdxoWdvCf#rc-dd" id="rc-dd" data-url="/MyAllianzPhase2/Product/Motor/RequestChange?H%2bOiigcR3ulNHaZbcbCEEQ%3d%3d" class="rc-common-link">Delete Driver<span class="icn"></span></a></p>
+    <div class="content content-form" data-slug="rc-dd" data-section-content="">
+<form action="http://localhost/MyAllianzPhase2/Product/Motor/RequestChange" id="DD.RequestChange" method="post">            <div id="ddContainer">
+            </div>
+<div>
+    <span>For multiple Change Requests, click “Submit All Requests” (at the top or bottom of this page) when you have completed all requests</span>
+</div>
+</form>    </div>
+</section>
+
+<!--RC SECTION - Add temporary additional driver-->
+<section id="rc-tad-section" class="rc-accordion-sections">
+    <p class="title" data-section-title=""><a href="http://localhost/MyAllianzPhase2/Product/Motor/RequestChange?qEJPI3i2ZkTrata8TquvqnBC0fPjE3%2f6rNHzpjSYwfYrywTGfEZU7rmYdxoWdvCf#rc-tad" id="rc-tad" data-url="/MyAllianzPhase2/Product/Motor/RequestChange?VGia%2fPHrou5pNAqprwSewA%3d%3d" class="rc-common-link">Temporary Additional Driver<span class="icn"></span></a></p>
+    <div class="content content-form" data-slug="rc-tad" data-section-content="">
+<form action="http://localhost/MyAllianzPhase2/Product/Motor/RequestChange" id="TAD.RequestChange" method="post">            <div id="tadContainer">
+            </div>
+<div>
+    <span>For multiple Change Requests, click “Submit All Requests” (at the top or bottom of this page) when you have completed all requests</span>
+</div>
+</form>    </div>
+</section>
+
+<!--RC SECTION - Add permanent additional driver-->
+<section id="rc-pad-section" class="rc-accordion-sections">
+    <p class="title" data-section-title=""><a href="http://localhost/MyAllianzPhase2/Product/Motor/RequestChange?qEJPI3i2ZkTrata8TquvqnBC0fPjE3%2f6rNHzpjSYwfYrywTGfEZU7rmYdxoWdvCf#rc-pad" id="rc-pad" data-url="/MyAllianzPhase2/Product/Motor/RequestChange?oaDZhvMhhSvhY5rIBPj9jA%3d%3d" class="rc-common-link">Permanent Additional Driver<span class="icn"></span></a></p>
+    <div class="content content-form" data-slug="rc-pad" data-section-content="">
+<form action="http://localhost/MyAllianzPhase2/Product/Motor/RequestChange" id="PAD.RequestChange" method="post">            <div id="padContainer">
+            </div>
+<div>
+    <span>For multiple Change Requests, click “Submit All Requests” (at the top or bottom of this page) when you have completed all requests</span>
+</div>
+</form>    </div>
+</section>
+
+<!--RC SECTION - Update Driver Details-->
+<section id="rc-ud-section" class="rc-accordion-sections">
+    <p class="title" data-section-title=""><a href="http://localhost/MyAllianzPhase2/Product/Motor/RequestChange?qEJPI3i2ZkTrata8TquvqnBC0fPjE3%2f6rNHzpjSYwfYrywTGfEZU7rmYdxoWdvCf#rc-ud" id="rc-ud" data-url="/MyAllianzPhase2/Product/Motor/RequestChange?m0uAqvzRhDl1gBHe537vUA%3d%3d" class="rc-common-link">Update Driver(s) Details<span class="icn"></span></a></p>
+    <div class="content content-form" data-slug="rc-ud" data-section-content="">
+<form action="http://localhost/MyAllianzPhase2/Product/Motor/RequestChange" id="UD.RequestChange" method="post">            <div id="udContainer">
+            </div>
+<div>
+    <span>For multiple Change Requests, click “Submit All Requests” (at the top or bottom of this page) when you have completed all requests</span>
+</div>
+</form>    </div>
+</section>
+
+<!--RC SECTION - Change Excess-->
+    <section id="rc-excess-section" class="rc-accordion-sections">
+        <p class="title" data-section-title=""><a href="http://localhost/MyAllianzPhase2/Product/Motor/RequestChange?qEJPI3i2ZkTrata8TquvqnBC0fPjE3%2f6rNHzpjSYwfYrywTGfEZU7rmYdxoWdvCf#rc-excess" id="rc-excess" data-url="/MyAllianzPhase2/Product/Motor/RequestChange?r9WL00Aczuj1gQeLUg%2fz9Q%3d%3d" class="rc-common-link">Change Excess Amount<span class="icn"></span></a></p>
+        <div class="content content-form" data-slug="rc-excess" data-section-content="">
+<form action="http://localhost/MyAllianzPhase2/Product/Motor/RequestChange" id="EXCESS.RequestChange" method="post">                <div id="excessContainer">
+                </div>
+<div>
+    <span>For multiple Change Requests, click “Submit All Requests” (at the top or bottom of this page) when you have completed all requests</span>
+</div>
+</form>        </div>
+    </section>
+
+<!--RC SECTION - Change Cover Options-->
+<section id="rc-cco-section" class="rc-accordion-sections">
+    <p class="title" data-section-title=""><a href="http://localhost/MyAllianzPhase2/Product/Motor/RequestChange?qEJPI3i2ZkTrata8TquvqnBC0fPjE3%2f6rNHzpjSYwfYrywTGfEZU7rmYdxoWdvCf#rc-cco" id="rc-cco" data-url="/MyAllianzPhase2/Product/Motor/RequestChange?brxPdqLQ4jmxMFLq7LiCRw%3d%3d" class="rc-common-link">Change Cover Options<span class="icn"></span></a></p>
+    <div class="content content-form" data-slug="rc-cco" data-section-content="">
+<form action="http://localhost/MyAllianzPhase2/Product/Motor/RequestChange" id="CCO.RequestChange" method="post">            <div id="ccoContainer">
+            </div>
+<div>
+    <span>For multiple Change Requests, click “Submit All Requests” (at the top or bottom of this page) when you have completed all requests</span>
+</div>
+</form>    </div>
+</section>
+
+<!--RC SECTION - Other Request-->
+
+
+<section id="rc-other-section" class="rc-accordion-sections">
+    <p class="title" data-section-title=""><a href="http://localhost/MyAllianzPhase2/Product/Motor/RequestChange?qEJPI3i2ZkTrata8TquvqnBC0fPjE3%2f6rNHzpjSYwfYrywTGfEZU7rmYdxoWdvCf#rc-other" id="rc-other" data-url="/MyAllianzPhase2/Product/Motor/RequestChange?1AjBv7KyBFe8bFhevvghUw%3d%3d">Other<span class="icn"></span></a></p>
+    <div class="content content-form" data-slug="rc-other" data-section-content="">
+<form action="http://localhost/MyAllianzPhase2/Product/Motor/RequestChange" id="OTHER.RequestChange" method="post">            <div id="otherContainer">
+            </div>
+<div>
+    <span>For multiple Change Requests, click “Submit All Requests” (at the top or bottom of this page) when you have completed all requests</span>
+</div>
+</form>    </div>
+</section>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="rc-submit-box-02" class="rc-submit-general">
+                                <div class="row">
+                                    <div class="large-24 columns">
+                                        
+                                        
+                                        <a href="http://localhost/MyAllianzPhase2/Product/Motor/RequestChange?qEJPI3i2ZkTrata8TquvqnBC0fPjE3%2f6rNHzpjSYwfYrywTGfEZU7rmYdxoWdvCf#" class="button rc-common-submit-btn" data-reveal-id="rc-confirm-submit">Submit All Requests</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-24 columns">
+                
+            </div>
+        </div>
+
+        <!--Modals/Reveals-->
+        <div id="rc-confirm-submit" class="reveal-modal">
+            <div id="rc-confirm-01">
+                <h3>
+                    You have asked for the following changes to be made to your policy.
+                    <span class="subheader">Please check over the details and click confirm request when you are ready.</span>
+                </h3>
+                <dl class="inline-def-list">
+                    <dd class="confirmSummary"></dd>
+                </dl>
+<div>
+    <ul style="list-style-position:outside; margin-left:15px;">
+        <li>We will respond as soon as possible and no longer than 4 hours from receipt of this request (during business hours; our business hours are Mon-Fri 8am-6pm, Sat 9am-1pm).</li>
+        <li>The requested change(s) will not be effective until confirmed by us.</li>
+        <li>Additional information may be required to support your request.</li>
+        <li>This change request may affect your premium and restrictions in cover and limitations may apply.</li>
+        <li>We will ask you to confirm your change request before we make any change(s) to your policy.</li>
+        <li>Revised documents, where applicable, will be available for you to view within your MyAllianz account and we will send you an SMS and Email to let you know when they may be viewed.</li>
+    </ul>
+</div>
+
+                <a id="rc-confirm-btn" class="button">Confirm Request</a>
+                <a class="button secondary rc-cancel-confirm-btn close close-reveal-modal modal-close-button">Cancel</a>
+                <a class="button secondary rc-save-confirm-btn close close-reveal-modal modal-close-button">Save &amp; request another change</a>
+            </div>
+            <div id="rc-confirm-02">
+                <h3>Thank you. <span class="subheader">Your request has been received and we will get back to you with further information.</span></h3>
+            </div>
+            <div id="rc-confirm-03" class="initialstatehidden">
+                <h3>We are sorry, there was an issue while processing your request or your session has timed out. Please try again, or alternatively, call us on 01 448 48 48.</h3>
+            </div>
+            <a class="close-reveal-modal">×</a>
+        </div>
+        <div id="rc-confirm-leavepage" class="reveal-modal">
+            <h6>
+                You have not submitted your change request. Do you want to leave this page?
+                If you leave this page, your change request will not be saved/submitted.
+            </h6>
+            <br>
+            <a id="redirectpage" class="button no-popup">Yes</a>
+            <a class="button secondary rc-cancel-confirm-btn close close-reveal-modal modal-close-button no-popup">Cancel</a>
+            <a class="close-reveal-modal no-popup">×</a>
+        </div>
+        <div id="rc-common-count" class="reveal-modal no-popup">
+            <div id="rc-alert-01" class="alertbox">
+                Due to the number of required changes, please contact our office on phone number 01 448 48 48 to discuss.
+            </div>
+            <a class="close-reveal-modal no-popup">×</a>
+        </div>
+    </div>
+
+
+            </section>
+
+            <section class="">
+                <p class="title" data-section-title="" style="top: 184px;"><a href="http://localhost/MyAllianzPhase2/Product/Motor/ClaimsHistory?uJ3e%2bwZSk7osYCDZyyBHu%2boafrCjG%2bvdmqw2qtB5hOg%3d" class="tab-icn"><span class="icn changes-icn"></span>Claims History</a></p>
+            </section>
+
+            <section class="">
+                <p class="title" data-section-title="" style="top: 230px;"><a href="http://localhost/MyAllianzPhase2/Product/Motor/ClaimNotification?uJ3e%2bwZSk7osYCDZyyBHu%2boafrCjG%2bvdmqw2qtB5hOg%3d" class="tab-icn"><span class="icn claims-icn"></span>Claim Notification</a></p>
+            </section>
+            
+            <section>
+                <p class="title" data-section-title="" style="top: 276px;"><a href="http://localhost/MyAllianzPhase2/Product/DashBoard" class="tab-icn"><span class="icn"></span>View Another Policy</a></p>
+            </section>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<footer>
+    <div id="confirm-browse" class="reveal-modal small">
+        <h6>
+            Browse away from the site will result in session being terminated.
+        </h6>
+        <br>
+        <a id="browesaway" href="http://localhost/MyAllianzPhase2/Product/Motor/RequestChange?qEJPI3i2ZkTrata8TquvqnBC0fPjE3%2f6rNHzpjSYwfYrywTGfEZU7rmYdxoWdvCf#" target="_blank" class="button">Ok</a>
+        <a class="button secondary close-reveal-modal modal-close-button">Cancel</a>
+        <a class="close-reveal-modal">×</a>
+    </div>
+    <div class="footer-links row hide-for-print">
+        <div class="large-8 medium-7 columns">
+            <ul class="no-bullet">
+                <li><strong>More from Allianz</strong></li>
+                <li>
+                    <a class="sessionlogout" href="http://www.allianz.ie/" target="_blank">Main Allianz.ie Site</a>
+                </li>
+                <li>
+                    <a class="sessionlogout" href="https://www.allianz.ie/Terms-and-Conditions/MyAllianz-Terms-of-Service.html" target="_blank">Terms of Service</a>
+                    </li>
+               
+            </ul>
+        </div>
+        <div class="large-8 medium-7 columns">
+            <ul class="no-bullet">
+                <li><strong>Need Help?</strong></li>
+                <li>
+                    <a class="sessionlogout" href="http://www.allianz.ie/contact_us" target="_blank">Contact Allianz</a>
+                </li>
+                <li>
+                    <a href="tel:01 448 48 48" target="_blank" class="callable phonenumber" style="cursor: default;">Call: 01 448 48 48</a>
+                </li>
+                <li>
+                    <a class="sessionlogout" href="mailto:info@allianzdirect.ie" target="_blank">Email: info@allianzdirect.ie</a>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="large-8 medium-10 columns">
+            <ul class="no-bullet">
+                <li><strong>Terms &amp; Privacy</strong></li>
+                <li>
+                    <a class="sessionlogout" href="http://www.allianz.ie/Terms-and-Conditions/Terms_Conditions_Terms_of_Business.html" target="_blank">Terms &amp; Conditions / Terms of Business / Customer Information</a>
+                </li>
+                <li>
+                    <a class="sessionlogout" href="http://www.allianz.ie/Data_Protection_Policy/Data_Protection_Policy.html" target="_blank">Data Protection Policy</a>
+                </li>
+                <li>
+                    <a class="sessionlogout" href="http://www.allianz.ie/Privacy_Statement_and_Security/Privacy_Statement_and_Security.html" target="_blank">Use of Cookies, Privacy &amp; Security</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="row content-section hide-for-print">
+        <div class="large-24 columns">
+            <div class="social-links">
+                <a class="sessionlogout button radius social-btn facebook-btn" href="http://www.facebook.com/AllianzIreland/" target="_blank"></a>
+                <a class="sessionlogout button radius social-btn twitter-btn" href="http://twitter.com/AllianzIreland/" target="_blank"></a>
+                <a class="sessionlogout button radius social-btn youtube-btn" href="http://www.youtube.com/AllianzIreland/" target="_blank"></a>
+                <a class="sessionlogout button radius social-btn google-plus-btn" href="https://plus.google.com/105861600555318600955#105861600555318600955/posts" target="_blank"></a>
+            </div>
+        </div>
+    </div>
+    <div class="sign-off row">
+        <div class="large-24 columns">
+            <p class="small">
+                Allianz p.l.c. is regulated by the Central Bank of Ireland. <br>
+                Terms and conditions apply. Calls may be recorded.
+            </p>
+        </div>
+    </div>
+</footer>
+
+
+<script src="Scripts/jquery-2.1.4.js"></script> 
+<script src="Scripts/Custom/foundation/foundation.js"></script> 
+<script src="Scripts/Custom/foundation/foundation.abide.js"></script> 
+<script src="Scripts/Custom/foundation/foundation.alerts.js"></script> 
+<script src="Scripts/Custom/foundation/foundation.dropdown.js"></script> 
+<script src="Scripts/Custom/foundation/foundation.forms.js"></script> 
+<script src="Scripts/Custom/foundation/foundation.magellan.js"></script> 
+<script src="Scripts/Custom/allianz.foundation.magellan.js"></script> 
+<script src="Scripts/Custom/foundation/foundation.orbit.js"></script> 
+<script src="Scripts/Custom/allianz.foundation.orbit.js"></script> 
+<script src="Scripts/Custom/foundation/foundation.reveal.js"></script> 
+<script src="Scripts/Custom/foundation/foundation.section.js"></script> 
+<script src="Scripts/Custom/foundation/foundation.tooltips.js"></script> 
+<script src="Scripts/Custom/foundation/foundation.topbar.js"></script> 
+<script src="Scripts/Custom/foundation/foundation.placeholder.js"></script> 
+<script src="Scripts/Custom/vendor/pickdate/picker.js"></script> 
+<script src="Scripts/Custom/vendor/pickdate/picker.date.js"></script> 
+<script src="Scripts/Custom/vendor/pickdate/picker.time.js"></script> 
+<script src="Scripts/Custom/vendor/pickdate/legacy.js"></script> 
+<script src="Scripts/Custom/custom.js"></script> 
+<script>
+        $(document).foundation();
+    </script> 
+<script src="Scripts/jquery.validate.js"></script> 
+<script src="Scripts/jquery.validate.unobtrusive.js"></script> 
+<script src="Scripts/External/date-en-IE.js"></script> 
+<script src="Scripts/custom/allianz.jquery.library.js"></script> 
+<script type="text/javascript">
+    (function ($) {
+        $(function () {
+            if (!$.ALZ) {
+                $.ALZ = {};
+            }
+            if (!$.ALZ.AddressConfiguration) {
+                $.ALZ.AddressConfiguration = { ApplicationRoot: "/MyAllianzPhase2" };
+            }
+        });
+    }(jQuery));
+    </script>
+
+
+</body></html>

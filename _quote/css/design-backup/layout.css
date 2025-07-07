@@ -1,0 +1,422 @@
+/* 8. CUSTOM LAYOUT & TYPOGRAPHY (Daddy bear)
+---------------------------------------------------------------------*/
+/*.mainwrap {
+	background-color: #ff9100;
+}*/
+#container, .container {
+	margin: 0 auto; 
+	max-width: 55em;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+.staticsb #container, .staticsb .container {
+	padding-left: 8em;
+}
+.container {
+}
+#main-content, footer > div { 
+	padding: 1.2em; 
+}
+#main{
+	z-index: 100;
+	position: relative;
+}
+#formwrap { 
+	width: 72%;
+	float: left;
+}
+#content-sidebar-desktop {
+	width: 26%;
+	padding-bottom: .4em;
+	clear: none;
+	margin-top: 0;
+	float: right;
+}
+#content01 {
+	padding: 1.6em;
+}
+.premium .quoteref {
+	font-size: 120%;
+	display: block;
+	margin-top: .3em;
+}
+/* set the default font sizes */
+.tabsnav a { font-size: 1.7em; }
+
+/* responsive show/hide
+---------------------------------------------------------------------*/
+#content-top-mobile, #content-sidebar-mobile, .mobshow, .qpmob {
+	display: none;
+}
+#content-sidebar-desktop, #staticpremium, #topnav, #tooltip, .tooltip, .formlabel img {
+	display: block;
+}
+.mobcut {
+	display: inline;
+}
+
+/* boxes
+---------------------------------------------------------------------*/
+.box {
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+.box-corner {
+}
+.box-curve {
+}
+
+/* buttons
+---------------------------------------------------------------------*/
+.btn {
+	font-size: 1.4em;
+}
+.btn.small {
+	font-size: 1.2em;
+}
+/* footer
+---------------------------------------------------------------------*/
+.footer-text li {
+	float: left;
+	margin-bottom: 0;
+}
+.footer-text li a {
+	border-left:1px solid #929292;
+	padding-right: 1em;
+	padding-left: 1em;
+}
+.footer-text li a.first {
+	border-left:none;
+	padding-left: 0;
+}
+/* form
+---------------------------------------------------------------------*/
+input[type=text], textarea {
+}
+.label, label {
+	padding-left: 24px;
+	padding-right: 1em;
+	float: right;
+	width: auto;
+	text-align: right;
+	padding-top: .3em;
+}
+.formitem {
+	padding-top: .7em;
+	padding-bottom: .7em;	
+}
+.formlabel {
+	float: left;
+	width: 40%;
+	position: relative;
+	overflow: hidden;
+}
+.forminput {
+	float: left;
+	width: 50%;
+}
+.formlabel img {
+	display: block;
+	position: absolute;
+	top: 2px;
+	left: 0;
+}
+.radiobtn {
+	margin-bottom: .4em;
+}
+.note {
+	float: right;
+	width: 55%;
+	padding-right: 5%;
+}
+#page2 .formitem .formlabel {
+	width: 50%;
+}
+#page2 .formitem .forminput {
+	width: 40%;
+}
+#page2 .formitem .note {
+	width: 47%;
+	padding-top: .5em;
+	padding-right: 3%;
+}
+#page3 .formitem .note {
+	width: 100%;
+	padding-right: 0;
+}
+#SumTerms .formlabel {
+	float: left;
+	width: 55%;
+	padding-right: 4%;
+}
+#SumTerms .answer {
+	margin-top: 0;
+}
+#SumTerms .formitem .formlabel label {
+	padding-left: 0;
+	padding-top: 0;
+	float: left;
+}
+#SumTerms .formitem .forminput {
+	float: left;
+	width: 30%;
+}
+#SumTerms .formitem .formlabel {
+	float: left;
+	width: 66%;
+	text-align: left;
+	padding-right: 4%;
+}
+.fw .formlabel {
+	float: left;
+	width: 100%;
+	text-align: left;
+}
+.fw label {
+	padding: 0 0 .4em;
+	float: left;
+	width: 100%;
+	text-align: left;
+}
+.fw .forminput {
+	float: left;
+	width: 100%;
+}
+/* product buttons
+---------------------------------------------------------------------*/
+				
+ul#productlist li {
+	width: 22%;
+	margin: 0 3% 3% 0;
+}
+
+
+/* Custom Styles - Allianz
+---------------------------------------------------------------------*/
+
+/* header
+---------------------------------------------------------------------*/
+header {
+	margin-bottom: 1.2em;
+}
+.topstrip {
+	height: 58px;
+}
+.header-wrapper {
+	height: 95px;
+}
+#logo {
+	height: 74px;
+	width: 179px;
+    max-width: 179px;
+}
+.headertitle {
+	line-height: 58px;
+	font-size: 1.6em;
+}
+.phonenumber {
+	font-size: 130%;
+}
+
+/* modal
+---------------------------------------------------------------------*/
+.modal-box {
+	padding: 1.4em;
+}
+
+/* tab wizard
+---------------------------------------------------------------------*/
+.tabsnav a {
+	text-align: left;
+	color: #fff;
+	padding-left: 26px;
+	
+	background: url('../img/css/ui/arrow-right-small.png') no-repeat 6px center #66c5ec; /* Old browsers */
+	background: url('../img/css/ui/arrow-right-small.png') no-repeat 6px center, -moz-linear-gradient(top,  #66c5ec 0%, #0062c5 100%); /* FF3.6+ */
+	background: url('../img/css/ui/arrow-right-small.png') no-repeat 6px center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#66c5ec), color-stop(100%,#0062c5)); /* Chrome,Safari4+ */
+	background: url('../img/css/ui/arrow-right-small.png') no-repeat 6px center, -webkit-linear-gradient(top,  #66c5ec 0%,#0062c5 100%); /* Chrome10+,Safari5.1+ */
+	background: url('../img/css/ui/arrow-right-small.png') no-repeat 6px center, -o-linear-gradient(top,  #66c5ec 0%,#0062c5 100%); /* Opera 11.10+ */
+	background: url('../img/css/ui/arrow-right-small.png') no-repeat 6px center, -ms-linear-gradient(top,  #66c5ec 0%,#0062c5 100%); /* IE10+ */
+	background: url('../img/css/ui/arrow-right-small.png') no-repeat 6px center, linear-gradient(to bottom,  #66c5ec 0%,#0062c5 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66c5ec', endColorstr='#0062c5',GradientType=0 ); /* IE6-8 */
+}
+
+.tabsnav a.current {
+	background: url('../img/css/ui/arrow-down-small.png') no-repeat 6px center #009ee0; /* Old browsers */
+	background: url('../img/css/ui/arrow-down-small.png') no-repeat 6px center, -moz-linear-gradient(top,  #009ee0 0%, #003781 100%); /* FF3.6+ */
+	background: url('../img/css/ui/arrow-down-small.png') no-repeat 6px center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#009ee0), color-stop(100%,#003781)); /* Chrome,Safari4+ */
+	background: url('../img/css/ui/arrow-down-small.png') no-repeat 6px center, -webkit-linear-gradient(top,  #009ee0 0%,#003781 100%); /* Chrome10+,Safari5.1+ */
+	background: url('../img/css/ui/arrow-down-small.png') no-repeat 6px center, -o-linear-gradient(top,  #009ee0 0%,#003781 100%); /* Opera 11.10+ */
+	background: url('../img/css/ui/arrow-down-small.png') no-repeat 6px center, -ms-linear-gradient(top,  #009ee0 0%,#003781 100%); /* IE10+ */
+	background: url('../img/css/ui/arrow-down-small.png') no-repeat 6px center, linear-gradient(to bottom,  #009ee0 0%,#003781 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009ee0', endColorstr='#003781',GradientType=0 ); /* IE6-8 */
+
+}
+
+.tabsnav a.tabok {
+	background: url('../img/css/ui/tick-icon.png') no-repeat 6px center #009ee0; /* Old browsers */
+	background: url('../img/css/ui/tick-icon.png') no-repeat 6px center, -moz-linear-gradient(top,  #009ee0 0%, #003781 100%); /* FF3.6+ */
+	background: url('../img/css/ui/tick-icon.png') no-repeat 6px center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#009ee0), color-stop(100%,#003781)); /* Chrome,Safari4+ */
+	background: url('../img/css/ui/tick-icon.png') no-repeat 6px center, -webkit-linear-gradient(top,  #009ee0 0%,#003781 100%); /* Chrome10+,Safari5.1+ */
+	background: url('../img/css/ui/tick-icon.png') no-repeat 6px center, -o-linear-gradient(top,  #009ee0 0%,#003781 100%); /* Opera 11.10+ */
+	background: url('../img/css/ui/tick-icon.png') no-repeat 6px center, -ms-linear-gradient(top,  #009ee0 0%,#003781 100%); /* IE10+ */
+	background: url('../img/css/ui/tick-icon.png') no-repeat 6px center, linear-gradient(to bottom,  #009ee0 0%,#003781 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009ee0', endColorstr='#003781',GradientType=0 ); /* IE6-8 */
+}
+.tabsnav a#t4.current {
+	background: url('../img/css/ui/arrow-down-small.png') no-repeat 6px center #ff8200; /* Old browsers */
+	background: url('../img/css/ui/arrow-down-small.png') no-repeat 6px center, -moz-linear-gradient(top,  #ffb466 0%, #ff4200 100%); /* FF3.6+ */
+	background: url('../img/css/ui/arrow-down-small.png') no-repeat 6px center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffb466), color-stop(100%,#ff4200)); /* Chrome,Safari4+ */
+	background: url('../img/css/ui/arrow-down-small.png') no-repeat 6px center, -webkit-linear-gradient(top,  #ffb466 0%,#ff4200 100%); /* Chrome10+,Safari5.1+ */
+	background: url('../img/css/ui/arrow-down-small.png') no-repeat 6px center, -o-linear-gradient(top,  #ffb466 0%,#ff4200 100%); /* Opera 11.10+ */
+	background: url('../img/css/ui/arrow-down-small.png') no-repeat 6px center, -ms-linear-gradient(top,  #ffb466 0%,#ff4200 100%); /* IE10+ */
+	background: url('../img/css/ui/arrow-down-small.png') no-repeat 6px center, linear-gradient(to bottom,  #ffb466 0%,#ff4200 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb466', endColorstr='#ff4200',GradientType=0 ); /* IE6-8 */
+}
+
+/* End Custom Styles - Allianz
+---------------------------------------------------------------------*/
+
+
+/* 9. CUSTOM LAYOUT & TYPOGRAPHY (Mummy bear)
+---------------------------------------------------------------------*/
+@media screen and (min-width: 30em) and (max-width: 49em) {
+/*.mainwrap {
+	background-color: #000;
+}*/
+/* set the default font sizes */
+.tabsnav a { font-size: 1.6em; }
+#container, .container { 
+	min-width: 10em;
+ }
+
+aside {
+}
+.formlabel, .forminput {
+	float: left;
+	width: 100%;
+}
+.label, label {
+	padding: 0 0 .4em;
+	float: left;
+	width: 100%;
+	text-align: left;
+}
+.formitem {
+	padding-right: .7em;
+	padding-left: .7em;
+}
+
+.formlabel, #page2 .formitem .formlabel, #SumTerms .formmulti .formlabel {
+	width: 100%;
+	 text-align: left;
+}
+.forminput, #page2 .formitem .forminput, #SumTerms .formmulti .forminput  {
+	float: left;
+	width: 100%;
+}
+.label, label {
+	float: left;
+	 width: 90%;
+	 padding: 0 0 .4em;
+}
+.formlabel img {
+	float: right;
+	position: relative;
+	top: 0;
+}
+.formmulti .formlabel {
+	 width: 100%;
+}
+.radiobtn {
+	margin-bottom: 0;
+}
+#page2 .formlabel {
+	width: 100%;
+}
+#page2 .forminput {
+	width: 100%;
+}
+.note, #page2 .formitem .note {
+	float: left;
+	width: 100%;
+	padding-right: 0;
+}
+#content01 {
+	padding: 1.4em;
+}
+.premium .quoteref {
+	font-size: 110%;
+	display: inline;
+}
+
+/* responsive show/hide
+---------------------------------------------------------------------*/
+
+
+
+}
+
+@media screen and (max-width: 49em) {
+
+#formwrap { width: 66%;}
+#content-sidebar-desktop { width: 32%;}
+
+
+}
+
+
+@media screen and (max-width: 41em) {
+
+#container, .container {
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	max-width: 30em;
+}
+.staticsb #container, .staticsb .container {
+	padding-left: 1.5em;
+}
+#formwrap { width: 100%;}
+
+
+/* responsive show/hide
+---------------------------------------------------------------------*/
+
+#content-sidebar-desktop, #staticpremium, .mobcut, #topnav, #tooltip, .tooltip, .formlabel img {
+	display: none;
+}
+#content-top-mobile, #content-sidebar-mobile {
+	display: block;
+}
+.mobshow {
+	display: inline;
+}
+#tooltip, .tooltip {
+	margin-left: 200000px;
+}   
+/* footer
+---------------------------------------------------------------------*/
+.footer-text li {
+	float: none;
+	margin-bottom: .2em;
+}
+.footer-text li a {
+	border-left:none;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+
+}
+
+
+/* browser amends
+---------------------------------------------------------------------*/
+.ie7 #container, .ie7 .container, .ie8 #container, .ie8 .container {
+	width: 48em;
+}
+
+.ie7 .primary, .ie8 .primary {
+	padding-left: 1em;
+}

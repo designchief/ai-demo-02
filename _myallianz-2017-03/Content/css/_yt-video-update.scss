@@ -1,0 +1,117 @@
+/* Holder for Video embeds */
+
+.flex-video {
+  position: relative;
+  height: 0;
+  margin-bottom: 1.33333em;
+  padding-bottom: 75%;
+  overflow: hidden;
+}
+
+.flex-video iframe, .flex-video object, .flex-video embed, .flex-video video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.flex-video.widescreen {
+  padding-bottom: 56.25%;
+}
+
+.alert-box.video {
+  padding-right: .733333em;
+}
+
+.alert-box.video .flex-video {
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 880px) {
+  .alert-box.video .flex-video {
+    margin-top: .733333em;
+  }
+}
+
+@media only screen and (min-width:880px) {
+  .about-ma .flex-video {
+    margin-right: 1em;
+    margin-bottom: 1.5em;
+  }
+}
+
+
+/* Video embeds Button */
+
+.video-link {
+  display: block;
+  position: relative;
+}
+
+.video-link::before {
+  background-image: url(../img/css/play-button.png);
+  content: "";
+  display: inline-block;
+  background-size: contain;
+  width: 2.4rem;
+  height: 2.4rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -1.2rem;
+  margin-top: -1.2rem;
+  opacity: .6;
+  transition: all 0.25s ease;
+}
+
+@media only screen and (min-width:880px) {
+  .video-link::before {
+    opacity: .3;
+  }
+}
+
+.video-link:hover::before {
+  width: 3rem;
+  height: 3rem;
+  margin-left: -1.5rem;
+  margin-top: -1.5rem;
+  opacity: .8;
+}
+
+
+/* New CSS for Sign-In & Register pages imagery */
+
+@media only screen and (min-width: 640px) {
+  .columns.hero.register {
+    min-height: 53rem;
+  }
+}
+
+.sign-in-fullwidth.myallianz {
+  background: #e2dddb;
+}
+
+.myallianz .columns.hero.register {
+  background: none;
+  padding-right: 1em;
+}
+
+.myallianz .columns.hero.register {
+  background: #e4e1e0;
+}
+
+@media only screen and (min-width: 640px) {
+  .sign-in-fullwidth.myallianz, .myallianz .columns.hero.register {
+    background: url(../img/css/hero-bg-myallianz.jpg) right bottom no-repeat #e4e1e0;
+  }
+  .myallianz .columns.hero.register {
+    padding-right: 17em;
+  }
+}
+
+@media only screen and (min-width:880px) {
+  .sidebar-right-white.myallianz {
+    background: url(../img/css/sidebar-column-right-white-myallianz.png) 70.85% repeat-y #fff!important
+  }
+}

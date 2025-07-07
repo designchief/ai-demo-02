@@ -1,0 +1,148 @@
+/* IPID CUSTOM STYLES - TO BE INCLUDED AFTER LAYOUT.CSS */
+/* IPID LISTS */
+.ipid-list {
+  list-style: none;
+  margin-left: 0;
+  padding: 0;
+  margin-bottom: 1.2em; }
+  .ipid-list li {
+    background-size: 1.2em;
+    padding-left: 1.6em;
+    background-repeat: no-repeat;
+    background-position: top left; }
+  .ipid-list.bullet {
+    list-style: disc; }
+  .ipid-list.no-bullet li {
+    padding: 0; }
+  .ipid-list.dash li {
+    background-image: url(../img/ipid/ipid-dash.png); }
+  .ipid-list.cross li {
+    background-image: url(../img/ipid/ipid-cross.png); }
+  .ipid-list.cross-red li {
+    background-image: url(../img/ipid/ipid-cross-red.png); }
+  .ipid-list.exclamation li {
+    background-image: url(../img/ipid/ipid-exclamation.png); }
+  .ipid-list.exclamation-orange li {
+    background-image: url(../img/ipid/ipid-exclamation-orange.png); }
+  .ipid-list.tick li {
+    background-image: url(../img/ipid/ipid-tick.png); }
+  .ipid-list.tick-blue li {
+    background-image: url(../img/ipid/ipid-tick-blue.png); }
+  .ipid-list.tick-green li {
+    background-image: url(../img/ipid/ipid-tick-green.png); }
+
+/* IPID LAYOUT */
+.ipid {
+  /* SPLIT COLUMN */ }
+  @media screen and (min-width: 30em) {
+    .ipid #container {
+      padding-top: 2em;
+      padding-bottom: 2em;
+      max-width: 60em; } }
+  .ipid .mainwrap {
+    font-size: .8125em; }
+  .ipid h1, .ipid h2, .ipid h3, .ipid h4 {
+    font-weight: bold;
+    color: #4d4d4d; }
+  .ipid h1 {
+    font-size: 3em; }
+  .ipid h2 {
+    font-size: 1.3em;
+    margin-bottom: .5em; }
+    @media screen and (min-width: 30em) {
+      .ipid h2 {
+        font-size: 1.5em; } }
+  @media screen and (min-width: 49em) {
+    .ipid .col-left {
+      float: left;
+      width: 46%; }
+    .ipid .col-right {
+      float: right;
+      width: 46%; } }
+  .ipid p.subtitle {
+    font-weight: bold; }
+  .ipid .header {
+    background-color: #496EBD;
+    padding: 1em 1.2em 1.4em;
+    margin: -1.2em -1.2em 1.2em; }
+    .ipid .header * {
+      color: #ffffff; }
+    .ipid .header h1 {
+      margin-bottom: .1em; }
+    .ipid .header p {
+      margin-bottom: .4em; }
+    .ipid .header .subtitle {
+      font-size: 1.5em;
+      font-weight: normal; }
+    .ipid .header .small-text {
+      font-size: 90%;
+      margin-bottom: 0; }
+  .ipid .box {
+    padding: 1.2em;
+    overflow: hidden; }
+
+/* IPID PANELS */
+.ipid-panel {
+  background-color: #ececec;
+  padding: 1em;
+  margin-top: 1em;
+  background-size: 2.8em;
+  background-repeat: no-repeat;
+  background-position: .8em .8em; }
+  @media screen and (min-width: 30em) {
+    .ipid-panel {
+      background-size: 3.6em;
+      background-position: 1em 1em; } }
+  .ipid-panel .ipid-panel-content {
+    padding-left: 3.4em; }
+    @media screen and (min-width: 30em) {
+      .ipid-panel .ipid-panel-content {
+        padding-left: 4.6em; } }
+  .ipid-panel.insured-y {
+    background-image: url(../img/ipid/ipid-umbrella-icon.png); }
+  .ipid-panel.insured-n {
+    background-image: url(../img/ipid/ipid-cross-icon.png); }
+  .ipid-panel.restrictions {
+    background-image: url(../img/ipid/ipid-exclamation-icon.png); }
+  .ipid-panel.cover-where {
+    background-image: url(../img/ipid/ipid-global-icon.png); }
+  .ipid-panel.obligations {
+    background-image: url(../img/ipid/ipid-hand-icon.png); }
+  .ipid-panel.payment {
+    background-image: url(../img/ipid/ipid-euros-icon.png); }
+  .ipid-panel.cover-dates {
+    background-image: url(../img/ipid/ipid-time-icon.png); }
+  .ipid-panel.cancel-contract {
+    background-image: url(../img/ipid/ipid-cancel-icon.png); }
+
+/* PRINT STYLES */
+@media print {
+  .ipid {
+    background: #ffffff !important; }
+    .ipid .box {
+      -webkit-box-shadow: 0px 0px 6px 0px #ffffff;
+      -moz-box-shadow: 0px 0px 6px 0px #ffffff;
+      box-shadow: 0px 0px 6px 0px #ffffff; }
+    .ipid #container {
+      padding: 0;
+      width: 100%; }
+    .ipid .mainwrap {
+      font-size: .5em; }
+    .ipid h1 {
+      font-size: 3em; }
+    .ipid h2 {
+      font-size: 1.7em; }
+    .ipid .col-left {
+      float: left;
+      width: 46%; }
+    .ipid .col-right {
+      float: right;
+      width: 46%; }
+    .ipid .restrictions {
+      page-break-after: always; }
+
+  .ipid-panel {
+    background-size: 3.6em;
+    background-position: 1em 1em; }
+    .ipid-panel .ipid-panel-content {
+      padding-left: 4.6em; } }

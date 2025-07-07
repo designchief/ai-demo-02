@@ -1,0 +1,784 @@
+/* 8. CUSTOM LAYOUT & TYPOGRAPHY (Daddy bear)
+---------------------------------------------------------------------*/
+/*.mainwrap {
+	background-color: #ff9100;
+}*/
+#container, .container {
+	margin: 0 auto; 
+	max-width: 55em;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+.staticsb #container, .staticsb .container {
+	padding-left: 8em;
+}
+.container {
+}
+#main-content, footer > div { 
+	padding: 1.2em; 
+}
+#main{
+	z-index: 100;
+	position: relative;
+}
+
+.overlaypriority{
+	z-index: 10001;
+}
+#formwrap { 
+	width: 72%;
+	float: left;
+}
+#content-sidebar-desktop {
+	width: 26%;
+	padding-bottom: .4em;
+	clear: none;
+	margin-top: 0;
+	float: right;
+}
+#content01 {
+	padding: 1.6em;
+}
+.premium .quoteref {
+	font-size: 120%;
+	display: block;
+	margin-top: .3em;
+}
+.referenceview {
+	display:none;
+}
+
+/* set the default font sizes */
+.tabsnav a { font-size: 1.7em; }
+
+/* responsive show/hide
+---------------------------------------------------------------------*/
+#content-top-mobile, #content-sidebar-mobile, .mobshow, .qpmob {
+	display: none;
+}
+#content-sidebar-desktop, #staticpremium, #topnav, #tooltip, .tooltip, .formlabel img {
+	display: block;
+}
+.mobcut {
+	display: inline;
+}
+
+/* boxes
+---------------------------------------------------------------------*/
+.box {
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+.box-corner {
+}
+.box-curve {
+}
+
+/* buttons
+---------------------------------------------------------------------*/
+.btn {
+	font-size: 1.4em;
+}
+.btn.small {
+	font-size: 1.2em;
+}
+/* footer
+---------------------------------------------------------------------*/
+.footer-text li {
+	float: left;
+	margin-bottom: 0;
+}
+.footer-text li a {
+	border-left:1px solid #929292;
+	padding-right: 1em;
+	padding-left: 1em;
+}
+.footer-text li a.first {
+	border-left:none;
+	padding-left: 0;
+}
+/* form
+---------------------------------------------------------------------*/
+input[type=text], textarea {
+}
+.label, label {
+	padding-left: 24px;
+	padding-right: 1em;
+	float: right;
+	width: auto;
+	text-align: right;
+	padding-top: .3em;
+}
+.formitem {
+	padding-top: .7em;
+	padding-bottom: .7em;	
+}
+.formlabel {
+	float: left;
+	width: 40%;
+	position: relative;
+	/*overflow: hidden;*/
+}
+.forminput {
+	float: left;
+	width: 50%;
+}
+.columnleft {
+	float: left;
+	width: 45%;
+	position: relative;
+	overflow: hidden;
+}
+.columnright {
+	float: right;
+	width: 45%;
+	position: relative;
+	overflow: hidden;
+}
+.errorleft {
+	float: right;
+	width: 90%;
+	position: relative;
+	overflow: hidden;
+}
+.errorright {
+	float: right;
+	width: 90%;
+	position: relative;
+	overflow: hidden;
+}
+.formlabelleft {
+	float: left;
+	width: 75%;
+	position: relative;
+	overflow: hidden;
+}
+.forminputleft {
+	float: left;
+	width: 20%;
+}
+.formlabelright {
+	float: left;    
+	width: 75%;
+	position: relative;
+	overflow: hidden;
+}
+.forminputright {
+	float: left;
+	width: 20%;
+}
+.formlabel img {
+	display: block;
+	position: absolute;
+	top: 2px;
+	left: 0;
+}
+.radiobtn {
+	margin-bottom: .4em;
+}
+.note {
+	float: right;
+	width: 55%;
+	padding-right: 5%;
+	padding-top: .5em;
+	line-height: 1.2em;
+}
+.error {
+	float: right;
+	width: 55%;
+	padding-right: 5%;
+	padding-top: .5em;
+	line-height: 1.2em;
+	font-size:11px;
+	color:red;
+}
+.errormsgleft {
+	width: 50%;
+	padding-top: .5em;
+	line-height: 1.2em;
+	font-size:11px;
+	color:red;
+}
+.errormsgright {    
+	float: right;
+	width: 50%;
+	padding-top: .5em;
+	line-height: 1.2em;
+	font-size:11px;
+	color:red;
+}
+.covererror {
+	float: right;
+	width: 45%;
+	padding-right: 5%;
+	padding-top: .5em;
+	line-height: 1.2em;
+	font-size:11px;
+	color:red;
+}
+
+div.field-validation-valid{
+	display:none;
+}
+
+/* Added to desplay checkbox controls and messsages in two columns.*/
+.noteleft {
+	float: left;
+	width: 55%;
+	padding-left: 5%;
+}
+.noteright {
+	float: right;
+	width: 55%;
+	padding-right: 5%;
+}
+
+#confirmCheckbox.note {
+	float: left;
+	width: 100%;
+	padding: 0;
+}
+#page2 .formitem .formlabel {
+	width: 50%;
+}
+#page2 .formitem .forminput {
+	width: 40%;
+}
+
+
+#page2 .formitem .note {
+	width: 47%;
+	padding-top: .5em;
+	padding-right: 3%;
+}
+#page3 .formitem .note {
+	width: 100%;
+	padding-right: 0;
+}
+#SumTerms .formlabel {
+	float: left;
+	width: 55%;
+	padding-right: 4%;
+}
+#SumTerms .answer {
+	margin-top: 0;
+}
+#SumTerms .formitem .formlabel label {
+	padding-left: 0;
+	padding-top: 0;
+	float: left;
+}
+#SumTerms .formitem .forminput {
+	float: left;
+	width: 30%;
+}
+#SumTerms .formitem .formlabel {
+	float: left;
+	width: 66%;
+	text-align: left;
+	padding-right: 4%;
+}
+.fw .formlabel {
+	float: left;
+	width: 100%;
+	text-align: left;
+}
+.fw label {
+	padding: 0 0 .4em;
+	float: left;
+	width: 100%;
+	text-align: left;
+}
+.fw .forminput {
+	float: left;
+	width: 100%;
+}
+/* product buttons
+---------------------------------------------------------------------*/
+				
+ul#productlist li {
+	width: 22%;
+	margin: 0 3% 3% 0;
+}
+
+
+/* Custom Styles - Allianz
+---------------------------------------------------------------------*/
+
+/* header
+---------------------------------------------------------------------*/
+header {
+	margin-bottom: 1.2em;
+}
+.topstrip {
+	height: 58px;
+}
+.header-wrapper {
+	height: 95px;
+}
+#logo {
+	height: 74px;
+	width: 179px;
+	max-width: 179px;
+}
+.headertitle {
+	line-height: 58px;
+	font-weight:800;
+	width:300px;   
+	font-size:1.3em;
+}
+
+h2.call-us
+{
+	font-weight: normal;
+	
+}
+
+.phonenumber {
+	font-size: 130%;
+}
+.hidescreenview {
+	display: block;
+}
+.benefitsview {
+	display: none;
+}
+
+/* modal
+---------------------------------------------------------------------*/
+.modal-box {
+	padding: 1.4em;
+}
+
+/* tab wizard
+---------------------------------------------------------------------*/
+.tabsnav a {
+	text-align: left;
+	color: #fff;
+	padding-left: 26px;
+	
+	background: url('https://net.allianz.ie/common/img/css/ui/arrow-right-small.png') no-repeat 6px center #66c5ec; /* Old browsers */
+	background: url('https://net.allianz.ie/common/img/css/ui/arrow-right-small.png') no-repeat 6px center, -moz-linear-gradient(top,  #66c5ec 0%, #0062c5 100%); /* FF3.6+ */
+	background: url('https://net.allianz.ie/common/img/css/ui/arrow-right-small.png') no-repeat 6px center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#66c5ec), color-stop(100%,#0062c5)); /* Chrome,Safari4+ */
+	background: url('https://net.allianz.ie/common/img/css/ui/arrow-right-small.png') no-repeat 6px center, -webkit-linear-gradient(top,  #66c5ec 0%,#0062c5 100%); /* Chrome10+,Safari5.1+ */
+	background: url('https://net.allianz.ie/common/img/css/ui/arrow-right-small.png') no-repeat 6px center, -o-linear-gradient(top,  #66c5ec 0%,#0062c5 100%); /* Opera 11.10+ */
+	background: url('https://net.allianz.ie/common/img/css/ui/arrow-right-small.png') no-repeat 6px center, -ms-linear-gradient(top,  #66c5ec 0%,#0062c5 100%); /* IE10+ */
+	background: url('https://net.allianz.ie/common/img/css/ui/arrow-right-small.png') no-repeat 6px center, linear-gradient(to bottom,  #66c5ec 0%,#0062c5 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66c5ec', endColorstr='#0062c5',GradientType=0 ); /* IE6-8 */
+}
+
+.tabsnav a.current {
+	background: url('https://net.allianz.ie/common/img/css/ui/arrow-down-small.png') no-repeat 6px center #009ee0; /* Old browsers */
+	background: url('https://net.allianz.ie/common/img/css/ui/arrow-down-small.png') no-repeat 6px center, -moz-linear-gradient(top,  #009ee0 0%, #003781 100%); /* FF3.6+ */
+	background: url('https://net.allianz.ie/common/img/css/ui/arrow-down-small.png') no-repeat 6px center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#009ee0), color-stop(100%,#003781)); /* Chrome,Safari4+ */
+	background: url('https://net.allianz.ie/common/img/css/ui/arrow-down-small.png') no-repeat 6px center, -webkit-linear-gradient(top,  #009ee0 0%,#003781 100%); /* Chrome10+,Safari5.1+ */
+	background: url('https://net.allianz.ie/common/img/css/ui/arrow-down-small.png') no-repeat 6px center, -o-linear-gradient(top,  #009ee0 0%,#003781 100%); /* Opera 11.10+ */
+	background: url('https://net.allianz.ie/common/img/css/ui/arrow-down-small.png') no-repeat 6px center, -ms-linear-gradient(top,  #009ee0 0%,#003781 100%); /* IE10+ */
+	background: url('https://net.allianz.ie/common/img/css/ui/arrow-down-small.png') no-repeat 6px center, linear-gradient(to bottom,  #009ee0 0%,#003781 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009ee0', endColorstr='#003781',GradientType=0 ); /* IE6-8 */
+
+}
+
+.tabsnav a.tabok {
+	background: url('https://net.allianz.ie/common/img/css/ui/tick-icon.png') no-repeat 6px center #009ee0; /* Old browsers */
+	background: url('https://net.allianz.ie/common/img/css/ui/tick-icon.png') no-repeat 6px center, -moz-linear-gradient(top,  #009ee0 0%, #003781 100%); /* FF3.6+ */
+	background: url('https://net.allianz.ie/common/img/css/ui/tick-icon.png') no-repeat 6px center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#009ee0), color-stop(100%,#003781)); /* Chrome,Safari4+ */
+	background: url('https://net.allianz.ie/common/img/css/ui/tick-icon.png') no-repeat 6px center, -webkit-linear-gradient(top,  #009ee0 0%,#003781 100%); /* Chrome10+,Safari5.1+ */
+	background: url('https://net.allianz.ie/common/img/css/ui/tick-icon.png') no-repeat 6px center, -o-linear-gradient(top,  #009ee0 0%,#003781 100%); /* Opera 11.10+ */
+	background: url('https://net.allianz.ie/common/img/css/ui/tick-icon.png') no-repeat 6px center, -ms-linear-gradient(top,  #009ee0 0%,#003781 100%); /* IE10+ */
+	background: url('https://net.allianz.ie/common/img/css/ui/tick-icon.png') no-repeat 6px center, linear-gradient(to bottom,  #009ee0 0%,#003781 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009ee0', endColorstr='#003781',GradientType=0 ); /* IE6-8 */
+}
+.tabsnav a#t4.current {
+	background: url('https://net.allianz.ie/common/img/css/ui/arrow-down-small.png') no-repeat 6px center #ff8200; /* Old browsers */
+	background: url('https://net.allianz.ie/common/img/css/ui/arrow-down-small.png') no-repeat 6px center, -moz-linear-gradient(top,  #ffb466 0%, #ff4200 100%); /* FF3.6+ */
+	background: url('https://net.allianz.ie/common/img/css/ui/arrow-down-small.png') no-repeat 6px center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffb466), color-stop(100%,#ff4200)); /* Chrome,Safari4+ */
+	background: url('https://net.allianz.ie/common/img/css/ui/arrow-down-small.png') no-repeat 6px center, -webkit-linear-gradient(top,  #ffb466 0%,#ff4200 100%); /* Chrome10+,Safari5.1+ */
+	background: url('https://net.allianz.ie/common/img/css/ui/arrow-down-small.png') no-repeat 6px center, -o-linear-gradient(top,  #ffb466 0%,#ff4200 100%); /* Opera 11.10+ */
+	background: url('https://net.allianz.ie/common/img/css/ui/arrow-down-small.png') no-repeat 6px center, -ms-linear-gradient(top,  #ffb466 0%,#ff4200 100%); /* IE10+ */
+	background: url('https://net.allianz.ie/common/img/css/ui/arrow-down-small.png') no-repeat 6px center, linear-gradient(to bottom,  #ffb466 0%,#ff4200 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb466', endColorstr='#ff4200',GradientType=0 ); /* IE6-8 */
+}
+
+/* End Custom Styles - Allianz
+---------------------------------------------------------------------*/
+
+
+/* 9. CUSTOM LAYOUT & TYPOGRAPHY (Mummy bear)
+---------------------------------------------------------------------*/
+@media screen and (min-width: 30em) and (max-width: 49em) {
+/*.mainwrap {
+	background-color: #000;
+}*/
+/* set the default font sizes */
+.tabsnav a { font-size: 1.6em; }
+#container, .container { 
+	min-width: 10em;
+ }
+
+aside {
+}
+.formlabel, .forminput {
+	float: left;
+	width: 100%;
+}
+.label, label {
+	padding: 0 0 .4em;
+	float: left;
+	width: 100%;
+	text-align: left;
+}
+.formitem {
+	padding-right: .7em;
+	padding-left: .7em;
+}
+
+.formlabel, #page2 .formitem .formlabel, #SumTerms .formmulti .formlabel {
+	width: 100%;
+	 text-align: left;
+}
+.forminput, #page2 .formitem .forminput, #SumTerms .formmulti .forminput  {
+	float: left;
+	width: 100%;
+}
+.label, label {
+	float: left;
+	 width: 90%;
+	 padding: 0 0 .4em;
+}
+.formlabel img {
+	float: right;
+	position: relative;
+	top: 0;
+}
+.formmulti .formlabel {
+	 width: 100%;
+}
+.radiobtn {
+	margin-bottom: 0;
+}
+#page2 .formlabel {
+	width: 100%;
+}
+#page2 .forminput {
+	width: 100%;
+}
+.note, #page2 .formitem .note {
+	float: left;
+	width: 100%;
+	padding-right: 0;
+}
+#content01 {
+	padding: 1.4em;
+}
+.premium .quoteref {
+	font-size: 120%;
+	display: inline;
+}
+/* Added for putting all the checkbox controls in 1 column */
+.formlabelleft {
+	float: left;
+	width: 70%;
+	position: relative;
+	overflow: hidden;
+}
+.forminputleft {
+	float: left;
+	width: 25%;
+}
+.formlabelright {
+	float: left;
+	width: 70%;
+	position: relative;
+	overflow: hidden;
+}
+.forminputright {
+	float: left;
+	width: 25%;
+}
+.columnleft {
+	float: left;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.columnright {
+	float: left;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.errorleft {
+	float: right;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.errorright {
+	float: right;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+/* End of Added for putting all the checkbox controls in 1 column */
+
+/* responsive show/hide
+---------------------------------------------------------------------*/
+
+
+
+}
+
+@media screen and (max-width: 49em) {
+
+#formwrap { width: 66%;}
+
+#content-sidebar-desktop { width: 32%;}
+/* Added for putting all the checkbox controls in 1 column */
+.formlabelleft {
+	float: left;
+	width: 70%;
+	position: relative;
+	overflow: hidden;
+}
+.forminputleft {
+	float: left;
+	width: 25%;
+}
+.formlabelright {
+	float: left;
+	width: 70%;
+	position: relative;
+	overflow: hidden;
+}
+.forminputright {
+	float: left;
+	width: 25%;
+}
+.columnleft {
+	float: left;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.columnright {
+	float: left;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.error {
+	float: left;
+	width:95%;
+}
+.errorleft {
+	float: right;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.errorright {
+	float: right;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.label, label{
+	padding-left:1em;
+}
+/* End of Added for putting all the checkbox controls in 1 column */
+
+}
+
+@media screen and (max-width: 41em) {
+
+#container, .container {
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	max-width: 30em;
+}
+
+.staticsb #container, .staticsb .container {
+	padding-left: 1.5em;
+}
+/* Added for putting all the checkbox controls in 1 column */
+.formlabelleft {
+	float: left;
+	width: 70%;
+	position: relative;
+	overflow: hidden;
+}
+.forminputleft {
+	float: left;
+	width: 25%;
+}
+.formlabelright {
+	float: left;
+	width: 70%;
+	position: relative;
+	overflow: hidden;
+}
+.forminputright {
+	float: left;
+	width: 25%;
+}
+.columnleft {
+	float: left;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.columnright {
+	float: left;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.error{
+	color:red;
+	width:95%;
+}
+.errorleft {
+	float: right;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.errorright {
+	float: right;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.label, label{
+	padding-left:0;
+}
+/* End of Added for putting all the checkbox controls in 1 column */
+	#formwrap {
+		width: 100%;
+	}
+
+
+/* responsive show/hide
+---------------------------------------------------------------------*/
+
+#content-sidebar-desktop, #staticpremium, .mobcut, #topnav, #tooltip, .tooltip, .formlabel img {
+	display: none;
+}
+#content-top-mobile, #content-sidebar-mobile {
+	display: block;
+}
+.mobshow {
+	display: inline;   
+}
+#tooltip, .tooltip {
+	margin-left: 200000px;
+}   
+/* footer
+---------------------------------------------------------------------*/
+.footer-text li {
+	float: none;
+	margin-bottom: .2em;
+}
+.footer-text li a {
+			border-left: none;
+	padding-right: 0;
+	padding-left: 0;
+}
+}
+
+/* Custom style to print confirm page
+---------------------------------------------------------------------*/
+@media print {
+	.hidescreenview {
+		display: none;
+	}
+	.hideyourpremium {
+		display: none !important;
+	}
+	.referenceview {
+		display: block;
+		padding-bottom: .2em;
+		padding-top: .2em;
+	}
+	.benefitsview {
+		display: block;
+	}
+	.note {
+		float: left;
+		width: 100%;
+		padding-left: 5%;
+	}
+	.noteprintview {
+		list-style: none;
+		margin: 0;
+		float: right;
+		padding-right: 5%;
+	}
+	.containerview {
+		margin-left: -100px;
+		margin-right: -180px;
+		margin-top: -20px;
+	}
+	.box {
+		-webkit-border-radius: 0px;
+		-moz-border-radius: 0px;
+		border-radius: 0px;
+	}
+	.paragraphview {
+		text-align: justify;
+	}
+	.page-break {        
+		page-break-before:always !important;
+	}
+	.printbreak {       
+		display:inline;
+		height:10px !important;        
+	}
+	h2.call-us {
+	font-family: Verdana, arial, sans-serif;
+	font-size: 1em;
+	font-weight: normal;
+	text-align:left;
+	}
+	.headertitle {
+	line-height: 100px;
+	font-weight: normal;
+	font-size:21px;
+	vertical-align:baseline;
+	}
+	.discountmessage {
+		display:none;
+	}
+    .fullquotebenefits ul li {
+        padding-left: 0px !important;
+        margin: 0px !important;
+    }
+}
+
+
+/* browser amends
+---------------------------------------------------------------------*/
+.ie7 #container, .ie7 .container, .ie8 #container, .ie8 .container {
+	width: 48em;
+}
+
+.ie7 .primary, .ie8 .primary {
+	padding-left: 1em;
+}
+
+
+@media screen and (min-width: 50em) {
+#containwrap {
+	padding-top: 1em;
+}
+}
+
+/* HACK To fix the width error with cookie notification.*/
+@media screen and (min-width: 840px) {
+.consent-box p {
+	width:840px;
+}
+}

@@ -1,0 +1,173 @@
+/* @override https://www.allianz.ie/includes/css/custom.css */
+
+/* LOAD FONTS */
+
+/* Regular */
+@font-face {
+  font-family: 'AllianzSansWeb';
+  src: url('../fonts/ALSANREG.eot');
+  src: url('../fonts/ALSANREG.eot?#iefix') format('embedded-opentype'), url('../fonts/ALSANREG.woff') format('woff'), url('../fonts/ALSANREG.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal; }
+
+/* Italic */
+@font-face {
+  font-family: 'AllianzSansWeb';
+  src: url('../fonts/ALSANITA.eot');
+  src: url('../fonts/ALSANITA.eot?#iefix') format('embedded-opentype'), url('../fonts/ALSANITA.woff') format('woff'), url('../fonts/ALSANITA.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic; }
+
+/* Bold */
+@font-face {
+  font-family: 'AllianzSansWeb';
+  src: url('../fonts/ALSANBOL.eot');
+  src: url('../fonts/ALSANBOL.eot?#iefix') format('embedded-opentype'), url('../fonts/ALSANBOL.woff') format('woff'), url('../fonts/ALSANBOL.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal; }
+
+/* Bold Italic */
+@font-face {
+  font-family: 'AllianzSansWeb';
+  src: url('../fonts/ALSANBIT.eot');
+  src: url('../fonts/ALSANBIT.eot?#iefix') format('embedded-opentype'), url('../fonts/ALSANBIT.woff') format('woff'), url('../fonts/ALSANBIT.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic; }
+
+/* Light */
+/* Note: this is not style-linked to AllianzSansWeb */
+@font-face {
+  font-family: 'AllianzSansWeb-Light';
+  src: url('../fonts/ALSANLIG.eot');
+  src: url('../fonts/ALSANLIG.eot?#iefix') format('embedded-opentype'), url('../fonts/ALSANLIG.woff') format('woff'), url('../fonts/ALSANLIG.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal; }
+
+/* Light Italic */
+/* Note: this is not style-linked to AllianzSansWeb but as italic to AllianzSansWeb-Light */
+@font-face {
+  font-family: 'AllianzSansWeb-Light';
+  src: url('../fonts/ALSANLIT.eot');
+  src: url('../fonts/ALSANLIT.eot?#iefix') format('embedded-opentype'), url('../fonts/ALSANLIT.woff') format('woff'), url('../fonts/ALSANLIT.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic; }
+
+
+
+
+
+/* NEW BOX & ROW */
+
+.box-new {
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	background-color: #fff;
+	padding: 7px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(209,209,211,1);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(209,209,211,1);
+	box-shadow: 0px 0px 5px 0px rgba(209,209,211,1);
+	overflow: hidden;
+}
+.row-new {
+	margin-left: 4px;
+	margin-top: 4px;
+	margin-right: 6px;
+	display: block;
+}
+
+
+.row-new .left-col {
+	float: left;
+}
+.row-new .right-col {
+	float: right;
+}
+.hero-banner {
+	position: relative;
+}
+
+ 
+.ma-banner.box-new {
+	padding-right: 0px;
+	padding-left: 0px;
+	height: 280px;
+	position: relative;
+	padding-bottom: 0;
+}
+.ma-banner p {
+	margin-bottom: 0;
+}
+.ma-banner .button-holder {
+	padding-top: 2px;
+}
+.ma-banner .button-holder p {
+	text-align: center;
+	margin-bottom: 0;
+	line-height: 1.9em;
+}
+.ma-banner .button-holder p.small {
+	font-size: 1.1em;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.ma-banner .button-holder .button {
+	display: block;
+	font: bold 18px/33px 'AllianzSansWeb', 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+	background-color: #009ee0;
+	color: #fff;
+	padding-bottom: 1px;
+	-webkit-transition: background-color 300ms ease-out;
+	-moz-transition: background-color 300ms ease-out;
+	transition: background-color 300ms ease-out;
+	text-align: center;
+	margin: 2px 7px 3px;
+	
+}
+.ma-banner .button-holder .button:hover {
+	background-color: #0079be;
+}
+.ma-banner .button-holder .button.primary {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff8200+0,d66d00+100 */
+	background: #ff8200; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ff8200 0%, #d66d00 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff8200), color-stop(100%,#d66d00)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ff8200 0%,#d66d00 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ff8200 0%,#d66d00 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ff8200 0%,#d66d00 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ff8200 0%,#d66d00 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8200', endColorstr='#d66d00',GradientType=0 ); /* IE6-9 */
+	
+}
+.ma-banner .button-holder .button.primary:hover {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d66d00+0,ff8200+100 */
+	background: #d66d00; /* Old browsers */
+	background: -moz-linear-gradient(top,  #d66d00 0%, #ff8200 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d66d00), color-stop(100%,#ff8200)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #d66d00 0%,#ff8200 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #d66d00 0%,#ff8200 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #d66d00 0%,#ff8200 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #d66d00 0%,#ff8200 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d66d00', endColorstr='#ff8200',GradientType=0 ); /* IE6-9 */
+	
+}
+.ma-banner .button-holder a.txt-link {
+	font-weight: bold;
+	color: #009ee0;
+}
+
+
+
+/* DIVIDER STYLE FIX */
+.divider {
+	height: 5px;
+	width:962px;
+	margin: 8px auto 7px;
+	display: block
+}
+
+/* FITTING IN WHY ALLIANZ IN TOP NAVIGATION */
+ul.main-nav li a {
+	padding: 10px 12px;
+}

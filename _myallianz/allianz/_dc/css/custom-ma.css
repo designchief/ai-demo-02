@@ -1,0 +1,121 @@
+/* @override 
+	http://myallianz-v021.designchief.ie/allianz-ie/_dc/css/custom-ma.css */
+
+/* FITTING IN WHY ALLIANZ */
+ul.main-nav li a {
+	padding: 10px 12px;
+}
+
+
+h2.page-subheader {
+	font: italic 2em 'AllianzSansWeb' !important;
+	color: #003781;
+	float: right;
+	padding-top: 17px;
+}
+
+
+/* NEW BOX & ROW */
+
+.box-new {
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	background-color: #fff;
+	padding: 7px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(209,209,211,1);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(209,209,211,1);
+	box-shadow: 0px 0px 5px 0px rgba(209,209,211,1);
+	overflow: hidden;
+}
+.row-new {
+	margin-left: 4px;
+	margin-top: 4px;
+	margin-right: 6px;
+	display: block;
+}
+
+.slider-3col {
+	width: 733px;
+	float: left;
+}
+.feature-comm .content-1col {
+	float: right;
+	width: 224px;
+}
+ul.button-list {
+	margin: 0;
+}
+ul.button-list li {
+	margin-bottom: 9px;
+}
+ul.button-list li a, .button-row a, .sidebar-new a {
+	display: block;
+}
+ul.button-list li.last {
+	margin-bottom: 0;
+}
+
+
+
+/* MyAllianz BOX */
+
+
+.ma-banner .button-holder a.txt-link {
+	font-family: 'AllianzSansWeb', 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	color: #009ee0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.ma-banner.opt3 .button-holder a.txt-link {
+	font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	color: #009ee0;
+}
+.ma-banner .button-holder a.txt-link:hover {
+	color: #003781;
+}
+
+.opt2.ma-banner .button-holder .right-col {
+	text-align: right;
+}
+
+.opt3.ma-banner .button-holder, .opt4.ma-banner .button-holder {
+	position: relative;
+	padding-top: 7px;
+	padding-right: 7px;
+	padding-left: 7px;
+	width: 224px;
+}
+.opt4.ma-banner .button-holder {
+	text-align: center;
+	padding-top: 4px;
+}
+.opt3.ma-banner .button-holder .button {
+	display: inline-block;
+	padding-right: 26px;
+	float: right;
+	margin-top: 0;
+}
+.opt4.ma-banner .button-holder .right-col {
+	text-align: center;
+}
+.opt4.ma-banner .button-holder .button  {
+	display: block;
+	padding-right: 26px;
+	margin: 0 auto 7px;
+}
+.opt3.ma-banner .button-holder .button-right {
+	overflow: hidden;
+	line-height: 28px;
+	margin-bottom: 7px;
+}
+
+.opt3.ma-banner .button-holder .button.primary {
+	background-color: #ff8200;
+	line-height: 28px;
+}
+.opt3.ma-banner .button-holder .button.primary:hover {
+	background-color: #d66d00;
+}

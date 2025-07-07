@@ -1,0 +1,8 @@
+.alli_ireland, .main-nav, .utility-nav, h2.call_us, .rCol, .masthead, .page-col-header, ul.sidenav, .footer-links-row, ul.social-links, .banner, ul.idTabs, .page-tools, .comment_form_box
+
+{display: none;}
+
+.accordion_content {display: block !important; overflow:visible !important; height: auto !important;}
+.accordion_toggle {font-weight:bold; font-size:14px; }
+
+a {text-decoration: none; color: black;}

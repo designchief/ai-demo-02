@@ -1,0 +1,95 @@
+﻿#container1, .container1 {
+    max-width: 55em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.formitem {
+    background-color: #ececec;
+    margin-bottom: 1px;
+    padding: .5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+    .formitem input[type=text], select {
+        width: 96%;
+        height: 30px;
+        padding-right: 2%;
+        padding-left: 2%;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        border: 1px solid #c6c6c6;
+    }
+
+select {
+    background-color: #fff;
+}
+
+.formlabel {
+    float: left;
+    width: 40%;
+    text-align: right;
+    line-height: 1.2em;
+    color: #003781;
+    position: relative;
+    overflow: hidden;
+    padding-right: .5em;
+}
+
+.quoteLaterRemoveQuote {
+    float: right;
+    padding-right: 5px;
+    font-size: .86667em;
+    margin-top: 5px;
+}
+
+#quoteLaterAddQuote {
+    float: left;
+    padding-left: 5px;
+    font-size: .86667em;
+    margin-top: -12px;
+}
+
+.btn .primary {
+    float: right;
+    margin-left: .6em;
+}
+.btn .secondary {
+    float: left;
+    margin-right: .6em;
+}
+.formitem .forminput {
+    float: left;
+    width: 40%;
+}
+
+.formitem .note {
+    float: left;
+    padding-right: 5%;
+    padding-top: .5em;
+    line-height: 1.2em;
+    padding-top: .5em;
+    padding-right: 3%;
+    display: block;
+    color: #929292;
+    font-size: 11px;
+}
+.errortemplate{
+    font-size: 13px;
+    color: red;
+    top: 1em;
+}
+.formitem .errortemplate{
+    font-size: 13px;
+    color: red;
+    padding-left: 240px;
+    top: 1em;
+}
+.box {
+    background: #fff;
+    -webkit-box-shadow: 0px 0px 6px 0px #bcbcbf;
+    -moz-box-shadow: 0px 0px 6px 0px #bcbcbf;
+    box-shadow: 0px 0px 6px 0px #bcbcbf;
+}
+

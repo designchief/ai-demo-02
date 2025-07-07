@@ -1,0 +1,29 @@
+
+
+/* NEW BOX & ROW */
+
+.box-new {
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	background-color: #fff;
+	padding: 7px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(209,209,211,1);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(209,209,211,1);
+	box-shadow: 0px 0px 5px 0px rgba(209,209,211,1);
+	overflow: hidden;
+}
+.row-new {
+	margin-left: 4px;
+	margin-top: 4px;
+	margin-right: 6px;
+	display: block;
+}
+
+
+
+/* NEW LAYOUT OVERIDES */
+
+.box_content h3.box-title-new {
+	font: 22px 'AllianzSansWeb' !important;
+}

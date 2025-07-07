@@ -1,0 +1,133 @@
+.initialstatehidden {
+    display: none;
+}
+
+.templateerror {
+    font-size: 13px;
+    color: red;
+    position: relative;
+    top: -1.0em;
+}
+
+.customcolumn {
+    padding-bottom: 1em;
+}
+
+.inboxread {
+    font-size: 15px;
+    color: #4d4d4d;
+    white-space: pre-wrap;
+}
+
+    .inboxread:hover {
+        color: #4d4d4d;
+        border: none;
+        outline: 0;
+    }
+
+    .inboxread:focus {
+        color: #4d4d4d;
+        border: none;
+        outline: 0;
+    }
+
+select, .submitdisplay {
+    font-size: .86667em;
+}
+
+/*placeholder classed introduced by foundation.placeholder to fix IE compatibility*/
+.placeholdersjs {
+    color: #aaa !important;
+}
+
+/* password complexity indicator styles for registration */
+#passwordComplexity {
+    display: none;
+}
+
+    #passwordComplexity li {
+        color: red;
+        padding-left: 20px;
+        background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAYdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjAuNWWFMmUAAAGrSURBVDhPjVNNSwJRFH1a0G8J6i/o0zYKbkVB+kDBjYJ/wbXgorV7EfeCrWoV6oyg+JEtbJNBpA26MNCabvcM84Zxog/h8UbuO+fdc+55QvAvHo/vYb+MRA7aweCFJuVVR8rXrpQmfy+6oVBTC4XOUHeft4BYN4HAYUvKIR+kNi/sHV4MIt3+1qXsN05OjpnAx8sPIgEgA+a/AVWNyebXweCR1S1a+evGb6RS9phgX0Cju9hLJOgun3daRW2Yy9EgmdyRcSvluYA5bo1LTaOP7Zb0aNTSrcdi9GmaZLTbO/phorBcdZkzKRRoWipZQEX6UC7T2NMNpiAwDq+r/zGOnTfR9sI9DgAH2SzNKhV6qlbpkfcR/8cFihSjYzDfzL2rOXbDYZrVamRuNmS0WvTSaNCy06HNek3P9bolQ51lsqZAchTrfbFI76sVDdLpHXPGmQy9GQZNua4k8qWn1pyRHLAOUika8Vi8MlCbsGF9rqPGUvsqqgKRQ3J+Mk61agMXdkSdR+FD5Jix5+i3R+UBqmw7jwnx9iOriBySY70idhPjgKswBxo9r8r3BQni18MSpqDCAAAAAElFTkSuQmCC') /*../../img/sadface.png*/;
+        background-repeat: no-repeat;
+        background-size: 15px 15px;
+        list-style-type: none;
+        background-position-y: 4px;
+    }
+
+        #passwordComplexity li.meet {
+            padding-left: 20px;
+            background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAABh0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMC41ZYUyZQAAAoJJREFUOE9jYEADLfvVTdqOafR0ndE60HVW61Lnaa2DbUfV+1oOqpqhq4Xz6/fLC7Qe1VjTdVrrf+dpzctAAyY0H1BvAtGdpzQvAg37D5TfUL9DSwjFkN5jWkJtRzWudJzQfFS7R8UVmw3Ne9Wc2k9oPGg7onG98pCKKFxN00H13a1HNO/V71KXAgkCXcGBbACM37pHR7zlsPptoIsOgOVrtqr4AE37X7tT1RzEb9irtrzlsMa/2u1q/iB+7XZV79bDGn8b9mqsAfO3aBi3gtRvUw1kqN+jvqJhr+oemE1N+9V/dZzU+le/W20e2BW71GaA+EDxfzA1DbvVt9XvUVsD1Kz2oHKDag1Momqb6qKGvep/qjaoeoPEKjYqewDV/KnerrYcpqZyk0pF/R7VZww1O1Q/la5VyULx4yotNnz8ktXKqbU71H4wVG1RfVi8Qglsc/FK5SX181EDC2ZIfT0DE1DdFLC61Url1VuANpetU1lRul55F0iwcLliQ8lK5W31q7R4kG0uXCnDWbxCeVnRCuUukHj5WuXNQD1rGQoWKfqWr1f5nzlP0RSoia1opeKR8rUqH0pXK60qXK40pWSV0kqgt94BNZ5OmynJlT9f3gCkvnCxUiDYgoJlSvuKVyrdyZovL8Hwn4Exd6F8QfEqpQvFq5Q/Ab1yKXeRQgnQ2Sy5c1VEgepuFi5TOgR3GdBEkcKlitcKVyg9yJkl54TsZBg7fba8A9Al9wqWKN0sXqQkhqImc5qcYO4ChfVFy5T+AxVcyJmn0J85W74he55CX/4SpXNA2/7nzFfYDPQ/atpGNiV7hrxlzlz5CfmLFQ/nLVa8AqJz5stPSJ8uZ43uIgBCEg1iMbLmjwAAAABJRU5ErkJggg==') /*../../img/happyface.png*/;
+            background-repeat: no-repeat;
+            background-size: 15px 15px;
+            list-style-type: none;
+            background-position-y: 4px;
+            color: darkgreen;
+        }
+
+#rulesmet {
+    display: none;
+}
+
+.expmonthpayment {
+    height: 25px;
+    width: 40px;
+    float: left;
+}
+
+.expyearpayment {
+    height: 25px;
+    width: 60px;
+    float: left;
+    margin-left: 5px;
+}
+
+.regcompletemessage {
+    font-weight: bold;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.paymentcardbuttons {
+    background-color: #FF8200 !important;
+    border-color: #D66D00 !important;
+    color: #FFF !important;
+    box-shadow: rgba(255, 255, 255, 0.3) !important;
+}
+
+img.date_picker_img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: -25px;
+    height: 24px;
+    padding-top: 2px;
+}
+
+.input_textbox_with_icon {
+    float: left;
+    width: 100%;
+}
+
+.file_upload_icn {
+    height: 25px;
+    width: 25px;
+    float: right;
+    background-size: contain;
+}
+
+.file_uploading {
+    background-image: url(../../img/css/ajax-loader.gif);
+}
+
+.file_upload_success {
+    background-image: url(../../img/tick.png);
+    background-repeat:no-repeat;
+    background-size: contain;
+    height: 25px;
+    text-indent: 26px;
+    float: right;
+}
+
+.file_upload_error {
+    color: red;
+}

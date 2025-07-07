@@ -1,0 +1,142 @@
+body {}
+
+div#container {
+    width: 580px;
+    margin: 100px auto 0 auto;
+    padding: 20px;
+    background: #000;
+    border: 1px solid #1a1a1a
+}
+
+div#pop-up {
+    display: none;
+    position: absolute;
+    width: 380px;
+    padding: 10px;
+    background: #eee;
+    color: #000;
+    border: 1px solid #1a1a1a;
+    font-size: 90%
+}
+
+.PartiesInvolvedDropdown {
+    padding-left: .11em
+}
+
+.SmallWidth {
+    width: 75px
+}
+
+formitem.input.SmallWidth {
+    width: 75px
+}
+
+.infomessage {
+    float: left;
+    width: 100%;
+    padding-right: 5%;
+    padding-top: .5em;
+    line-height: 1.2em;
+    font-size: 11px;
+    color: navy
+}
+
+#container1, .container1 {
+    max-width: 55em;
+    padding-left: 2em;
+    padding-right: 2em
+}
+
+.formitem {
+    background-color: #ececec;
+    margin-bottom: 1px;
+    padding: .5em;
+    padding-top: 1em;
+    padding-bottom: 1em
+}
+
+.formitem input[type=text], select {
+    width: 96%;
+    height: 30px;
+    padding-right: 2%;
+    padding-left: 2%;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #c6c6c6
+}
+
+select {
+    background-color: #fff
+}
+
+.formlabel {
+    float: left;
+    width: 40%;
+    text-align: right;
+    line-height: 1.2em;
+    color: #003781;
+    position: relative;
+    overflow: hidden;
+    padding-right: .5em
+}
+
+.quoteLaterRemoveQuote {
+    float: right;
+    padding-right: 5px;
+    font-size: .86667em;
+    margin-top: 5px
+}
+
+#quoteLaterAddQuote {
+    float: left;
+    padding-left: 5px;
+    font-size: .86667em;
+    margin-top: -12px
+}
+
+.btn .primary {
+    float: right;
+    margin-left: .6em
+}
+
+.btn .secondary {
+    float: left;
+    margin-right: .6em
+}
+
+.formitem .forminput {
+    float: left;
+    width: 40%
+}
+
+.formitem .note {
+    float: left;
+    padding-right: 5%;
+    padding-top: .5em;
+    line-height: 1.2em;
+    padding-top: .5em;
+    padding-right: 3%;
+    display: block;
+    color: #929292;
+    font-size: 11px
+}
+
+.errortemplate {
+    font-size: 13px;
+    color: red;
+    top: 1em
+}
+
+.formitem .errortemplate {
+    font-size: 13px;
+    color: red;
+    padding-left: 240px;
+    top: 1em
+}
+
+.box {
+    background: #fff;
+    -webkit-box-shadow: 0 0 6px 0 #bcbcbf;
+    -moz-box-shadow: 0 0 6px 0 #bcbcbf;
+    box-shadow: 0 0 6px 0 #bcbcbf
+}

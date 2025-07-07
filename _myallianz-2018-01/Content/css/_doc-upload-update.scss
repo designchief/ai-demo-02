@@ -1,0 +1,156 @@
+
+// Reveal
+@media only screen and (min-width: 640px) {
+	.doc-send {
+		margin-left: -22rem;
+		width: 44rem;
+	}
+}
+.doc-send {
+
+	.row {
+		width: 100%;
+		max-width: 100%;
+		margin: 0;
+	}
+
+	.columns {
+		padding: 0;
+	}
+
+	.doc-choose {
+		.button,
+		select {
+			width: 100%;
+			max-width: 100%;
+			margin-bottom: .5em;
+		}
+		select {
+			font-size: 14px !important;
+			height: 2.6rem !important;
+			line-height: 2.6rem !important;
+
+			option {
+				font-size: 13px !important;
+			}
+		}
+
+		.button {
+			font-size: 14px !important;
+			height: 2.5rem !important;
+			line-height: 2.5rem !important;
+			padding-top: 0;
+			padding-bottom: .1rem;
+		}
+
+	}
+
+	.doc-buttons {
+		.button {
+			&.secondary.large {
+				padding-top: 0;
+				padding-bottom: 0;
+				line-height: 2.4em !important;
+				font-size: 1.13333em !important;
+			}
+		}
+	}
+
+
+
+
+}
+
+// Content Holder
+.content-holder {
+	background-color: #f0f0f0 !important;
+	padding: 1em .5em .5em;
+	overflow: hidden;
+	margin-bottom: 1em;
+
+	.columns {
+		padding-left: .5em;
+		padding-right: .5em;
+	}
+
+}
+
+
+//  Icon Button
+.icon-btn {
+	&.button {
+		padding: 0 0 0 .8em;
+    line-height: 2.4em;
+    margin-right: 0;
+	}
+	.icn {
+		height: 2.4em;
+    width: 2.4em;
+    margin-left: .3em;
+    float: right;
+    margin-right: 0;
+	}
+}
+
+// Show hide demo
+#doc-choose-02, #doc-remove-01-btn {
+    display: none;
+}
+
+
+//  Custom File Input
+.js .inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile + label {
+    max-width: 80%;
+    font-size: 1.25rem;
+    /* 20px */
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.625rem 1.25rem;
+    /* 10px 20px */
+}
+
+.no-js .inputfile + label {
+    display: none;
+}
+
+.inputfile:focus + label,
+.inputfile.has-focus + label {
+    outline: 1px dotted #000;
+    outline: -webkit-focus-ring-color auto 5px;
+}
+
+
+.inputfile + label * {
+    /* pointer-events: none; */
+    /* in case of FastClick lib use */
+}
+
+.inputfile + label svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+    margin-top: -0.25em;
+    /* 4px */
+    margin-right: 0.25em;
+    /* 4px */
+}
+
+
+.inputfile.has-focus + label {
+	background-color: #009ee0 !important;
+	border-color: #008cd8 !important;
+}

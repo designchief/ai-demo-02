@@ -1,0 +1,18 @@
+/* New CSS for updated Sign-In page */
+.sign-in-fullwidth {
+  background: #f0f0f0;
+  border-top: 1px solid #d6d6d6;
+  padding-top: 1.333333em;
+  padding-bottom: 1.333333em;
+}
+@media only screen and (min-width: 640px) {
+  .sign-in-fullwidth {
+    background: url(../../img/css/hero-myallianz.jpg) right bottom no-repeat #f0f0f0;
+    padding-left: 5.8em;
+  }
+}
+@media only screen and (min-width: 880px) {
+  .sign-in-fullwidth {
+    padding-left: 11.6em;
+  }
+}

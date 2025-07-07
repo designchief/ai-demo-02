@@ -1,0 +1,184 @@
+/* @override https://www.allianz.ie/includes/css/custom.css
+	http://myallianz-v021.designchief.ie/allianz-ie/includes/css/custom.css */
+
+/* LOAD FONTS */
+
+/* Regular */
+@font-face {
+  font-family: 'AllianzSansWeb';
+  src: url('../fonts/ALSANREG.eot');
+  src: url('../fonts/ALSANREG.eot?#iefix') format('embedded-opentype'), url('../fonts/ALSANREG.woff') format('woff'), url('../fonts/ALSANREG.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal; }
+
+/* Italic */
+@font-face {
+  font-family: 'AllianzSansWeb';
+  src: url('../fonts/ALSANITA.eot');
+  src: url('../fonts/ALSANITA.eot?#iefix') format('embedded-opentype'), url('../fonts/ALSANITA.woff') format('woff'), url('../fonts/ALSANITA.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic; }
+
+/* Bold */
+@font-face {
+  font-family: 'AllianzSansWeb';
+  src: url('../fonts/ALSANBOL.eot');
+  src: url('../fonts/ALSANBOL.eot?#iefix') format('embedded-opentype'), url('../fonts/ALSANBOL.woff') format('woff'), url('../fonts/ALSANBOL.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal; }
+
+/* Bold Italic */
+@font-face {
+  font-family: 'AllianzSansWeb';
+  src: url('../fonts/ALSANBIT.eot');
+  src: url('../fonts/ALSANBIT.eot?#iefix') format('embedded-opentype'), url('../fonts/ALSANBIT.woff') format('woff'), url('../fonts/ALSANBIT.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic; }
+
+/* Light */
+/* Note: this is not style-linked to AllianzSansWeb */
+@font-face {
+  font-family: 'AllianzSansWeb-Light';
+  src: url('../fonts/ALSANLIG.eot');
+  src: url('../fonts/ALSANLIG.eot?#iefix') format('embedded-opentype'), url('../fonts/ALSANLIG.woff') format('woff'), url('../fonts/ALSANLIG.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal; }
+
+/* Light Italic */
+/* Note: this is not style-linked to AllianzSansWeb but as italic to AllianzSansWeb-Light */
+@font-face {
+  font-family: 'AllianzSansWeb-Light';
+  src: url('../fonts/ALSANLIT.eot');
+  src: url('../fonts/ALSANLIT.eot?#iefix') format('embedded-opentype'), url('../fonts/ALSANLIT.woff') format('woff'), url('../fonts/ALSANLIT.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic; }
+
+
+/* SVG */
+.hero-row .button-holder .button .icn {
+	height: .8em;
+	width: .8em;
+	margin-right: 2px;
+	display: inline-block;
+}
+.arrow-right {
+	background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4PSIwIiB5PSIwIiB2aWV3Qm94PSIwIDAgMTMuMSAyMi42IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxMy4xIDIyLjYiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0xMi44IDEwLjJMMTIuOCAxMC4yYy0wLjEtMC4xLTAuMS0wLjEtMC4xLTAuMiAwIDAtMC4xIDAtMC4xLTAuMUwzLjEgMC41Yy0wLjctMC43LTEuOC0wLjctMi41IDBzLTAuNyAxLjggMCAyLjVsOC4yIDguMiAtOC40IDguNCAwIDBjLTAuNiAwLjctMC42IDEuOCAwIDIuNSAwLjcgMC43IDEuOCAwLjcgMi41IDBsMCAwIDAgMGMwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMGwwIDBjMC4xIDAgMC4xLTAuMSAwLjItMC4yIDAuMS0wLjEgMC4xLTAuMSAwLjItMC4ybDkuMi05LjJjMCAwIDAgMCAwIDBDMTMuMyAxMS45IDEzLjMgMTAuOSAxMi44IDEwLjJMMTIuOCAxMC4yeiIvPjwvc3ZnPg==) left no-repeat !important;
+}
+
+
+
+/* NEW HERO ROW */
+
+.hero-row {
+	margin-left: 4px;
+	margin-top: 4px;
+	margin-right: 6px;
+}
+
+.hero-row .box-new,.content .box-new {
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	background-color: #fff;
+	padding: 7px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(209,209,211,1);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(209,209,211,1);
+	box-shadow: 0px 0px 5px 0px rgba(209,209,211,1);
+	overflow: hidden;
+    position:absolute;
+}
+
+.hero-row .left-col,.content .ma-banner .left-col {
+	float: left;
+}
+.hero-row .right-col,.content .ma-banner .right-col,.content .ma-banner {
+	float: right;
+}
+
+.hero-row .ma-banner.box-new,.content .ma-banner.box-new {
+	padding-right: 0px;
+	padding-left: 0px;
+	height: 273px;
+	position: relative;
+}
+.ma-banner .button-holder {
+	padding-top: 7px;
+	position: absolute;
+	bottom: 7px;
+	width: 100%;
+	margin-right: -7px;
+	font: normal normal 13px/1.2em 'AllianzSansWeb', 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+	color: #4d4d4d;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.ma-banner .button-holder .button:before{
+    background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4PSIwIiB5PSIwIiB2aWV3Qm94PSIwIDAgMTMuMSAyMi42IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxMy4xIDIyLjYiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0xMi44IDEwLjJMMTIuOCAxMC4yYy0wLjEtMC4xLTAuMS0wLjEtMC4xLTAuMiAwIDAtMC4xIDAtMC4xLTAuMUwzLjEgMC41Yy0wLjctMC43LTEuOC0wLjctMi41IDBzLTAuNyAxLjggMCAyLjVsOC4yIDguMiAtOC40IDguNCAwIDBjLTAuNiAwLjctMC42IDEuOCAwIDIuNSAwLjcgMC43IDEuOCAwLjcgMi41IDBsMCAwIDAgMGMwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMGwwIDBjMC4xIDAgMC4xLTAuMSAwLjItMC4yIDAuMS0wLjEgMC4xLTAuMSAwLjItMC4ybDkuMi05LjJjMCAwIDAgMCAwIDBDMTMuMyAxMS45IDEzLjMgMTAuOSAxMi44IDEwLjJMMTIuOCAxMC4yeiIvPjwvc3ZnPg==") no-repeat scroll left center rgba(0, 0, 0, 0) !important;
+    content: "";
+    display: inline-block;
+    height: 0.8em;
+    width: 0.8em;
+}
+.ma-banner .button-holder .button {
+	display: block;
+	font: bold 16px/33px 'AllianzSansWeb', 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+	background-color: #009ee0;
+	color: #fff;
+	padding-left: 10px;
+	margin-top: 6px;
+	padding-bottom: 1px;
+	-webkit-transition: background-color 300ms ease-out;
+	-moz-transition: background-color 300ms ease-out;
+	transition: background-color 300ms ease-out;
+}
+.ma-banner .button-holder .button:hover {
+	background-color: #0079be;
+}
+.ma-banner .button-holder .button.primary {
+	background-color: #ff8200;
+}
+.ma-banner .button-holder .button.primary:hover {
+	background-color: #d66d00;
+}
+.ma-banner .button-holder .right-col,
+.ma-banner .button-holder .left-col {
+	width: 45%;
+}
+.ma-banner .button-holder .left-col {
+	padding-left: 7px;
+}
+.ma-banner .button-holder .right-col {
+	padding-right: 7px;
+}
+
+.ma-banner.opt3 .button-holder {
+	font: normal normal 12px/1.2em 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+}
+
+/* DIVIDER STYLE FIX */
+.divider {
+	height: 5px;
+	width:962px;
+	margin: 8px auto 7px;
+	display: block
+}
+
+
+/* ADDED MORE BUTTON */
+.box_content p a.more_btn {
+
+	width: 123px;
+	height: 24px;
+	background: url(../img/more_btn.jpg) top center no-repeat;
+	text-indent: -99999px;
+	border: none;
+	cursor: pointer;
+	display: block;
+	padding: 0;
+}	
+
+.box_content p a.more_btn:hover{
+
+	background: url(../img/more_btn.jpg) bottom center no-repeat;
+
+}	

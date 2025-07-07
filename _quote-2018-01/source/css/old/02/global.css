@@ -1,0 +1,2103 @@
+/*
+CONTENTS - GLOBAL.CSS
+-----------------------------------------
+1. RESET
+2. ROOT
+3. CORE TYPOGRAPHY
+4. LINKS
+5. GLOBAL LAYOUT & GLOBAL CUSTOM TYPOGRAPHY
+6. CUSTOM LAYOUT & TYPOGRAPHY (Baby bear)
+7. BROWSER AND NON-SEMANTIC STYLING
+
+CONTENTS - LAYOUT.CSS
+-----------------------------------------
+8. CUSTOM LAYOUT & TYPOGRAPHY (Daddy bear)
+9. CUSTOM LAYOUT & TYPOGRAPHY (Mummy bear)
+
+*/
+
+
+
+/* 1. RESET
+---------------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+/* custom reset
+---------------------------------------------------------------------*/
+img {
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+    vertical-align: middle;
+}
+
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+html, button, input, select, textarea {
+    color: #444;
+}
+
+::-moz-selection {
+    background: #dddee0;
+    color: #4d4d4d;
+    text-shadow: none;
+}
+
+::selection {
+    background: #dddee0;
+    color: #4d4d4d;
+    text-shadow: none;
+}
+
+
+/* 2. ROOT
+---------------------------------------------------------------------*/
+html {
+    overflow-y: scroll;
+}
+
+/* /ht Ethan Marcotte - http://front.ie/l8rJaA */
+img, embed, object, video {
+    max-width: 100%;
+}
+
+.ie6 img.full, .ie6 object.full, .ie6 embed, .ie6 video {
+    width: 100%;
+}
+
+
+/* 3. CORE TYPOGRAPHY
+---------------------------------------------------------------------*/
+body {
+    font-family: Verdana, arial, sans-serif;
+    line-height: 1.4em;
+    color: #444;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.5em;
+    line-height: 1.1em;
+}
+
+p, ul, ol, dl, blockquote {
+    font-size: 1em;
+    line-height: 1.4em;
+    margin-bottom: .8em;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 1.4em;
+}
+
+ol {
+    list-style-type: decimal;
+    margin-left: 1.4em;
+}
+
+nav ul, nav ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+b, strong {
+    font-weight: bold;
+}
+
+i, em {
+    font-style: italic;
+}
+
+small {
+    font-size: 90%;
+}
+
+
+/* 4. LINKS
+---------------------------------------------------------------------*/
+a {
+    outline: none;
+    color: #439BBD;
+    text-decoration: none;
+}
+
+    a:visited {
+        outline: none;
+        text-decoration: none;
+    }
+
+    a:hover {
+        outline: none;
+        color: #125e8c;
+        text-decoration: none;
+    }
+
+    a:active, a:focus {
+        outline: none;
+    }
+
+
+/* 5. GLOBAL LAYOUT & GLOBAL CUSTOM TYPOGRAPHY
+---------------------------------------------------------------------*/
+body {
+    background: #dddee0;
+}
+
+.cssgradients body {
+    background: #dddee0; /* Old browsers */
+    background: -moz-linear-gradient(left, #dddee0 0%, #f2f2f2 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#dddee0), color-stop(100%,#f2f2f2)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, #dddee0 0%,#f2f2f2 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, #dddee0 0%,#f2f2f2 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, #dddee0 0%,#f2f2f2 100%); /* IE10+ */
+    background: linear-gradient(to right, #dddee0 0%,#f2f2f2 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dddee0', endColorstr='#f2f2f2',GradientType=1 ); /* IE6-8 */
+}
+/* responsive show/hide
+---------------------------------------------------------------------*/
+#content-sidebar-desktop, #topnav, .mobcut, .formlabel img, .your-premium, .your-estimate {
+    display: none;
+}
+
+/* containers
+---------------------------------------------------------------------*/
+.fullwidth {
+    width: 100%;
+}
+
+/* typography
+---------------------------------------------------------------------*/
+/* set the default font sizes */
+.mainwrap {
+    font-size: 0.8125em;
+}
+
+.note, p.small, li.small, .error, .error p {
+    font-size: 11px;
+}
+
+    .error, .error p {
+        color: red;
+        float: left;
+    }
+
+.tablelike label, .rowlike label {
+    float: left;
+    padding-left: 0px;
+}
+
+.intro {
+    font-size: 110%;
+}
+
+/*.mainwrap {
+	background-color: #2a00ff;
+}*/
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: #125e8c;
+}
+
+h1 {
+    font-size: 2.6em;
+}
+
+h2 {
+    font-size: 2.1em;
+}
+
+h3 {
+    font-size: 1.7em;
+}
+
+h4 {
+    font-size: 1.3em;
+    font-weight: normal;
+}
+
+h5 {
+    font-size: 1.2em;
+}
+
+h6 {
+    font-size: 1em;
+}
+
+/* lists
+---------------------------------------------------------------------*/
+ul, ol {
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+li {
+    margin-bottom: .5em;
+}
+
+    li.label {
+        list-style-type: none;
+        color: #125e8c;
+        font-weight: bold;
+    }
+
+footer li, footer ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+aside li {
+    line-height: 1.2em;
+}
+
+.sidebar-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.iconlist {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ticklist {
+}
+
+    .ticklist li {
+    }
+
+li.orangeTick 
+{
+    background-image: url(https://net.allianz.ie/common/img/css/ui/orange-tick-icon.png);
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    padding: 3px 0 3px 20px;
+    margin: .4em 0;
+}
+
+/* boxes
+---------------------------------------------------------------------*/
+.box {
+    background: #fff;
+}
+
+.box-corner {
+}
+
+.box-curve {
+}
+
+/* misc content elements
+---------------------------------------------------------------------*/
+hr {
+    border-top: 1px dotted #929292;
+    margin-right: .8em;
+    margin-left: .8em;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-style: none;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    outline: none;
+    color: #929292;
+}
+
+#main-content hr {
+    margin: 1.2em 0px;
+}
+
+#content-sidebar-mobile hr {
+    margin-top: 1.5em;
+}
+
+#content01 {
+}
+
+    #content01 .label {
+        float: none;
+        padding: 0 0 .4em;
+        text-align: left;
+    }
+
+    #content01 label {
+        float: none;
+        padding: 0;
+    }
+
+    #content01 .formmessage {
+        margin-bottom: 1em;
+    }
+
+    #content01 ul, #content01 p {
+    }
+/* header
+---------------------------------------------------------------------*/
+header {
+    background-color: #fff;
+    padding-top: .8em;
+    padding-bottom: .8em;
+    margin-bottom: .8em;
+}
+
+.subheader {
+    line-height: 1.3;
+    color: #009ee0;
+    font-weight: normal;
+    margin-top: 0.2em;
+    margin-bottom: 0.5em;
+}
+
+.header-wrapper {
+    z-index: 10;
+}
+
+header h1, header h2 {
+    float: right;
+    clear: right;
+    max-width: 59%;
+    text-align: right;
+    font-size: 1.1em;
+    margin: 0;
+    line-height: 1em;
+}
+
+header h1 {
+}
+
+header h2 {
+}
+
+#logo {
+    float: left;
+    max-width: 36%;
+}
+
+    #logo img {
+        display: block;
+    }
+
+.logocontainer img{
+    height: auto;
+    width: 179px;
+}
+.logocontainer {
+    max-width: 179px;
+}
+
+/* footer
+---------------------------------------------------------------------*/
+footer {
+    margin-bottom: 1em;
+}
+
+    footer > div {
+        margin: 0;
+    }
+
+.footer-text p, .footer-text li {
+    color: #929292;
+}
+
+.footer-text p {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-text li {
+    margin-bottom: .2em;
+}
+
+    .footer-text li a {
+        color: #929292;
+    }
+
+        .footer-text li a:hover {
+            color: #444;
+        }
+
+.social-links p, .social-links ul, .social-links li, .newsletter-subs p, .newsletter-subs ul, .newsletter-subs li, .rightlink p, .rightlink ul, .rightlink li {
+    float: left;
+    margin: 0;
+}
+
+.social-links p, .rightlink p {
+    line-height: 32px;
+}
+
+.social img {
+    display: block;
+}
+
+.social-links a {
+    width: 32px;
+    height: 32px;
+    display: block;
+    margin-left: .8em;
+    background: url(https://net.allianz.ie/common/img/social/social-logos-sprite.png) no-repeat 0 top;
+}
+
+#facebook a {
+    background-position: left;
+}
+
+#twitter a {
+    background-position: -32px;
+}
+
+#youtube a {
+    background-position: -64px;
+}
+
+/* top nav
+---------------------------------------------------------------------*/
+#topnav ul {
+    margin-top: .4em;
+    margin-bottom: .5em;
+    float: right;
+}
+
+#topnav li {
+    display: inline;
+}
+
+#topnav a {
+    float: left;
+    display: block;
+    border-left: 1px solid #bbb;
+    line-height: 1em;
+    padding-left: .6em;
+    padding-right: .6em;
+    font-size: 90%;
+}
+
+#topnav .first-link a {
+    border-left: none;
+    padding-left: .6em;
+    margin-left: 0;
+}
+
+#topnav .last-link a {
+    padding-right: 0;
+    margin-right: 0;
+}
+
+#topnav a:hover {
+    color: #444;
+}
+/* form
+---------------------------------------------------------------------*/
+/* Reset bits */
+input[type=text], input[type=password], input[type=submit], input[type=email], input[type=url], input[type=tel], input[type=number], input[type=datetime], input[type=date], textarea, select {
+    background-color: #fff;
+    margin: 0;
+    font: 1em "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/* Layout */
+.formitem {
+    background-color: #ececec;
+    margin-bottom: 1px;
+    padding: .7em;
+}
+    /* Form styles */
+    input, textarea, select, .radiobtn, .formitem .btn {
+        border: 1px solid #bbb;
+        outline: none;
+    }
+
+        input[type=text], input[type=number], input[type=date], input[type=tel], input[type=email], textarea, select {
+            padding: .5em;
+            color: #444;
+        }
+
+.label, label, .labelgroup {
+    color: #125e8c;
+    line-height: 1.2em;
+}
+
+.label, label {
+    padding: 0 0 .4em;
+    float: left;
+    width: 100%;
+}
+
+.labelgroup {
+    padding-top: .8em;
+    padding-bottom: .8em;
+    display: block;
+    background-color: #fff;
+}
+
+.radiobtn label {
+    float: none;
+    padding-left: .4em;
+    padding-right: .4em;
+}
+
+.radiobtn input {
+    float: left;
+    padding-bottom: 0;
+    clear: none;
+    width: auto;
+    height: auto;
+}
+
+select {
+    background: #fff; /*non-CSS3 browsers will use this*/
+    width: 90%; /*crop to aid responsive*/
+    margin: 0;
+}
+
+    select#TypeOccupancy, select#VerifyAddress {
+        margin-right: 0;
+    }
+
+span.req {
+    color: #929292;
+}
+
+input[type=radio] {
+    border: none;
+    line-height: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+input[type=checkbox] {
+    border: none;
+}
+
+fieldset h3 {
+    font-size: 1.8em;
+    margin: 0;
+    padding-top: .8em;
+    padding-bottom: .4em;
+}
+
+.formitem input[type=text], .formitem input[type=tel], .formitem input[type=email], .formitem input[type=date], .formitem textarea {
+    width: 96%;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+legend {
+    color: #125e8c;
+    display: block;
+    overflow: hidden;
+    padding-top: .6em;
+    padding-bottom: .4em;
+    font-size: 1.8em;
+    line-height: 1em;
+    max-width: 100%;
+}
+
+.formlabel img {
+    float: right;
+    top: -2px;
+    cursor: pointer;
+    display: none;
+}
+
+.formmulti.forminput select {
+    margin-right: .6em;
+    display: inline;
+}
+
+.formmulti.forminput label {
+    margin-bottom: 0;
+    margin-right: .6em;
+    padding-top: .6em;
+    padding-bottom: .4em;
+    padding-left: 0;
+    display: inline;
+}
+
+.note {
+    display: block;
+    color: #929292;
+    padding-top: .5em;
+    line-height: 1.2em;
+    float: left;
+}
+
+aside .note {
+    float: none;
+    width: 100%;
+}
+
+.formfocus {
+    background-color: #d0e6ef;
+}
+
+    .formfocus input, .formfocus textarea, .formfocus select, .formfocus .formmulti .forminput label {
+        outline: none;
+    }
+
+.input_textbox_with_icon, #page2 .formitem .input_textbox_with_icon, #SumTerms .formmulti .input_textbox_with_icon {
+    float: left;
+    width: 92%;
+}
+
+.forminput, #page2 .formitem .forminput, #SumTerms .formmulti .forminput {
+    float: left;
+    width: 100%;
+}
+
+textarea:focus, input:focus, input:active, .form-radio:focus {
+    outline: none;
+    background: transparent;
+}
+
+span.expand {
+    float: left !important;
+    width: 100% !important;
+}
+/* tab wizard
+---------------------------------------------------------------------*/
+.tabsnav, .tabsnav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tabsnav {
+    width: auto;
+}
+
+    .tabsnav li {
+        width: 25%;
+        float: left;
+        text-align: center;
+    }
+
+    .tabsnav a {
+        color: #fff;
+        background: #439BBD;
+        border-left: 1px solid #fff;
+        display: block;
+        padding-top: .8em;
+        padding-bottom: .8em;
+        font-weight: bold;
+        *zoom: 1;
+    }
+
+    .tabsnav .current {
+        background: #125e8c; /* non-CSS3 browsers will use this */
+    }
+
+    .tabsnav .tabok {
+        background: #125e8c; /*non-CSS3 browsers will use this*/
+    }
+
+    .tabsnav #t1 {
+        border-left: none;
+    }
+
+    .tabsnav #t4.current {
+        background: #ed7404; /*non-CSS3 browsers will use this*/
+    }
+
+/* content
+---------------------------------------------------------------------*/
+
+#containwrap {
+    padding-top: 0em;
+}
+
+aside {
+    margin-bottom: .4em;
+    padding-bottom: .4em;
+}
+
+    aside h4 {
+        padding-top: .6em;
+        border-top: 1px dotted #929292;
+        margin-bottom: .5em;
+    }
+
+        aside h4.first {
+            border-top: none;
+            margin-bottom: .5em;
+        }
+
+    aside .pane {
+        padding-bottom: .8em;
+    }
+/* premium container
+---------------------------------------------------------------------*/
+.annualprem, .monthlyprem {
+    text-align: center;
+    background: #125e8c;
+    padding-top: .6em;
+    padding-bottom: .9em;
+}
+
+.premium {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+    .premium h4 {
+        color: #fff;
+        border-top-style: none;
+        margin-top: 0;
+        padding-top: 0;
+        font-size: 1.1em;
+        font-weight: normal;
+        margin-bottom: 0;
+    }
+
+.annualprem {
+    border-right: 1px solid #439bbd;
+    margin-left: -1px;
+}
+
+.premium .wrap {
+    float: left;
+    width: 50%;
+}
+
+.premium .note {
+    float: none;
+    padding-right: 0;
+    color: #439bbd;
+    padding-top: 0;
+    width: 100%;
+}
+
+.title {
+    font-style: normal;
+}
+
+    .title.annual, .title.monthly {
+        color: #fff;
+        font-weight: bold;
+    }
+
+.premium .quoteref {
+    color: #4d4d4d;
+}
+
+
+#content-top-mobile {
+    border-bottom-style: none;
+    padding-bottom: 0;
+}
+
+#content-sidebar-desktop {
+}
+
+#content-sidebar-mobile {
+}
+
+#SumTerms .pane {
+    background-color: #ececec;
+    padding: 1em;
+    line-height: 1em;
+    background-repeat:no-repeat;
+}
+
+#SumTerms .pane1, #SumTerms .pane3 {
+    padding: 1px 0 0;
+}
+
+#SumTerms .formitem {
+    text-align: left;
+    border-bottom: 1px solid #fff;
+    padding-right: .7em;
+    padding-left: .7em;
+}
+
+#SumTerms .formlabel {
+    text-align: left;
+}
+
+    #SumTerms .formlabel label {
+        padding-left: 0;
+        padding-top: 0;
+        float: left;
+        text-align: left;
+    }
+
+#SumTerms h2 {
+    display: block;
+    overflow: hidden;
+    padding-top: .4em;
+    padding-bottom: .4em;
+    margin-bottom: 0;
+    font-size: 1.4em;
+}
+
+#SumTerms h3 {
+    font-size: 1.3em;
+    color: #439bbd;
+}
+
+#SumTerms .pane1 h3 {
+    border-bottom: 1px solid #fff;
+    margin: 0;
+    padding: .6em .8em .8em;
+}
+
+
+#SumTerms .answer {
+    color: #125e8c;
+    font-size: 1.1em;
+    margin-top: .3em;
+}
+
+
+/* accordion
+---------------------------------------------------------------------*/
+#accordion {
+    margin: 0 auto;
+    border-bottom: 1px dotted #929292;
+    padding-bottom: .3em;
+}
+
+    /* accordion header */
+    #accordion h4 {
+    }
+
+        /* currently active header */
+        #accordion h4.current {
+            cursor: default;
+            background: none;
+        }
+
+    /* accordion pane */
+    #accordion .pane {
+    }
+
+        /* a title inside pane */
+        #accordion .pane h3 {
+        }
+
+/* Cookies div
+--------------------------------------------------------------------*/
+.consent-box {
+    background-color: #FFFFFF;
+    display: none;
+    width: 100%;
+    z-index: 99;
+    font-size: 0.8em;
+}
+
+    .consent-box p {
+        color: #4D4D4D;
+        margin: 0 auto;
+        padding: 10px;
+        width: auto;
+    }
+
+    .consent-box a.btn {
+        color: #009EE0;
+        font-weight: bold;
+    }
+
+        .consent-box a.btn:hover {
+            color: #003781;
+            text-decoration: none;
+        }
+
+a.btn.blue {
+    font-size: 1em;
+    padding: 0px;
+    background-color: #FFFFFF;
+}
+
+/* Discount Message */
+#discountMessage {
+    background-color: #000066;
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+/* messages
+---------------------------------------------------------------------*/
+.formmessage {
+    background-color: #def2fb;
+    padding: 1.2em;
+    text-align: left;
+    margin-top: 1em;
+}
+
+    .formmessage.top {
+        margin-top: 0;
+    }
+
+    .formmessage p, .formmessage label, .formtext p {
+        margin: 0;
+        padding: 0;
+        text-align: left;
+    }
+
+    .formmessage li, .formmessage ul {
+        list-style-type: none;
+        padding: 0;
+        margin-left: 0;
+    }
+
+    .formmessage li {
+        margin-bottom: 0;
+    }
+
+.alertmsg {
+    background-color: #f5f7c8;
+}
+
+.discountmsg {
+    background-color: #000066;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.cancelmsg {
+    background-color: #e7e7e7;
+}
+
+.formcheckbox label {
+    float: left;
+    display: block;
+    width: 100%;
+}
+
+.formcheckbox .forminput {
+    float: none;
+    width: 100%;
+    overflow: hidden;
+}
+
+.formcheckbox label input {
+    margin-left: .5em;
+}
+
+.formlinks p {
+    padding-right: 0;
+    background: none;
+}
+
+.loader {
+    background-color: #743131;
+}
+
+.formtext {
+    padding: 1.2em;
+    border: 2px solid #def2fb;
+    margin-top: 1em;
+}
+
+.radiobtn {
+    margin-bottom: 0;
+    margin-right: .6em;
+    float: left;
+    line-height: 1em;
+    width: auto;
+    padding: .8em .8em .8em .7em;
+    text-align: left;
+    background-color: #fff;
+}
+
+    .radiobtn label {
+        padding: 0 .2em 0 .4em;
+    }
+
+        .radiobtn label:hover, .radiobtn input:hover {
+            cursor: pointer;
+        }
+/* buttons
+---------------------------------------------------------------------*/
+.buttons {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    clear: both;
+}
+
+    .buttons .btn {
+        margin-bottom: .6em;
+    }
+
+a.btn {
+}
+
+.btn {
+    border: none;
+    cursor: pointer;
+    color: #444;
+    padding: .6em 1em .7em;
+    background: #e3e4e5;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin: 0;
+    line-height: 1.4em;
+}
+
+    .btn.small {
+        font-size: 1em;
+    }
+
+    .btn:hover {
+        background: #caccce;
+    }
+
+.textbtn {
+    cursor: pointer;
+    background: transparent;
+    padding: .5em 0;
+    border-style: none;
+    font-weight: bold;
+}
+
+a.primary, a.standard {
+    color: #fff;
+}
+
+.primary {
+    color: #fff;
+    background-color: #ed7404;
+    float: left;
+}
+
+    .primary:hover {
+        background: #dc3500;
+        color: #fff;
+    }
+
+.standard {
+    color: #fff;
+    background-color: #439bbd;
+    float: left;
+}
+
+    .standard:hover {
+        color: #fff;
+        background: #125e8c;
+    }
+
+.secondary:hover {
+    color: #444;
+}
+
+.buttons .primary, .buttons .standard {
+    float: right;
+    margin-left: .6em;
+}
+
+.buttons .secondary {
+    float: left;
+    margin-right: .6em;
+}
+
+.formitem button.btn {
+    float: left;
+    border: 0;
+}
+
+.p-button {
+    margin-top: 1.2em;
+    margin-bottom: 1em;
+}
+
+div.initiallydisabled {
+    opacity: 0.1;
+}
+
+/* product buttons
+---------------------------------------------------------------------*/
+ul#productlist {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+    ul#productlist li {
+        float: left;
+        width: 44%;
+        text-align: center;
+        margin: 0 3% 3% 0;
+        padding: 0;
+    }
+
+        ul#productlist li.last {
+            margin-right: 0;
+        }
+
+        ul#productlist li a {
+            display: block;
+            cursor: pointer;
+        }
+
+            ul#productlist li a:hover {
+                cursor: pointer;
+            }
+
+#productlistholder {
+    padding-left: 1.2em;
+}
+
+    #productlistholder h3 {
+        margin-bottom: .7em;
+    }
+
+
+
+/* modals
+---------------------------------------------------------------------*/
+
+.modal-box {
+    display: none; /* overlay is hidden before loading */
+    width: 82%;
+    max-width: 46em;
+    max-height: 70%;
+    background: #fff;
+    padding: 1em;
+    text-align: left;
+    position: relative;
+    overflow: auto; /* JN - this adds a scroll bar to the modal */
+}
+
+    .modal-box ul {
+    }
+
+    .modal-box .buttons .btn {
+        float: left;
+        margin-right: 1em;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+    .modal-box .label {
+        float: none;
+        padding: 0 0 .4em;
+        text-align: left;
+    }
+
+    .modal-box .note {
+        float: none;
+        padding: 0 0 .4em;
+        width: auto;
+    }
+
+    .modal-box .formmessage {
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
+
+    .modal-box .buttons {
+        margin-bottom: 0;
+        margin-top: 1em;
+    }
+
+/* premium
+---------------------------------------------------------------------*/
+#staticpremium {
+    display: none;
+    position: fixed;
+    width: 7em;
+    z-index: 1;
+    margin-top: .8em;
+    background-color: #fff;
+    margin-left: -7em;
+    padding-top: .6em;
+    padding-bottom: .6em;
+    text-align: center;
+}
+
+    #staticpremium .wrap {
+        float: none;
+        width: 100%;
+    }
+
+.premium h4 {
+    font-size: 1.2em;
+}
+
+.premium h3 {
+    text-align: center;
+    color: #009ee0;
+    font-size: 0.9em;
+    line-height: 1em;
+    margin-bottom: 0;
+}
+
+
+/* validation & tooltip
+---------------------------------------------------------------------*/
+.invalid {
+    background: #f5f7c8;
+}
+
+
+/* loader icon
+---------------------------------------------------------------------*/
+.FBloader {
+    float: left;
+    margin-top: .1em;
+    margin-left: 1em;
+    display: none;
+}
+
+.floatingBarsG {
+    position: relative;
+    width: 20px;
+    height: 25px;
+}
+
+.blockG {
+    position: absolute;
+    width: 3px;
+    height: 8px;
+    -moz-border-radius: 3px 3px 0 0;
+    -webkit-border-radius: 3px 3px 0 0;
+    -webkit-transform: scale(0.4);
+    -webkit-animation-name: fadeG;
+    -webkit-animation-duration: 1.04s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: linear;
+    -moz-transform: scale(0.4);
+    -moz-animation-name: fadeG;
+    -moz-animation-duration: 1.04s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: linear;
+    border-radius: 3px 3px 0 0;
+    -o-transform: scale(0.4);
+    -o-animation-name: fadeG;
+    -o-animation-duration: 1.04s;
+    -o-animation-iteration-count: infinite;
+    -o-animation-direction: linear;
+    -ms-transform: scale(0.4);
+    -ms-animation-name: fadeG;
+    -ms-animation-duration: 1.04s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-direction: linear;
+}
+
+#rotateG_01 {
+    left: 0;
+    top: 9px;
+    -webkit-animation-delay: 0.39s;
+    -webkit-transform: rotate(-90deg);
+    -moz-animation-delay: 0.39s;
+    -moz-transform: rotate(-90deg);
+    -o-animation-delay: 0.39s;
+    -o-transform: rotate(-90deg);
+    -ms-animation-delay: 0.39s;
+    -ms-transform: rotate(-90deg);
+}
+
+#rotateG_02 {
+    left: 3px;
+    top: 3px;
+    -webkit-animation-delay: 0.52s;
+    -webkit-transform: rotate(-45deg);
+    -moz-animation-delay: 0.52s;
+    -moz-transform: rotate(-45deg);
+    -o-animation-delay: 0.52s;
+    -o-transform: rotate(-45deg);
+    -ms-animation-delay: 0.52s;
+    -ms-transform: rotate(-45deg);
+}
+
+#rotateG_03 {
+    left: 8px;
+    top: 1px;
+    -webkit-animation-delay: 0.65s;
+    -webkit-transform: rotate(0deg);
+    -moz-animation-delay: 0.65s;
+    -moz-transform: rotate(0deg);
+    -o-animation-delay: 0.65s;
+    -o-transform: rotate(0deg);
+    -ms-animation-delay: 0.65s;
+    -ms-transform: rotate(0deg);
+}
+
+#rotateG_04 {
+    right: 3px;
+    top: 3px;
+    -webkit-animation-delay: 0.78s;
+    -webkit-transform: rotate(45deg);
+    -moz-animation-delay: 0.78s;
+    -moz-transform: rotate(45deg);
+    -o-animation-delay: 0.78s;
+    -o-transform: rotate(45deg);
+    -ms-animation-delay: 0.78s;
+    -ms-transform: rotate(45deg);
+}
+
+#rotateG_05 {
+    right: 0;
+    top: 9px;
+    -webkit-animation-delay: 0.9099999999999999s;
+    -webkit-transform: rotate(90deg);
+    -moz-animation-delay: 0.9099999999999999s;
+    -moz-transform: rotate(90deg);
+    -o-animation-delay: 0.9099999999999999s;
+    -o-transform: rotate(90deg);
+    -ms-animation-delay: 0.9099999999999999s;
+    -ms-transform: rotate(90deg);
+}
+
+#rotateG_06 {
+    right: 3px;
+    bottom: 2px;
+    -webkit-animation-delay: 1.04s;
+    -webkit-transform: rotate(135deg);
+    -moz-animation-delay: 1.04s;
+    -moz-transform: rotate(135deg);
+    -o-animation-delay: 1.04s;
+    -o-transform: rotate(135deg);
+    -ms-animation-delay: 1.04s;
+    -ms-transform: rotate(135deg);
+}
+
+#rotateG_07 {
+    bottom: 0;
+    left: 8px;
+    -webkit-animation-delay: 1.1700000000000002s;
+    -webkit-transform: rotate(180deg);
+    -moz-animation-delay: 1.1700000000000002s;
+    -moz-transform: rotate(180deg);
+    -o-animation-delay: 1.1700000000000002s;
+    -o-transform: rotate(180deg);
+    -ms-animation-delay: 1.1700000000000002s;
+    -ms-transform: rotate(180deg);
+}
+
+#rotateG_08 {
+    left: 3px;
+    bottom: 2px;
+    -webkit-animation-delay: 1.3s;
+    -webkit-transform: rotate(-135deg);
+    -moz-animation-delay: 1.3s;
+    -moz-transform: rotate(-135deg);
+    -o-animation-delay: 1.3s;
+    -o-transform: rotate(-135deg);
+    -ms-animation-delay: 1.3s;
+    -ms-transform: rotate(-135deg);
+}
+
+
+@-webkit-keyframes fadeG {
+    0% {
+        background-color: #929292;
+    }
+
+    100% {
+        background-color: #ececec;
+    }
+}
+
+@-moz-keyframes fadeG {
+    0% {
+        background-color: #929292;
+    }
+
+    100% {
+        background-color: #ececec;
+    }
+}
+
+@-o-keyframes fadeG {
+    0% {
+        background-color: #929292;
+    }
+
+    100% {
+        background-color: #ececec;
+    }
+}
+
+@-ms-keyframes fadeG {
+    0% {
+        background-color: #929292;
+    }
+
+    100% {
+        background-color: #ececec;
+    }
+}
+
+
+
+
+/* 6. CUSTOM LAYOUT & TYPOGRAPHY (Baby bear)
+---------------------------------------------------------------------*/
+#container, .container {
+    margin: auto;
+}
+
+.container {
+    padding-right: .8em;
+    padding-left: .8em;
+}
+
+#main-content, footer > div {
+    padding: 1em;
+}
+
+aside {
+    width: 100%;
+}
+
+.printbreak {
+    height:0px;
+    display:none;
+}
+
+
+/* Custom Styles - Allianz
+---------------------------------------------------------------------*/
+
+/* colour overrides
+---------------------------------------------------------------------*/
+body, input, textarea, select, .footer-text li a:hover, #topnav a:hover {
+    color: #4d4d4d;
+}
+
+a, h1, h2, h3, h4, h5, legend, .labelgroup, .formlabel .label, .formlabel label, .textbtn:hover, li.label, .darklight {
+    color: #003781;
+}
+
+    a:hover, #SumTerms h3, .textbtn, .highlight {
+        color: #009ee0;
+    }
+
+/* links
+---------------------------------------------------------------------*/
+
+p.plink a {
+    padding-left: 11px;
+    background: url(/images/arrow.png) no-repeat left center;
+}
+
+    p.plink a:hover {
+        color: #009ee0;
+        background: url(/images/arrow_over.png) no-repeat left center;
+    }
+
+/* typography
+---------------------------------------------------------------------*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: Verdana, arial, sans-serif;
+    color: #003781;
+    font-weight: normal;
+    margin-bottom: .4em;
+}
+
+h1 {
+    font-size: 2.8em;
+}
+
+h2 {
+    font-size: 2.2em;
+}
+
+h3 {
+    font-size: 1.7em;
+}
+
+h4 {
+    font-size: 1.4em;
+}
+
+h5 {
+    font-size: 1.2em;
+}
+
+h6 {
+    font-size: 1em;
+}
+
+.mainwrap {
+    font-size: 0.75em;
+}
+
+/* boxes
+---------------------------------------------------------------------*/
+.box {
+    background: #fff;
+    -webkit-box-shadow: 0px 0px 6px 0px #bcbcbf;
+    -moz-box-shadow: 0px 0px 6px 0px #bcbcbf;
+    box-shadow: 0px 0px 6px 0px #bcbcbf;
+}
+
+.box-corner {
+    -webkit-box-shadow: 0px 2px 6px 0px #bcbcbf;
+    -moz-box-shadow: 0px 2px 6px 0px #bcbcbf;
+    box-shadow: 0px 2px 6px 0px #bcbcbf;
+}
+
+.box-curve {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+/* top nav
+---------------------------------------------------------------------*/
+#topnav a {
+    border-left: 1px solid #929292;
+    color: #929292;
+}
+
+    #topnav a:hover {
+        color: #444;
+    }
+
+/* header
+---------------------------------------------------------------------*/
+header {
+    padding: 0;
+}
+
+header, .header-wrapper {
+    background-color: transparent;
+    position: relative;
+}
+
+.header-wrapper {
+    height: 70px;
+    z-index: 10;
+}
+
+header h1, header h2 {
+    position: absolute;
+    right: 0;
+}
+
+header h1 {
+    color: #003178;
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 11px;
+}
+
+header h2 {
+    position: absolute;
+    bottom: -3px;
+    right: 0;
+    color: #4d4d4d;
+    margin: 0;
+    font-family: Verdana, arial, sans-serif;
+}
+
+.headertitle {
+    top: 0px;
+    font: 1.0em;
+    font-weight: bold;
+    margin: 0;
+    width: 180px;
+    height: auto;
+}
+
+h2.call-us {
+    font-family: Verdana, arial, sans-serif;
+    font-size: 1.0em;
+    font-weight: bold;
+}
+
+.phonenumber {
+    color: #003781;
+    font-size: 1em;
+}
+
+#logo {
+    bottom: 0;
+    display: block;
+    left: 0;
+    position: absolute;
+    float: none;
+    height: 54px;
+    width: 131px;
+    max-width: 131px;
+}
+
+.topstrip {
+    height: 40px;
+    width: 100%;
+    background: url(https://net.allianz.ie/common/img/css/header-topstrip-bg.jpg) repeat-x 0 bottom #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* tab wizard
+---------------------------------------------------------------------*/
+.tabsnav a {
+    font: normal 1.4em Verdana, arial, sans-serif;
+    text-align: center;
+    padding-left: 0;
+    border-left: 1px solid #66c5ec;
+    background: #66c5ec; /* Old browsers */
+    background: -moz-linear-gradient(top, #66c5ec 0%, #0062c5 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#66c5ec), color-stop(100%,#0062c5)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #66c5ec 0%,#0062c5 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #66c5ec 0%,#0062c5 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #66c5ec 0%,#0062c5 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #66c5ec 0%,#0062c5 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66c5ec', endColorstr='#0062c5',GradientType=0 ); /* IE6-8 */
+}
+
+    .tabsnav a.current {
+        background: #009ee0; /* Old browsers */
+        background: -moz-linear-gradient(top, #009ee0 0%, #003781 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#009ee0), color-stop(100%,#003781)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, #009ee0 0%,#003781 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, #009ee0 0%,#003781 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, #009ee0 0%,#003781 100%); /* IE10+ */
+        background: linear-gradient(to bottom, #009ee0 0%,#003781 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009ee0', endColorstr='#003781',GradientType=0 ); /* IE6-8 */
+    }
+
+    .tabsnav a.tabok {
+        background: #009ee0; /* Old browsers */
+        background: -moz-linear-gradient(top, #009ee0 0%, #003781 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#009ee0), color-stop(100%,#003781)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, #009ee0 0%,#003781 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, #009ee0 0%,#003781 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, #009ee0 0%,#003781 100%); /* IE10+ */
+        background: linear-gradient(to bottom, #009ee0 0%,#003781 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009ee0', endColorstr='#003781',GradientType=0 ); /* IE6-8 */
+    }
+
+    .tabsnav a#t4.current {
+        background: #ff8200; /* Old browsers */
+        background: -moz-linear-gradient(top, #ffb466 0%, #ff4200 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffb466), color-stop(100%,#ff4200)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, #ffb466 0%,#ff4200 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, #ffb466 0%,#ff4200 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, #ffb466 0%,#ff4200 100%); /* IE10+ */
+        background: linear-gradient(to bottom, #ffb466 0%,#ff4200 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb466', endColorstr='#ff4200',GradientType=0 ); /* IE6-8 */
+    }
+
+    .tabsnav a:hover {
+        color: #fff;
+    }
+/* premium container
+---------------------------------------------------------------------*/
+#staticpremium {
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    -webkit-box-shadow: 0px 0px 6px 0px #bcbcbf;
+    -moz-box-shadow: 0px 0px 6px 0px #bcbcbf;
+    box-shadow: 0px 0px 6px 0px #bcbcbf;
+}
+
+    #staticpremium .annualprem {
+        border-bottom: 1px solid #439bbd;
+        border-right-style: none;
+        margin-left: 0;
+        margin-top: .4em;
+    }
+
+    #staticpremium .monthlyprem {
+        margin-bottom: .7em;
+    }
+
+.annualprem, .monthlyprem {
+    background: #003781; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: -moz-linear-gradient(top, #009ee0 0%, #000c41 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#009ee0), color-stop(100%,#000c41)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #009ee0 0%,#000c41 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #009ee0 0%,#000c41 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #009ee0 0%,#000c41 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #009ee0 0%,#000c41 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009ee0', endColorstr='#000c41',GradientType=0 ); /* IE6-8 */
+}
+
+#content-top-mobile .annualprem {
+    border-right: 1px solid #009ee0;
+}
+
+#content-sidebar-desktop .annualprem {
+    border-bottom: 1px solid #009ee0;
+}
+
+.premium .note {
+    color: #009ee0;
+}
+
+.title.annual, .title.monthly {
+    font: 110%/1em Verdana, arial, sans-serif;
+    color: #ff8200;
+    text-shadow: 0 2px 10px #000111;
+}
+
+#staticpremium .title.annual, #staticpremium .title.monthly {
+    line-height: 1.2em;
+}
+
+#content-top-mobile h4, #content-sidebar-mobile h4 {
+    font-size: 1.3em;
+}
+
+#content-top-mobile h3, #content-sidebar-mobile h3, .content-elig-mobile h3 {
+    font-size: 1.3em;
+    margin-bottom: .5em;
+    margin-top: .5em;
+}
+/* form
+---------------------------------------------------------------------*/
+/* Reset bits */
+input[type=text], input[type=password], input[type=submit], input[type=email], input[type=url], input[type=tel], input[type=number], input[type=datetime], input[type=date], textarea, button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #fff;
+    font: 1em Verdana, arial, sans-serif;
+}
+
+input[type=radio] {
+}
+/* Form styles */
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+     margin: 0;
+}
+
+input[type=text], input[type=number], input[type=date], input[type=tel], input[type=email], textarea, select, .radiobtn, .formitem .btn {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #c6c6c6;
+}
+
+select {
+    background-color: #fff;
+    font: 1em Verdana, arial, sans-serif;
+}
+
+legend {
+    font: 2em Verdana, arial, sans-serif;
+}
+
+.formfocus {
+    background-color: #c8eaf8;
+}
+
+    .formfocus input[type=text], .formfocus input[type=number], .formfocus input[type=date], .formfocus input[type=tel], .formfocus input[type=email], .formfocus textarea, .formfocus select, .formfocus .formmulti .forminput label {
+        border: 1px solid #66c5ec;
+        outline: none;
+    }
+
+input.invalid, input[type="text"].input-validation-error, input[type="number"].input-validation-error, input[type="date"].input-validation-error, input[type="tel"].input-validation-error, input[type="email"].input-validation-error, input[type="date"].input-validation-error {
+    background: url(https://net.allianz.ie/common/img/css/ui/alert-icon-invalid.png) no-repeat right center #f5f7c8;
+}
+
+select.input-validation-error {
+    background: #f5f7c8;
+}
+
+div.field-validation-error {
+    display: block;
+}
+
+.field-validation-error {
+    color: red !important;
+}
+
+.alerterror {
+    color: red !important;
+}
+
+div.forminput.invaliddropdown {
+    background: url(https://net.allianz.ie/common/img/css/ui/alert-icon-invalid.png) no-repeat right center;
+}
+
+div.forminput.invalidradiobutton {
+    background: url(https://net.allianz.ie/common/img/css/ui/alert-icon-invalid.png) no-repeat center;
+}
+
+div.forminput.loadericon {
+    width: 54%;
+}
+
+
+/* buttons
+---------------------------------------------------------------------*/
+.btn {
+    font: normal 1.2em/1em Verdana, arial, sans-serif;
+}
+
+    .btn:hover {
+        color: #4d4d4d;
+        background-color: #caccce;
+    }
+
+    .btn.small {
+        font-size: 1.1em;
+    }
+
+    .standard, .btn.standard:disabled {
+        color: #fff;
+        background: #009ee0; /* Old browsers */
+        background: -moz-linear-gradient(top, #009ee0 0%, #003781 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#009ee0), color-stop(100%,#003781)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, #009ee0 0%,#003781 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, #009ee0 0%,#003781 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, #009ee0 0%,#003781 100%); /* IE10+ */
+        background: linear-gradient(to bottom, #009ee0 0%,#003781 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009ee0', endColorstr='#003781',GradientType=0 ); /* IE6-8 */
+        -webkit-box-shadow: inset 0 0 4px #000c41;
+        -moz-box-shadow: inset 0 0 4px #000c41;
+        box-shadow: inset 0 0 4px #000c41;
+    }
+
+        .standard:hover {
+            color: #fff;
+            background: #003781;
+        }
+
+    .primary, .btn.primary:disabled {
+        color: #fff;
+        background: #ff8200; /* Old browsers */
+        background: url(https://net.allianz.ie/common/img/css/ui/arrow-right-small.png) no-repeat 6px center, -moz-linear-gradient(top, #ffb466 0%, #ff4200 100%); /* FF3.6+ */
+        background: url(https://net.allianz.ie/common/img/css/ui/arrow-right-small.png) no-repeat 6px center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffb466), color-stop(100%,#ff4200)); /* Chrome,Safari4+ */
+        background: url(https://net.allianz.ie/common/img/css/ui/arrow-right-small.png) no-repeat 6px center, -webkit-linear-gradient(top, #ffb466 0%,#ff4200 100%); /* Chrome10+,Safari5.1+ */
+        background: url(https://net.allianz.ie/common/img/css/ui/arrow-right-small.png) no-repeat 6px center, -o-linear-gradient(top, #ffb466 0%,#ff4200 100%); /* Opera 11.10+ */
+        background: url(https://net.allianz.ie/common/img/css/ui/arrow-right-small.png) no-repeat 6px center, -ms-linear-gradient(top, #ffb466 0%,#ff4200 100%); /* IE10+ */
+        background: url(https://net.allianz.ie/common/img/css/ui/arrow-right-small.png) no-repeat 6px center, linear-gradient(to bottom, #ffb466 0%,#ff4200 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb466', endColorstr='#ff4200',GradientType=0 ); /* IE6-8 */
+        -webkit-box-shadow: inset 0 0 4px #ff1100;
+        -moz-box-shadow: inset 0 0 4px #ff1100;
+        box-shadow: inset 0 0 4px #ff1100;
+        color: #fff;
+        padding-left: 24px;
+    }
+
+        .primary:hover {
+            color: #fff;
+            background: url(https://net.allianz.ie/common/img/css/ui/arrow-right-small.png) no-repeat 6px center #ff4200; /*non-CSS3 browsers will use this*/
+        }
+
+.secondary {
+    color: #4d4d4d;
+    background-color: #e3e4e5;
+    -webkit-box-shadow: inset 0 0 4px #b4b6b9;
+    -moz-box-shadow: inset 0 0 4px #b4b6b9;
+    box-shadow: inset 0 0 4px #b4b6b9;
+}
+
+input:disabled, button:disabled, select:disabled {
+    cursor: default;
+}
+
+/* lists
+---------------------------------------------------------------------*/
+aside ul, aside ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+aside li {
+    list-style-type: none;
+}
+
+.ticklist li, .addlist li, .infolist li {
+    padding-left: 20px;
+    min-height: 18px;
+}
+
+.ticklist li {
+    background: url(https://net.allianz.ie/common/img/css/ui/tick-icon.png) no-repeat left top;
+}
+
+.addlist li {
+    background: url(https://net.allianz.ie/common/img/css/ui/add-icon.png) no-repeat left top;
+}
+
+.infolist li {
+    background: url(https://net.allianz.ie/common/img/css/ui/info-icon.png) no-repeat left top;
+}
+
+li.orangeList {
+    background-image: url(bullet_pdf.gif);
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    padding: 3px 0 3px 20px;
+    margin: .4em 0;
+}
+
+
+/* messages icons
+---------------------------------------------------------------------*/
+.alertmsg p, .alertmsg h3 {
+    background: url('https://net.allianz.ie/common/img/css/ui/alert-icon.png') no-repeat right center #f5f7c8;
+    padding-right: 30px;
+    margin-bottom: 0;
+    color: #4d4d4d;
+}
+
+.cancelmsg p {
+    background: url('https://net.allianz.ie/common/img/css/ui/cancel-icon.png') no-repeat right center;
+    padding-right: 30px;
+    text-align: left;
+}
+
+.infomsg p {
+    background: url('https://net.allianz.ie/common/img/css/ui/info-icon.png') no-repeat right center;
+    padding-right: 30px;
+}
+
+.okmsg p {
+    background: url('https://net.allianz.ie/common/img/css/ui/tick-icon.png') no-repeat right center;
+    padding-right: 30px;
+}
+
+.moremsg p {
+    background: url('https://net.allianz.ie/common/img/css/ui/add-icon.png') no-repeat right center;
+    padding-right: 30px;
+}
+
+.info {
+    background: url('https://net.allianz.ie/common/img/css/ui/info-icon.png') no-repeat left top;
+    line-height: 1.4em;
+    padding-left: 20px;
+}
+
+
+/* accordion
+---------------------------------------------------------------------*/
+
+/* modal
+---------------------------------------------------------------------*/
+.modal-box {
+    background: #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 0px 12px 0px #003781;
+    -moz-box-shadow: 0px 0px 12px 0px #003781;
+    box-shadow: 0px 0px 12px 0px #003781;
+}
+
+#SumTerms h2 {
+    font: Verdana, arial, sans-serif;
+}
+
+.initialstatehidden {
+    display: none;
+}
+
+.imgright {
+    float: right;
+}
+
+.debitcardgurantee {
+    margin-top: .6em;
+}
+/* End Custom Styles - Allianz
+---------------------------------------------------------------------*/
+
+
+
+
+
+/* 7. BROWSER AND NON-SEMANTIC STYLING
+---------------------------------------------------------------------*/
+.ir {
+    display: block;
+    border: 0;
+    text-indent: -999em;
+    overflow: hidden;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    text-align: left;
+    direction: ltr;
+    *line-height: 0;
+}
+
+    .ir br {
+        display: none;
+    }
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+    .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+        clip: auto;
+        height: auto;
+        margin: 0;
+        overflow: visible;
+        position: static;
+        width: auto;
+    }
+
+.invisible {
+    visibility: hidden;
+}
+
+.cf:before, .cf:after {
+    content: "";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+/*To avoid flickering on IPad*/
+.formpop {
+    -webkit-backface-visibility: hidden;
+}

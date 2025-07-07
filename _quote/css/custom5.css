@@ -1,0 +1,225 @@
+/*body {
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+h1, h2, h3, h4, h5, h6, select, input, legend, .btn {
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
+}
+.mainwrap {
+	font-size: 14px;
+}
+.btn {
+	font-weight: bold;
+	font-size: 1rem;
+}
+.note, p.small, li.small, .error, .error p {
+	font-size: 11px;
+}
+.phonenumber {
+	font-weight: bold;
+	color: #ff8200;
+}*/
+
+
+header .headertitle {
+	line-height: 40px;
+}
+header h2.call-us {
+	font-weight: normal;
+	font-size: 1.1em;
+}
+
+p.intro {
+	margin-bottom: 1.2em;
+}
+#productlistholder h3 {
+	margin-bottom: 0.5em;
+}
+.buttons.ty .secondary {
+	float: right;
+	margin-left: .6em;
+}
+.buttons.left .btn {
+	float: left;
+	margin-right: .6em;
+	margin-left: 0;
+	margin-bottom: 0;
+}
+
+
+.forminput.double .form-textbox {
+	width: 50%;
+	margin-right: .3em;
+}
+.forminput.double .btn {
+	font-size: 1em;
+	padding-top: .6em;
+	padding-bottom: .6em;
+}
+
+.icon {
+	display: block;
+	width: 3em;
+	height: 3em;
+	background-size: cover;
+	background-position: center center;
+}
+.icon-car {
+	background-image: url('../img/icons/car-colour.png');
+	background-repeat: no-repeat;
+}
+.icon-home {
+	background-image: url('../img/icons/home-colour.png');
+	background-repeat: no-repeat;
+}
+.icon-pet {
+	background-image: url('../img/icons/pet-colour.png');
+	background-repeat: no-repeat;
+}
+
+
+/* quick-estimator
+---------------------------------------------------------------------*/
+.quick-estimator {
+	background-color: #ececec;
+	padding: .5em;
+}
+
+.quick-estimator .tabs {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	border-bottom: 1px solid #fff;
+	border-left: 1px solid #fff;
+}
+
+.quick-estimator .tabs li {
+	float: left;
+	text-align: center;
+	margin: 0;
+	line-height: 1.2;
+	width: 20%;
+	border-top: 1px solid #fff;
+	
+}
+.quick-estimator .tabs li:not(:last-of-type) {
+	border-right: 1px solid #fff;
+}
+.quick-estimator .tabs a i {
+	margin: 0 auto;
+	opacity: .7;
+	
+}
+.quick-estimator .tabs a:hover i, .quick-estimator .tabs a.current i {
+	opacity: 1;
+	
+}
+.quick-estimator .tabs a {
+	padding: .4em 0 .7em;
+	display: block;
+	background-color: rgba(255, 255, 255, 0.3);
+	color: #4d4d4d;
+}
+.quick-estimator .tabs a:hover, .quick-estimator .tabs a.current {
+	background-color: rgba(255, 255, 255, 1);
+}
+
+.quick-estimator form {
+	background-color: #fff;
+	padding: 0 1em .5em;
+}
+.quick-estimator .qe-footer {
+	margin-top: .8em;
+}
+
+.quick-estimator .tabs-3-up li {
+	width: 32%;
+}
+.quick-estimator .tabs-4-up li {
+	width: 24%;
+}
+
+@media screen and (min-width: 30em) {
+	.quick-estimator .tabs li {
+		border-right: 1px solid #fff;
+	}
+	.quick-estimator .tabs-3-up li {
+		width: 30%;
+	}
+	.quick-estimator .tabs-4-up li {
+		width: 23%;
+	}
+	header .headertitle {
+		line-height: 58px;
+	}
+	
+}	
+
+
+/* quick-estimate
+---------------------------------------------------------------------*/
+.quick-estimate {
+}
+
+.quick-estimate .estimate-header {
+}
+
+.quick-estimate .discount-price {
+	display: inline-block;
+	padding: .4em .5em;
+	font-weight: bold;
+	color: #fff;
+	
+}
+.quick-estimate .full-price {
+	text-decoration: line-through;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 49em) {
+	.quick-estimate .discount-price {
+		margin-top: .3em;
+	}
+}
+
+.quick-estimate.opt1 .discount-price {
+	color: #fff;
+	background-color: #ff4200;
+}
+.quick-estimate.opt2 .estimate-header {
+	background-color: #ff4200;
+	padding: .8em 1.2em .6em;
+	color: #fff;
+}
+.quick-estimate.opt2 .discount-price {
+	color: #fff;
+	background-color: #003781;
+}
+.quick-estimate.opt2 * {
+	color: #fff;
+}
+
+
+/* show/hide
+---------------------------------------------------------------------*/
+
+
+.show-for-medium, .show-for-large {
+	display: none;
+}
+@media screen and (min-width: 30em) {
+	.show-for-medium {
+		display: block;
+	}
+	.hide-for-medium {
+		display: none;
+	}
+}
+@media screen and (min-width: 49em) {
+	.show-for-large {
+		display: block;
+	}
+	.hide-for-large {
+		display: none;
+	}
+}

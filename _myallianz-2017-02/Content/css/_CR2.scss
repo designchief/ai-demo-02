@@ -1,0 +1,237 @@
+/* @override
+	http://myallianz-v021.designchief.ie/Content/css/css/Customcss-new.css */
+
+/* EDITS AND OVERIDES BY DC */
+
+
+/* FIX FOR REMOVING BUTTONS FROM NAV BAR */
+header {
+	margin-bottom: 1em;
+}
+@media only screen and (min-width:640px){
+.nav-bar{min-height:1.6em}
+}
+
+
+/* Fix selector for borders in hero area so as not to effect the Button border. Please note the .hero input style from Customcss.css has been commented out, please remove from future versions */
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"] {
+	border-color: #c8c8c8;
+}
+
+
+/* Tweaks to register form layout */
+.g-recaptcha {
+	margin:0 0 0.93333em 0
+}
+.white-holder {
+	background-color: #fff !important;
+	padding: 1em 1em 0;
+	border-color: #c8c8c8;
+	margin-bottom: 1.33333em;
+	background-color: #fff;
+	border: 1px solid #d6d6d6;
+	-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+
+/* New class for multi-line checkbox input */
+label.checkbox-long {
+	line-height: 1.4;
+}
+label.checkbox-long input {
+	margin-bottom: 0;
+}
+
+/* Tweaks to sign-in form layout */
+
+.sign-in.sidebar {
+	padding-bottom: 1.333em
+}
+.sign-in .small {
+	text-align: right;
+	font-size: .8em;
+}
+
+/* New sidebar layouts */
+div.sidebar-right-white {
+	border-top: 1px solid #d6d6d6;
+	background: #f0f0f0;
+}
+div.sidebar-left-grey {
+	border-top: 1px solid #d6d6d6;
+	background: #fff;
+}
+.sign-in {
+	border-top: none;
+}
+.sidebar-white {
+	background-color: #fff;
+	padding-bottom: 1.333em;
+	border-top: 1px solid #d6d6d6;
+}
+@media only screen and (min-width: 880px) {
+	.sidebar-white {
+		background: none;
+		border-style: none;
+	}
+	.sidebar-right-white {
+		background: url(../img/css/sidebar-column-right-white.png) 70.85% repeat-y #fff !important;
+	}
+	.sidebar-left-grey {
+		background: url(../img/css/sidebar-column-left-grey.png) 29.15% repeat-y #fff !important;
+	}
+}
+@media only screen and (max-width: 880px) {
+	.sidebar-white {
+		padding-top: 1em;
+	}
+}
+.sidebar.reg-info {
+	padding-top: 1em;
+}
+
+
+/* New Background images for hero area */
+.columns.hero.register {
+	background: url(../img/css/hero-guy-bg-mobile-grey.jpg) right bottom no-repeat;
+}
+@media only screen and (min-width: 880px) {
+	.columns.hero.register {
+		background: url(../img/css/hero-guy-bg-desktop-grey.jpg) right bottom no-repeat;
+		border-right:1px solid #d6d6d6;
+	}
+}
+
+.columns.hero.signin {
+	background: url(../img/css/hero-girl-bg-mobile.jpg) right bottom no-repeat;
+	border-top: 1px solid #d6d6d6;
+	border-bottom: 1px solid #d6d6d6;
+}
+@media only screen and (min-width: 880px) {
+	.columns.hero.signin {
+		background: url(../img/css/hero-girl-bg-desktop.jpg) right bottom no-repeat;
+		padding-bottom: 7em;
+		border-left:1px solid #d6d6d6;
+		border-top: none;
+		border-bottom: none;
+	}
+
+}
+
+/* Fixing border radius on hero section */
+@media only screen and (min-width: 640px) {
+	.hero-border {
+		overflow: hidden;
+	}
+
+}
+
+/*FIXING THE ICON IN HEADER ON ALL PAGES*/
+@media only screen and (min-width: 640px) {
+	.policy .icn-title .icn, .claim .icn-title .icn {
+		margin-left: -1.7em;
+	}
+}
+
+
+/*STYLING EDITS FOR CLAIMS DIV ADDED UNDER POLICY DIVS IN DASHBOARD*/
+#my-policies .claim {
+	padding-left: 1em;
+}
+@media only screen and (min-width: 640px) {
+  #my-policies .claim {
+  	padding-left: 4.8em;
+  }
+  #my-policies .claim hr {
+  	margin-left: -2.2em;
+  }
+}
+
+#my-policies .claim h2.icn-title{
+	line-height:1.2em;
+}
+#my-policies .claim .icn-title .icn {
+	height:1.2em;
+	width:1.2em;
+}
+@media only screen and (min-width:640px){
+	#my-policies .claim h2.icn-title .icn {
+		margin-left:-1.5em;
+	}
+}
+
+
+
+
+
+/*EDIT TO NOTIFICATION COUNT SIZE*/
+.notification:after{
+	line-height:1.6em;
+	width:1.6em;
+	height:1.6em;
+	font-size:.8em;
+	margin: 0;
+}
+
+
+
+
+/*ACCORDION FIXES*/
+
+/*BETTER POSITION OF ICON AND ALLOWS FOR SECTION TITLES TO WRAP WHEN THEY ARE VERY LONG*/
+#rc-forms-select > section .title a {
+	padding-right: 2.8em;
+	white-space: normal;
+}
+#rc-forms-select > section .title {
+	position: relative;
+}
+#rc-forms-select > section .title .icn{
+	height:1.6em;
+	width:1.6em;
+	float: none;
+	position: absolute;
+	right: .8em;
+	top: .5em;
+}
+
+/*ADDS LOADING GRAPHIC TO SECTIONS WITH LOADING CLASS APPLIED*/
+#rc-forms-select > section.loading .title span,
+#rc-forms-select > section.active #rc-forms>section.loading .title span {
+background:url(../img/css/ajax-loader.gif) left no-repeat!important;
+	background-size: contain !important;
+}
+
+/* New CSS for updated Sign-In page *****13/12/2016****** */
+/* http://ai-demo-02.designchief.ie/_myallianz-fu-01/Content/css/signin-new-01.css */
+
+.sign-in-fullwidth {
+  background: #f0f0f0;
+  border-top: 1px solid #d6d6d6;
+  padding-top: 1.333333em;
+  padding-bottom: 1.333333em;
+}
+@media only screen and (min-width: 640px) {
+  .sign-in-fullwidth {
+    background: url(../img/css/hero-myallianz.jpg) right bottom no-repeat #f0f0f0;
+    padding-left: 5.8em;
+  }
+}
+@media only screen and (min-width: 880px) {
+  .sign-in-fullwidth {
+    padding-left: 11.6em;
+  }
+}

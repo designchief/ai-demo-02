@@ -1,0 +1,53 @@
+.top_bar {
+	
+	position: relative;
+	z-index: 600;
+	
+}
+.fc3 {width:250px;}
+ul.idTabs {height:25px;}
+ul.social-links li#newsletter a {width:250px;}
+
+ul.utility-nav {
+    width: 380px;
+}
+
+ul.main-nav li {
+	display: inline-block;
+	}
+
+	ul.subnav {
+
+	list-style: none;  
+    position: absolute; /*--Important - Keeps subnav from affecting main navigation flow--*/  
+    left: -10px; top: 32px;  
+    background: url(/images/drop_down_bg.png) no-repeat center bottom transparent;  
+    padding: 0;  
+    z-index: -1;
+   
+    width: 165px;  
+    border: none; 
+    padding: 20px 14px 26px 14px;
+    visibility: hidden;
+    margin-left:0;
+}
+
+.li1 {width:50px; }
+
+.li2 {width: 55px;}
+
+.li3 {width: 65px;}
+
+.li4 {width: 55px;}
+
+.li5 {width: 50px;}
+
+.li6 {width: 135px;}
+
+.li7 {width: 40px;}
+
+.li8 {width: 140px;}
+
+.li9 {width: 50px;}
+
+ 

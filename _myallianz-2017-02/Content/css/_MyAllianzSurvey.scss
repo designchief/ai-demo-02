@@ -1,0 +1,451 @@
+﻿@media screen and (max-width: 49em) {
+
+    .templateerror1 {
+        font-size: 13px;
+        color: red;
+        position: relative;
+        top: 1.0em;
+    }
+
+    .texttemplateerror1 {
+        font-size: 13px;
+        text-align: left;
+        color: red;
+        position: relative;
+        bottom: 2.0em;
+    }
+
+    .scaletemplateerror {
+        font-size: 13px;
+        text-align: left;
+        color: red;
+        position: relative;
+        float: left;
+        clear: both;
+        padding-left: 1.8em;
+    }
+
+    .textboxtemplateerror1 {
+        font-size: 13px;
+        float: left !important;
+        color: red;
+        position: relative;
+        padding-top: 1.0em;
+        padding-right: 50%;
+    }
+
+    .radiotemplateerror {
+        font-size: 13px;
+        color: red;
+        position: relative;
+        top: 1.0em;
+        float: left;
+        padding-left: 1.4em;
+        padding-bottom: 1.4em;
+        clear: both;
+    }
+
+    .radiohorizontaltemplateerror {
+        font-size: 13px;
+        color: red;
+        position: relative;
+        top: 1.0em;
+        padding-top: 1em;
+        float: left;
+        padding-left: 1.2em;
+    }
+
+    .forminputradiohorizontal {
+        display: inline-block;
+        width: 8%;
+        color: #125e8c;
+    }
+
+    div.bigstars div.rateit-range {
+        background: url(../img/star-white32.png);
+        height: 32px;
+    }
+
+    div.bigstars div.rateit-hover {
+        background: url(../img/star-gold32.png);
+    }
+
+    div.bigstars div.rateit-selected {
+        background: url(../img/star-gold32.png);
+    }
+
+    div.bigstars div.rateit-reset {
+        background: url(../img/star-gold32.png);
+        width: 32px;
+        height: 32px;
+    }
+
+    div.bigstars div.rateit-reset:hover {
+        background: url(../img/star-gold32.png);
+    }
+}
+
+
+@media screen and (max-width: 41em) {
+    .templateerror1 {
+        font-size: 13px;
+        color: red;
+        position: relative;
+        top: 1.0em;
+        padding-top: 1em;
+        float: left;
+        padding-left: 0.2em;
+    }
+
+    .texttemplateerror1 {
+        font-size: 13px;
+        text-align: left;
+        color: red;
+        position: relative;
+        bottom: 2.0em;
+    }
+
+    .scaletemplateerror {
+        font-size: 13px;
+        text-align: left;
+        color: red;
+        position: relative;
+        padding-left: 1.8em;
+    }
+
+    .textboxtemplateerror1 {
+        font-size: 13px;
+        float: left !important;
+        color: red;
+        position: relative;
+        padding-top: 1.0em;
+        padding-right: 1%;
+        padding-left: 1.5em;
+    }
+
+    .forminputRadioTextAbove {
+        /*float: left !important;*/
+        width: 10px !important;
+    }
+
+    .forminputRadioTextBelow {
+        /*float: left !important;*/
+        width: 10px !important;
+    }
+
+    .radiotemplateerror {
+        font-size: 13px;
+        color: red;
+        position: relative;
+        top: 1.0em;
+        float: left;
+        padding-left: 1.4em;
+        padding-bottom: 1.4em;
+        clear: both;
+    }
+
+    .radiohorizontaltemplateerror {
+        font-size: 13px;
+        color: red;
+        position: relative;
+        top: 1.0em;
+        padding-top: 1em;
+        float: left;
+        padding-left: 1.2em;
+    }
+
+    .forminputradiohorizontal {
+        display: inline-block;
+        width: 25%;
+        color: #125e8c;
+    }
+
+    div.bigstars div.rateit-range {
+        background: url(../img/star-white32.png);
+        height: 32px;
+    }
+
+    div.bigstars div.rateit-hover {
+        background: url(../img/star-gold32.png);
+    }
+
+    div.bigstars div.rateit-selected {
+        background: url(../img/star-gold32.png);
+    }
+
+    div.bigstars div.rateit-reset {
+        background: url(../img/star-gold32.png);
+        width: 32px;
+        height: 32px;
+    }
+
+        div.bigstars div.rateit-reset:hover {
+            background: url(../img/star-gold32.png);
+        }
+}
+
+@media screen and (min-width: 30em) and (max-width: 49em) {
+    .templateerror1 {
+        font-size: 13px;
+        color: red;
+        position: relative;
+        top: 1.0em;
+    }
+
+    .texttemplateerror1 {
+        font-size: 13px;
+        text-align: left;
+        color: red;
+        position: relative;
+        bottom: 2.0em;
+    }
+
+    .scaletemplateerror {
+        font-size: 13px;
+        text-align: left;
+        color: red;
+        position: relative;
+        padding-left: 1.8em;
+    }
+
+    .radiotemplateerror {
+        font-size: 13px;
+        color: red;
+        position: relative;
+        top: 1.0em;
+        float: left;
+        padding-left: 1.4em;
+        padding-bottom: 1.4em;
+        clear: both;
+    }
+
+    .radiohorizontaltemplateerror {
+        font-size: 13px;
+        color: red;
+        position: relative;
+        top: 1.0em;
+        padding-top: 1em;
+        float: left;
+        padding-left: 1.2em;
+    }
+
+    .textboxtemplateerror1 {
+        font-size: 13px;
+        float: left !important;
+        color: red;
+        position: relative;
+        padding-top: 1.0em;
+        padding-right: 50%;
+    }
+
+    .forminputradiohorizontal {
+        display: inline-block;
+        width: 8%;
+        color: #125e8c;
+    }
+
+    div.bigstars div.rateit-range {
+        background: url(../img/star-white32.png);
+        height: 32px;
+    }
+
+    div.bigstars div.rateit-hover {
+        background: url(../img/star-gold32.png);
+    }
+
+    div.bigstars div.rateit-selected {
+        background: url(../img/star-gold32.png);
+    }
+
+    div.bigstars div.rateit-reset {
+        background: url(../img/star-gold32.png);
+        width: 32px;
+        height: 32px;
+    }
+
+        div.bigstars div.rateit-reset:hover {
+            background: url(../img/star-gold32.png);
+        }
+}
+
+@media screen and (min-width: 640px) {
+    .templateerror1 {
+        font-size: 13px;
+        color: red;
+        position: relative;
+        top: 1.0em;
+        float: left;
+    }
+
+    .texttemplateerror1 {
+        font-size: 13px;
+        text-align: left;
+        color: red;
+        position: relative;
+        bottom: 2.0em;
+    }
+
+    .scaletemplateerror {
+        font-size: 13px;
+        text-align: left;
+        color: red;
+        position: relative;
+        padding-left: 1.8em;
+        float: left;
+        clear: both;
+    }
+
+    .radiotemplateerror {
+        font-size: 13px;
+        color: red;
+        position: relative;
+        top: 1.0em;
+        float: left;
+        padding-left: 1.4em;
+        padding-bottom: 1.4em;
+        clear: both;
+    }
+
+    .radiohorizontaltemplateerror {
+        font-size: 13px;
+        color: red;
+        position: relative;
+        top: 1.0em;
+        padding-top: 1em;
+        float: left;
+        padding-left: 1.2em;
+    }
+
+    .textboxtemplateerror1 {
+        font-size: 13px;
+        float: left !important;
+        color: red;
+        position: relative;
+        padding-top: 1.0em;
+        padding-right: 60%;
+        padding-left: 2em;
+    }
+
+     .forminputradiohorizontal {
+        display: inline-block;
+        width: 12%;
+        color: #125e8c;
+    }
+
+      .forminputRadioTextBelow {
+        /*float: left !important;*/
+        width: 10px !important;
+    }
+
+    div.bigstars div.rateit-range {
+        background: url(../img/star-white32.png);
+        height: 32px;
+    }
+
+    div.bigstars div.rateit-hover {
+        background: url(../img/star-gold32.png);
+    }
+
+    div.bigstars div.rateit-selected {
+        background: url(../img/star-gold32.png);
+    }
+
+    div.bigstars div.rateit-reset {
+        background: url(../img/star-gold32.png);
+        width: 32px;
+        height: 32px;
+    }
+
+        div.bigstars div.rateit-reset:hover {
+            background: url(../img/star-gold32.png);
+        }
+}
+
+@media screen and (min-width: 840px) {
+    .templateerror1 {
+        font-size: 13px;
+        color: red;
+        position: relative;
+        top: 1.0em;
+        float: left;
+    }
+
+    .texttemplateerror1 {
+        font-size: 13px;
+        text-align: left;
+        color: red;
+        position: relative;
+        bottom: 2.0em;
+    }
+
+    .scaletemplateerror {
+        font-size: 13px;
+        text-align: left;
+        color: red;
+        position: relative;
+        padding-left: 1.8em;
+        float: left;
+        clear: both;
+    }
+
+    .radiotemplateerror {
+        font-size: 13px;
+        color: red;
+        position: relative;
+        top: 1.0em;
+        float: left;
+        padding-left: 1.4em;
+        padding-bottom: 1.4em;
+        clear: both;
+    }
+
+    .radiohorizontaltemplateerror {
+        font-size: 13px;
+        color: red;
+        position: relative;
+        top: 1.0em;
+        padding-top: 1em;
+        float: left;
+        padding-left: 1.2em;
+    }
+
+    .textboxtemplateerror1 {
+        font-size: 13px;
+        float: left !important;
+        color: red;
+        position: relative;
+        padding-top: 1.0em;
+        padding-right: 60%;
+        padding-left: 2em;
+    }
+     .forminputradiohorizontal {
+        display: inline-block;
+        width: 12%;
+        color: #125e8c;
+    }
+
+    div.bigstars div.rateit-range {
+        background: url(../img/star-white32.png);
+        height: 32px;
+    }
+
+    div.bigstars div.rateit-hover {
+        background: url(../img/star-gold32.png);
+    }
+
+    div.bigstars div.rateit-selected {
+        background: url(../img/star-gold32.png);
+    }
+
+    div.bigstars div.rateit-reset {
+        background: url(../img/star-gold32.png);
+        width: 32px;
+        height: 32px;
+    }
+
+  div.bigstars div.rateit-reset:hover {
+            background: url(../img/star-gold32.png);
+        }
+
+
+}

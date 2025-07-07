@@ -1,0 +1,56 @@
+.top_bar {
+	width: 100%;
+	background: url(/images/top-bar.jpg) no-repeat center top;
+	position: relative;
+	z-index: 600;
+	
+}
+
+.fc3 {width:255px;}
+.link-col ul.link-block {margin-left:-15px;}
+h2.box-title {line-height: 25px;}
+ul.social-links {padding-top:5px;}
+ul.social-links li#newsletter a {width:250px;}
+ul.idTabs {height:25px;}
+.tab_panel_inner {top:30px;}
+.tab_link_wrapper {height:80px;}
+.clrfix {height:50px;}
+/*li {display:inline-block;}
+li {display:block;}*/
+ul.recent_posts li, ul.benefits li {margin:0 0 6px -15px;}
+ul.benefits li { margin-left:0px; display:inline-block; padding-left:25px; margin-left:-10px;}
+ul.main-nav li {display: inline;}
+.rCol h2.box-title#number {font-size: 2.5em;}
+.top_bar .header_wrapper {
+	width: 980px;
+	position: relative;
+	margin: 0 auto;
+	z-index:99;
+	height: 117px;
+
+	
+}
+
+
+.agree_box {
+    float: right;
+    width: 70px;
+}
+
+
+.agree_box label, .agree_box input.checkbox {
+	
+	height: 10px;
+}
+
+.agree_box label {
+
+	padding-top: 3px;
+}
+
+ul.sidenav li { list-style-position:outside;}
+
+.footer-links-row ul li, .footer-links-row ul{ list-style-position:outside;}
+ul.social-links li { margin-top:-3px}
+ul.social-links li a{  padding-top:11px; padding-bottom:0px}
+ul.social-links li img{    padding-top: 11px;}

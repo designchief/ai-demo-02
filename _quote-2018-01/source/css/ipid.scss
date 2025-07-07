@@ -1,0 +1,275 @@
+/* IPID CUSTOM STYLES - TO BE INCLUDED AFTER LAYOUT.CSS */
+
+/* IPID LISTS */
+.ipid-list {
+	list-style: none;
+	margin-left: 0;
+	padding: 0;
+	margin-bottom: 1.2em;
+
+	li {
+		background-size: 1.2em;
+		padding-left: 1.6em;
+		background-repeat: no-repeat;
+		background-position: top left;
+	}
+
+	&.bullet {
+		list-style: disc ;
+	}
+
+	&.no-bullet {
+		li {
+			padding: 0;
+		}
+	}
+
+	&.dash {
+		li {
+			background-image: url(../img/ipid/ipid-dash.png);
+		}
+	}
+
+	&.cross {
+		li {
+			background-image: url(../img/ipid/ipid-cross.png);
+		}
+	}
+
+	&.cross-red {
+		li {
+			background-image: url(../img/ipid/ipid-cross-red.png);
+		}
+	}
+
+	&.exclamation {
+		li {
+			background-image: url(../img/ipid/ipid-exclamation.png);
+		}
+	}
+
+	&.exclamation-orange {
+		li {
+			background-image: url(../img/ipid/ipid-exclamation-orange.png);
+		}
+	}
+
+	&.tick {
+		li {
+			background-image: url(../img/ipid/ipid-tick.png);
+		}
+	}
+
+	&.tick-blue {
+		li {
+			background-image: url(../img/ipid/ipid-tick-blue.png);
+		}
+	}
+
+	&.tick-green {
+		li {
+			background-image: url(../img/ipid/ipid-tick-green.png);
+		}
+	}
+}
+
+
+/* IPID LAYOUT */
+
+.ipid {
+
+	@media screen and (min-width: 30em) {
+		#container {
+			padding-top: 2em;
+			padding-bottom: 2em;
+			max-width: 60em;
+		}
+	}
+
+	.mainwrap {
+		font-size: .8125em;
+	}
+
+	h1, h2, h3, h4 {
+		font-weight: bold;
+		color: #4d4d4d;
+	}
+	h1 {
+		font-size: 3em;
+	}
+	h2 {
+		font-size: 1.3em;
+		margin-bottom: .5em;
+		@media screen and (min-width: 30em) {
+			font-size: 1.5em;
+		}
+	}
+
+	/* SPLIT COLUMN */
+
+	@media screen and (min-width: 49em) {
+		.col-left {
+			float: left;
+			width: 46%;
+		}
+		.col-right {
+			float: right;
+			width: 46%;
+		}
+	}
+
+	p {
+		&.subtitle {
+			font-weight: bold;
+		}
+	}
+
+	.header {
+		background-color: #496EBD;
+		padding: 1em 1.2em 1.4em;
+		margin: -1.2em -1.2em 1.2em;
+
+		* {
+			color: #ffffff;
+		}
+
+		h1 {
+			margin-bottom: .1em;
+		}
+
+		p {
+			margin-bottom: .4em;
+		}
+
+		.subtitle {
+			font-size: 1.5em;
+			font-weight: normal;
+		}
+
+		.small-text {
+			font-size: 90%;
+			margin-bottom: 0;
+		}
+	}
+
+	.box {
+		padding: 1.2em;
+		overflow: hidden;
+	}
+
+}
+
+
+/* IPID PANELS */
+
+.ipid-panel {
+	background-color: #ececec;
+	padding: 1em;
+	margin-top: 1em;
+	background-size: 2.8em;
+	background-repeat: no-repeat;
+	background-position: .8em .8em;
+
+	@media screen and (min-width: 30em) {
+		background-size: 3.6em;
+		background-position: 1em 1em;
+	}
+
+	.ipid-panel-content {
+		padding-left: 3.4em;
+
+		@media screen and (min-width: 30em) {
+			padding-left: 4.6em;
+		}
+	}
+
+	&.insured-y {
+		background-image: url(../img/ipid/ipid-umbrella-icon.png);
+	}
+
+	&.insured-n {
+		background-image: url(../img/ipid/ipid-cross-icon.png);
+	}
+
+	&.restrictions {
+		background-image: url(../img/ipid/ipid-exclamation-icon.png);
+	}
+
+	&.cover-where {
+		background-image: url(../img/ipid/ipid-global-icon.png);
+	}
+
+	&.obligations {
+		background-image: url(../img/ipid/ipid-hand-icon.png);
+	}
+
+	&.payment {
+		background-image: url(../img/ipid/ipid-euros-icon.png);
+	}
+
+	&.cover-dates {
+		background-image: url(../img/ipid/ipid-time-icon.png);
+	}
+
+	&.cancel-contract {
+		background-image: url(../img/ipid/ipid-cancel-icon.png);
+	}
+
+}
+
+
+/* PRINT STYLES */
+
+@media print {
+
+	.ipid {
+
+		background: #ffffff !important;
+
+		.box {
+			-webkit-box-shadow: 0px 0px 6px 0px #ffffff;
+    	-moz-box-shadow: 0px 0px 6px 0px #ffffff;
+    	box-shadow: 0px 0px 6px 0px #ffffff;
+		}
+
+		#container {
+			padding: 0;
+			width: 100%;
+		}
+
+		.mainwrap {
+			font-size: .5em;
+		}
+
+		h1 {
+			font-size: 3em;
+		}
+		h2 {
+			font-size: 1.7em;
+		}
+
+		.col-left {
+			float: left;
+			width: 46%;
+		}
+		.col-right {
+			float: right;
+			width: 46%;
+		}
+
+		.restrictions {
+			page-break-after: always;
+		}
+
+	}
+
+	.ipid-panel {
+		background-size: 3.6em;
+		background-position: 1em 1em;
+
+		.ipid-panel-content {
+			padding-left: 4.6em;
+		}
+
+	}
+}

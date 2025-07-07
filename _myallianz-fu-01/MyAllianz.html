@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MyAllianz</title>
+
+<!-- New Style Sheet Font Update -->
+<link rel="stylesheet" type="text/css" href="Content/css/app-font-update-01.css">
+
+<link rel="stylesheet" type="text/css" href="Content/css/common/global.css">
+<link rel="stylesheet" type="text/css" href="Scripts/jquery-ui-1.11.2.custom/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="Content/css/cr2.css">
+
+
+
+<script src="Scripts/Custom/vendor/custom.modernizr.js"></script>
+</head>
+<body>
+<header>
+    <div class="row">
+        <div class="large-24 columns">
+            <a href="http://localhost/MyAllianzPhase2/Product/DashBoard" class="allianz-logo"></a>
+            <h1>
+                MyAllianz<br>
+                <span class="tagline subheader"> Take control of your Insurance</span>
+            </h1>
+        </div>
+    </div>
+</header>
+<form action="http://localhost/MyAllianzPhase2/Access/Account/LogOff" id="logoutForm" method="post"><input name="__RequestVerificationToken" type="hidden" value="JEYT4XOcImbAFI3PlXJOMgDejDFvr50xtn3drIicaDDA1H26X8rg9xGky5theDfRCxD0P84sEe-PD4I-TqFrUaJZwIPSpFkMKbqumBzXhBGOsgDu9-YMBgT4E4aYkuV40"></form>    
+<nav class="nav-bar row hide-for-print">
+    <div class="large-24 columns">
+        <a id="nav-home" href="http://localhost/MyAllianzPhase2/Product/DashBoard" class="button secondary"><span class="icn home-btn"></span>Home</a>
+        <a id="nav-inbox" href="http://localhost/MyAllianzPhase2/Product/Dashboard#" class="notification button secondary no-popup" data-dropdown="inbox-drop" data-count="21"><span class="icn inbox-btn"></span>Inbox</a><ul id="inbox-drop" class="f-dropdown content medium" data-dropdown-content="">
+            <li class="inbox-message red">
+                <a href="http://localhost/MyAllianzPhase2/Product/Dashboard#" class="close-btn">×</a>
+                <a href="http://localhost/MyAllianzPhase2/Product/ContactDetails/Inbox#message-1"> MyAllianz - Policy addition <span style="color: red !important;"> 11/09/2015 - </span></a>
+            </li>
+            <li class="inbox-message red">
+                <a href="http://localhost/MyAllianzPhase2/Product/Dashboard#" class="close-btn">×</a>
+                <a href="http://localhost/MyAllianzPhase2/Product/ContactDetails/Inbox#message-2"> MyAllianz - Policy addition <span style="color: red !important;"> 10/09/2015 - </span></a>
+            </li>
+            <li class="inbox-message red">
+                <a href="http://localhost/MyAllianzPhase2/Product/Dashboard#" class="close-btn">×</a>
+                <a href="http://localhost/MyAllianzPhase2/Product/ContactDetails/Inbox#message-3"> MyAllianz - Policy addition <span style="color: red !important;"> 10/09/2015 - </span></a>
+            </li>
+            <li class="inbox-message red">
+                <a href="http://localhost/MyAllianzPhase2/Product/Dashboard#" class="close-btn">×</a>
+                <a href="http://localhost/MyAllianzPhase2/Product/ContactDetails/Inbox#message-4"> MyAllianz - Policy addition <span style="color: red !important;"> 10/09/2015 - </span></a>
+            </li>
+            <li class="inbox-message red">
+                <a href="http://localhost/MyAllianzPhase2/Product/Dashboard#" class="close-btn">×</a>
+                <a href="http://localhost/MyAllianzPhase2/Product/ContactDetails/Inbox#message-5"> MyAllianz - Policy addition <span style="color: red !important;"> 10/09/2015 - </span></a>
+            </li>
+            <li class="inbox-message red">
+                <a href="http://localhost/MyAllianzPhase2/Product/Dashboard#" class="close-btn">×</a>
+                <a href="http://localhost/MyAllianzPhase2/Product/ContactDetails/Inbox#message-6"> MyAllianz - Policy addition <span style="color: red !important;"> 10/09/2015 - </span></a>
+            </li>
+            <li class="inbox-message red">
+                <a href="http://localhost/MyAllianzPhase2/Product/Dashboard#" class="close-btn">×</a>
+                <a href="http://localhost/MyAllianzPhase2/Product/ContactDetails/Inbox#message-7">  Change Request  <span style="color: red !important;"> 09/09/2015 - COMPLETED</span></a>
+            </li>
+            <li class="inbox-message ">
+                <a href="http://localhost/MyAllianzPhase2/Product/Dashboard#" class="close-btn">×</a>
+                <a href="http://localhost/MyAllianzPhase2/Product/ContactDetails/Inbox#message-8">  Change Request  <span style="color:  !important;"> 09/09/2015 - Archived</span></a>
+            </li>
+            <li class="inbox-message red">
+                <a href="http://localhost/MyAllianzPhase2/Product/Dashboard#" class="close-btn">×</a>
+                <a href="http://localhost/MyAllianzPhase2/Product/ContactDetails/Inbox#message-9">  Change Request  <span style="color: red !important;"> 09/09/2015 - IN PROGRESS</span></a>
+            </li>
+            <li class="inbox-message red">
+                <a href="http://localhost/MyAllianzPhase2/Product/Dashboard#" class="close-btn">×</a>
+                <a href="http://localhost/MyAllianzPhase2/Product/ContactDetails/Inbox#message-10">  Change Request  <span style="color: red !important;"> 04/09/2015 - IN PROGRESS</span></a>
+            </li>
+            <li class="inbox-message red">
+                <a href="http://localhost/MyAllianzPhase2/Product/Dashboard#" class="close-btn">×</a>
+                <a href="http://localhost/MyAllianzPhase2/Product/ContactDetails/Inbox#message-11">  Change Request  <span style="color: red !important;"> 04/09/2015 - IN PROGRESS</span></a>
+            </li>
+            <li class="inbox-message red">
+                <a href="http://localhost/MyAllianzPhase2/Product/Dashboard#" class="close-btn">×</a>
+                <a href="http://localhost/MyAllianzPhase2/Product/ContactDetails/Inbox#message-12">  Change Request  <span style="color: red !important;"> 04/09/2015 - IN PROGRESS</span></a>
+            </li>
+            <li class="inbox-message red">
+                <a href="http://localhost/MyAllianzPhase2/Product/Dashboard#" class="close-btn">×</a>
+                <a href="http://localhost/MyAllianzPhase2/Product/ContactDetails/Inbox#message-13"> MyAllianz - Policy addition <span style="color: red !important;"> 03/09/2015 - </span></a>
+            </li>
+            <li class="inbox-message red">
+                <a href="http://localhost/MyAllianzPhase2/Product/Dashboard#" class="close-btn">×</a>
+                <a href="http://localhost/MyAllianzPhase2/Product/ContactDetails/Inbox#message-14"> MyAllianz - Policy addition <span style="color: red !important;"> 03/09/2015 - </span></a>
+            </li>
+            <li class="inbox-message red">
+                <a href="http://localhost/MyAllianzPhase2/Product/Dashboard#" class="close-btn">×</a>
+                <a href="http://localhost/MyAllianzPhase2/Product/ContactDetails/Inbox#message-15"> MyAllianz - Policy addition <span style="color: red !important;"> 03/09/2015 - </span></a>
+            </li>
+            <li class="inbox-message ">
+                <a href="http://localhost/MyAllianzPhase2/Product/Dashboard#" class="close-btn">×</a>
+                <a href="http://localhost/MyAllianzPhase2/Product/ContactDetails/Inbox#message-16">  Change Request  <span style="color:  !important;"> 28/08/2015 - IN PROGRESS</span></a>
+            </li>
+            <li class="inbox-message red">
+                <a href="http://localhost/MyAllianzPhase2/Product/Dashboard#" class="close-btn">×</a>
+                <a href="http://localhost/MyAllianzPhase2/Product/ContactDetails/Inbox#message-17">  Change Request  <span style="color: red !important;"> 28/08/2015 - IN PROGRESS</span></a>
+            </li>
+            <li class="inbox-message red">
+                <a href="http://localhost/MyAllianzPhase2/Product/Dashboard#" class="close-btn">×</a>
+                <a href="http://localhost/MyAllianzPhase2/Product/ContactDetails/Inbox#message-18">  Change Request  <span style="color: red !important;"> 28/08/2015 - IN PROGRESS</span></a>
+            </li>
+            <li class="inbox-message ">
+                <a href="http://localhost/MyAllianzPhase2/Product/Dashboard#" class="close-btn">×</a>
+                <a href="http://localhost/MyAllianzPhase2/Product/ContactDetails/Inbox#message-19">  Change Request  <span style="color:  !important;"> 28/08/2015 - IN PROGRESS</span></a>
+            </li>
+            <li class="inbox-message ">
+                <a href="http://localhost/MyAllianzPhase2/Product/Dashboard#" class="close-btn">×</a>
+                <a href="http://localhost/MyAllianzPhase2/Product/ContactDetails/Inbox#message-20">  Change Request  <span style="color:  !important;"> 28/08/2015 - IN PROGRESS</span></a>
+            </li>
+            <li class="inbox-message red">
+                <a href="http://localhost/MyAllianzPhase2/Product/Dashboard#" class="close-btn">×</a>
+                <a href="http://localhost/MyAllianzPhase2/Product/ContactDetails/Inbox#message-21">  Change Request  <span style="color: red !important;"> 27/08/2015 - IN PROGRESS</span></a>
+            </li>
+            <li class="inbox-message red">
+                <a href="http://localhost/MyAllianzPhase2/Product/Dashboard#" class="close-btn">×</a>
+                <a href="http://localhost/MyAllianzPhase2/Product/ContactDetails/Inbox#message-22">  Change Request  <span style="color: red !important;"> 27/08/2015 - IN PROGRESS</span></a>
+            </li>
+            <li class="inbox-message red">
+                <a href="http://localhost/MyAllianzPhase2/Product/Dashboard#" class="close-btn">×</a>
+                <a href="http://localhost/MyAllianzPhase2/Product/ContactDetails/Inbox#message-23">  Change Request  <span style="color: red !important;"> 27/08/2015 - IN PROGRESS</span></a>
+            </li>
+            <li class="inbox-message ">
+                <a href="http://localhost/MyAllianzPhase2/Product/Dashboard#" class="close-btn">×</a>
+                <a href="http://localhost/MyAllianzPhase2/Product/ContactDetails/Inbox#message-24">  Change Request  <span style="color:  !important;"> 27/08/2015 - IN PROGRESS</span></a>
+            </li>
+            <li class="inbox-message red">
+                <a href="http://localhost/MyAllianzPhase2/Product/Dashboard#" class="close-btn">×</a>
+                <a href="http://localhost/MyAllianzPhase2/Product/ContactDetails/Inbox#message-25">  Change Request  <span style="color: red !important;"> 27/08/2015 - IN PROGRESS</span></a>
+            </li>
+            <li class="inbox-message red">
+                <a href="http://localhost/MyAllianzPhase2/Product/Dashboard#" class="close-btn">×</a>
+                <a href="http://localhost/MyAllianzPhase2/Product/ContactDetails/Inbox#message-26">  Change Request  <span style="color: red !important;"> 26/08/2015 - IN PROGRESS</span></a>
+            </li>
+        <li class="inbox-message"><a href="http://localhost/MyAllianzPhase2/Product/ContactDetails/Inbox" class="txt-link">See all notifications</a></li>
+    </ul>
+        <a id="nav-profile" class="button secondary no-popup" href="http://localhost/MyAllianzPhase2/Product/Dashboard#" data-dropdown="profile-drop"><span class="icn profile-btn"></span><span class="mobile-hide">My</span> Profile</a>
+        <ul id="profile-drop" class="f-dropdown small content" data-dropdown-content="">
+            <li><a href="http://localhost/MyAllianzPhase2/Product/ContactDetails/Inbox">Inbox</a></li>
+            <li><a href="http://localhost/MyAllianzPhase2/Product/ContactDetails/Details">Current Contact Details</a></li>
+            <li><a href="http://localhost/MyAllianzPhase2/Product/ContactDetails/UpdateName">Update your Name</a></li>
+            <li><a href="http://localhost/MyAllianzPhase2/Product/ContactDetails/ChangePhoneNumber">Change your Phone Number</a></li>
+            <li><a href="http://localhost/MyAllianzPhase2/Product/ContactDetails/ChangeAddress">Change Contact Address</a></li>
+            <li><a href="http://localhost/MyAllianzPhase2/Access/Account/ChangePassword">Change Password</a></li>
+            <li><a href="http://localhost/MyAllianzPhase2/Access/Account/RemoveAccount">Remove MyAllianz Account</a></li>
+            <li class="show-for-small"><a href="javascript:document.getElementById('logoutForm').submit()
+">Logout</a></li>
+        </ul>
+        <a class="mobile-hide" href="javascript:document.getElementById('logoutForm').submit()
+">Logout</a>
+    </div>
+</nav>
+
+<section id="content-section-01" class="row content-section sidebar-right">
+    <div class="large-17 columns">
+        <div class="row login-info">
+            
+    <div class="large-24 columns">
+        <small>
+            Hi, <strong>Mrs Myallianz Onlinepayment</strong> ~ Last Login&nbsp;10/09/2015 15:19:14
+                    
+            </small>
+        </div>
+
+        </div>
+        <div class="row">
+            <hr class="divider">
+        </div>
+        <div id="my-policies">
+            <a href="http://localhost/MyAllianzPhase2/Access/Account/AddUserPolicy" style="min-width:35%" class="button light secondary small right">Add Another Policy</a>
+
+
+
+<h3>My Policies</h3>
+
+    <hr>
+
+<div class="car policy">
+
+
+
+<a href="http://localhost/MyAllianzPhase2/Product/Dashboard#" data-dropdown="menu-drop-DNDMR8000687" class="button menu-btn" data-options="is_hover:true"><span class="mobile-hide">Menu</span><span class="icn menu-icn"></span></a>
+<ul id="menu-drop-DNDMR8000687" class="f-dropdown content icn-list menu-drop" data-dropdown-content="">
+    <li><a href="http://localhost/MyAllianzPhase2/Product/Motor/PolicyDetails?uJ3e%2bwZSk7osYCDZyyBHu%2boafrCjG%2bvdmqw2qtB5hOg%3d" class="tab-icn"><span class="icn policy-icn"></span>Policy Details</a></li>
+    <li><a href="http://localhost/MyAllianzPhase2/Product/Motor/Payments?uJ3e%2bwZSk7osYCDZyyBHu%2boafrCjG%2bvdmqw2qtB5hOg%3d" class="tab-icn"><span class="icn policy-icn"></span>Payments</a></li>
+    <li><a href="http://localhost/MyAllianzPhase2/Product/Motor/ViewDocuments?uJ3e%2bwZSk7osYCDZyyBHu%2boafrCjG%2bvdmqw2qtB5hOg%3d" class="tab-icn"><span class="icn document-icn"></span>View Documents</a></li>
+    <li><a href="http://localhost/MyAllianzPhase2/Product/Motor/RequestChange?qEJPI3i2ZkTrata8TquvqnBC0fPjE3%2f6rNHzpjSYwfYrywTGfEZU7rmYdxoWdvCf" class="tab-icn"><span class="icn changes-icn"></span>Request Changes</a></li>
+        <li><a href="http://localhost/MyAllianzPhase2/Product/Motor/ClaimsHistory?uJ3e%2bwZSk7osYCDZyyBHu%2boafrCjG%2bvdmqw2qtB5hOg%3d" class="tab-icn"><span class="icn policy-icn"></span>Claims History</a></li>
+    <li><a href="http://localhost/MyAllianzPhase2/Product/Motor/ClaimNotification?uJ3e%2bwZSk7osYCDZyyBHu%2boafrCjG%2bvdmqw2qtB5hOg%3d" class="tab-icn"><span class="icn claims-icn"></span>Claim Notification</a></li>
+    
+    <li><a href="http://localhost/MyAllianzPhase2/Access/Account/RemoveUserPolicy?uJ3e%2bwZSk7osYCDZyyBHuzB5Z78RtsyQ3VXRiIDGDbbBFxlBAdhm21cosgLU5RQg" class="txt-link">Remove Policy from View</a></li>
+    <li><a href="http://localhost/MyAllianzPhase2/Product/DashBoard" class="txt-link">View Another Policy</a></li>
+</ul>
+
+    <h2 class="icn-title"><a href="http://localhost/MyAllianzPhase2/Product/Motor/PolicyDetails?uJ3e%2bwZSk7osYCDZyyBHu%2boafrCjG%2bvdmqw2qtB5hOg%3d"><span class="icn car-icn"></span>Car Policy</a></h2>
+    <dl class="inline-def-list">
+        <dt>Policy Number:</dt>
+        <dd>DNDMR8000687</dd>
+        <dt>Car Registration:</dt>
+        <dd>05D6873</dd>
+                    <span>
+                    <dt>Balance:</dt>
+                <dd>
+Payment pending. Updates occur every 24 hours, during business hours.                </dd>
+            </span>
+    </dl>
+</div>
+
+<div class="car claim">
+<hr>
+    <a href="http://localhost/MyAllianzPhase2/Product/Dashboard#" data-dropdown="menu-drop-MCFNOL4KST93I" class="button menu-btn small" data-options="is_hover:true"><span class="mobile-hide">Menu</span><span class="icn menu-icn"></span></a>
+    <ul id="menu-drop-MCFNOL4KST93I" class="f-dropdown content menu-drop" data-dropdown-content="">
+        <li><a href="http://localhost/MyAllianzPhase2/Product/Motor/ReloadSavedClaim?c1EL1Ck6LrdfFdiRaAgDJ4iDRsTgZyDPxzmWpZNa1uU%3d">Claim Notification</a></li>
+    </ul>
+    <h2 class="icn-title"><a href="http://localhost/MyAllianzPhase2/Product/Motor/ReloadSavedClaim?c1EL1Ck6LrdfFdiRaAgDJ4iDRsTgZyDPxzmWpZNa1uU%3d"><span class="icn car-icn"></span> Car Claim</a></h2>
+    <dl class="inline-def-list">
+                    <dt>Claim Number:</dt>
+                    <dd>N/A – Customer Draft Only</dd>
+                    <dt>Claim Status:</dt>
+                    <dd>Draft Only - not submitted to Allianz</dd>
+
+    </dl>
+</div>
+    <hr>
+	
+
+
+
+
+        
+
+<div class="car policy">
+
+
+
+<a href="http://localhost/MyAllianzPhase2/Product/Dashboard#" data-dropdown="menu-drop-DNDMR4723658" class="button menu-btn" data-options="is_hover:true"><span class="mobile-hide">Menu</span><span class="icn menu-icn"></span></a>
+<ul id="menu-drop-DNDMR4723658" class="f-dropdown content icn-list menu-drop" data-dropdown-content="">
+    <li><a href="http://localhost/MyAllianzPhase2/Product/Motor/PolicyDetails?uJ3e%2bwZSk7osYCDZyyBHu08CGF0ZBKo9PamKXzm4A5s%3d" class="tab-icn"><span class="icn policy-icn"></span>Policy Details</a></li>
+    <li><a href="http://localhost/MyAllianzPhase2/Product/Motor/Payments?uJ3e%2bwZSk7osYCDZyyBHu08CGF0ZBKo9PamKXzm4A5s%3d" class="tab-icn"><span class="icn policy-icn"></span>Payments</a></li>
+    <li><a href="http://localhost/MyAllianzPhase2/Product/Motor/ViewDocuments?uJ3e%2bwZSk7osYCDZyyBHu08CGF0ZBKo9PamKXzm4A5s%3d" class="tab-icn"><span class="icn document-icn"></span>View Documents</a></li>
+    <li><a href="http://localhost/MyAllianzPhase2/Product/Motor/RequestChange?qEJPI3i2ZkTrata8TquvqnBC0fPjE3%2f6rNHzpjSYwfZxfp%2bYV9RmYyCiLhP%2fdIw8" class="tab-icn"><span class="icn changes-icn"></span>Request Changes</a></li>
+        <li><a href="http://localhost/MyAllianzPhase2/Product/Motor/ClaimsHistory?uJ3e%2bwZSk7osYCDZyyBHu08CGF0ZBKo9PamKXzm4A5s%3d" class="tab-icn"><span class="icn policy-icn"></span>Claims History</a></li>
+    <li><a href="http://localhost/MyAllianzPhase2/Product/Motor/ClaimNotification?uJ3e%2bwZSk7osYCDZyyBHu08CGF0ZBKo9PamKXzm4A5s%3d" class="tab-icn"><span class="icn claims-icn"></span>Claim Notification</a></li>
+    
+    <li><a href="http://localhost/MyAllianzPhase2/Access/Account/RemoveUserPolicy?uJ3e%2bwZSk7osYCDZyyBHu%2fJPGWwmvM3JPWf40eUW3OJCGdFe1Ny1PQuviI02vvT4" class="txt-link">Remove Policy from View</a></li>
+    <li><a href="http://localhost/MyAllianzPhase2/Product/DashBoard" class="txt-link">View Another Policy</a></li>
+</ul>
+
+    <h2 class="icn-title"><a href="http://localhost/MyAllianzPhase2/Product/Motor/PolicyDetails?uJ3e%2bwZSk7osYCDZyyBHu08CGF0ZBKo9PamKXzm4A5s%3d"><span class="icn car-icn"></span>Car Policy</a></h2>
+    <dl class="inline-def-list">
+        <dt>Policy Number:</dt>
+        <dd>DNDMR4723658</dd>
+        <dt>Car Registration:</dt>
+        <dd>141D3398</dd>
+            </dl>
+</div>
+
+
+
+        <div class="claim">
+<hr>
+
+<a href="http://localhost/MyAllianzPhase2/Product/Dashboard#" data-dropdown="menu-claim-drop-2620041" class="button menu-btn small" data-options="is_hover:true"><span class="mobile-hide">Menu</span><span class="icn menu-icn"></span></a>
+<ul id="menu-claim-drop-2620041" class="f-dropdown content icn-list menu-drop" data-dropdown-content="">
+    <li><a href="http://localhost/MyAllianzPhase2/Product/Motor/ClaimsHistory?uJ3e%2bwZSk7osYCDZyyBHu08CGF0ZBKo9PamKXzm4A5s%3d" class="tab-icn"><span class="icn policy-icn"></span>Claims History</a></li>
+        <li><a href="http://localhost/MyAllianzPhase2/Product/Dashboard#" class="tab-icn" data-reveal-id="milestonenotexist"><span class="icn policy-icn"></span>Claims Tracking</a></li>
+    <li><a class="no-popup tab-icn uploadDialogLink" data-reveal-id="uploadDialog_2620041" data-upload-link="/MyAllianzPhase2/Product/upload/file?65FrUDImLlPhbrikhAyCqpoDKroHzaKnBUn1emQpFKRMXE0URHV45jedp5rQAhhA0H6qsMEs%2fjwokkQP2TkrgfGG4nTpPorGL0jxieg3aIU%3d"><span class="icn policy-icn"></span>Upload Documents</a></li>
+</ul>
+<div id="uploadDialog_2620041" class="reveal-modal">
+    <a class="close-reveal-modal">×</a>
+</div>
+<h2 class="icn-title"><a href="http://localhost/MyAllianzPhase2/Product/Dashboard#" data-reveal-id="milestonenotexist"><span class="icn car-icn"></span>Car Claim</a></h2>
+            <dl class="inline-def-list">
+                <dt>Claim Number:</dt>
+                <dd>2620041 &nbsp;</dd>
+                
+                <dt>Claim Handler:</dt>
+                <dd>Leo McFeely &nbsp;</dd>
+            </dl>
+        </div>
+        <div class="claim">
+
+<hr>
+<a href="http://localhost/MyAllianzPhase2/Product/Dashboard#" data-dropdown="menu-claim-drop-111111" class="button menu-btn small" data-options="is_hover:true"><span class="mobile-hide">Menu</span><span class="icn menu-icn"></span></a>
+<ul id="menu-claim-drop-111111" class="f-dropdown content icn-list menu-drop" data-dropdown-content="">
+    <li><a href="http://localhost/MyAllianzPhase2/Product/Motor/ClaimsHistory?uJ3e%2bwZSk7osYCDZyyBHu08CGF0ZBKo9PamKXzm4A5s%3d" class="tab-icn"><span class="icn policy-icn"></span>Claims History</a></li>
+        <li><a href="http://localhost/MyAllianzPhase2/Product/Dashboard#" class="tab-icn" data-reveal-id="milestonenotexist"><span class="icn policy-icn"></span>Claims Tracking</a></li>
+    <li><a class="no-popup tab-icn uploadDialogLink" data-reveal-id="uploadDialog_111111" data-upload-link="/MyAllianzPhase2/Product/upload/file?65FrUDImLlPhbrikhAyCqpoDKroHzaKnBUn1emQpFKRMXE0URHV45jedp5rQAhhA0H6qsMEs%2fjwokkQP2TkrgfGG4nTpPorGL0jxieg3aIU%3d"><span class="icn policy-icn"></span>Upload Documents</a></li>
+</ul>
+<div id="uploadDialog_111111" class="reveal-modal">
+    <a class="close-reveal-modal">×</a>
+</div>
+<h2 class="icn-title"><a href="http://localhost/MyAllianzPhase2/Product/Dashboard#" data-reveal-id="milestonenotexist"><span class="icn car-icn"></span>Car Claim</a></h2>
+            <dl class="inline-def-list">
+                <dt>Claim Number:</dt>
+                <dd>111111 &nbsp;</dd>
+                
+                <dt>Claim Handler:</dt>
+                <dd>Leo McFeely &nbsp;</dd>
+            </dl>
+        </div>
+
+    <hr>
+
+
+
+<div class="home policy">
+
+
+<a href="http://localhost/MyAllianzPhase2/Product/Dashboard#" data-dropdown="menu-drop-DNDCR7012191" class="button menu-btn" data-options="is_hover:true"><span class="mobile-hide">Menu</span><span class="icn menu-icn"></span></a>
+<ul id="menu-drop-DNDCR7012191" class="f-dropdown content icn-list menu-drop" data-dropdown-content="">
+    <li><a href="http://localhost/MyAllianzPhase2/Product/Home/PolicyDetails?uJ3e%2bwZSk7osYCDZyyBHu0WvkyBo3QG%2fXZscMuw5ABc%3d" class="tab-icn"><span class="icn policy-icn"></span>Policy Details</a></li>
+    <li><a href="http://localhost/MyAllianzPhase2/Product/Home/Payments?uJ3e%2bwZSk7osYCDZyyBHu0WvkyBo3QG%2fXZscMuw5ABc%3d" class="tab-icn"><span class="icn policy-icn"></span>Payments</a></li>
+    <li><a href="http://localhost/MyAllianzPhase2/Product/Home/ViewDocuments?uJ3e%2bwZSk7osYCDZyyBHu0WvkyBo3QG%2fXZscMuw5ABc%3d" class="tab-icn"><span class="icn document-icn"></span>View Documents</a></li>
+    <li><a href="http://localhost/MyAllianzPhase2/Product/Home/RequestChange?qEJPI3i2ZkTrata8TquvqhhjMoEQraHmfxphP5RcVDWOIkStgdNcX5YRg%2bFMOwYH" class="tab-icn"><span class="icn changes-icn"></span>Request Changes</a></li>
+        <li><a href="http://localhost/MyAllianzPhase2/Product/Home/ClaimsHistory?uJ3e%2bwZSk7osYCDZyyBHu0WvkyBo3QG%2fXZscMuw5ABc%3d" class="tab-icn"><span class="icn policy-icn"></span>Claims History</a></li>
+    <li><a href="http://localhost/MyAllianzPhase2/Product/Home/ClaimNotification?uJ3e%2bwZSk7osYCDZyyBHu0WvkyBo3QG%2fXZscMuw5ABc%3d" class="tab-icn"><span class="icn claims-icn"></span>Claim Notification</a></li>
+    
+    <li><a href="http://localhost/MyAllianzPhase2/Access/Account/RemoveUserPolicy?uJ3e%2bwZSk7osYCDZyyBHu21Z7GeLMaCy1FnsZirP1SwZsZ9FZXkBxP7geVr0ybxl" class="txt-link">Remove Policy from View</a></li>
+    <li><a href="http://localhost/MyAllianzPhase2/Product/DashBoard" class="txt-link">View Another Policy</a></li>
+</ul>
+    <h2 class="icn-title"><a href="http://localhost/MyAllianzPhase2/Product/Home/PolicyDetails?uJ3e%2bwZSk7osYCDZyyBHu0WvkyBo3QG%2fXZscMuw5ABc%3d"><span class="icn home-icn"></span> Home Policy</a></h2>
+    <dl class="inline-def-list">
+        <dt>Policy Number:</dt>
+        <dd>DNDCR7012191</dd>
+        <dt>Risk Address:</dt>
+        <dd>716 Kleinfeld Park, Fenoli Road, Killarney, Co Kerry</dd>
+                    <span>
+                    <dt>Balance:</dt>
+                <dd>
+Direct debits will automatically recommence, no further action required. If wish to pay the full annual premium, select Payments.                </dd>
+            </span>
+    </dl>
+</div>
+    <hr>
+
+
+<div class="home policy">
+
+
+<a href="http://localhost/MyAllianzPhase2/Product/Dashboard#" data-dropdown="menu-drop-DNDCR7012307" class="button menu-btn" data-options="is_hover:true"><span class="mobile-hide">Menu</span><span class="icn menu-icn"></span></a>
+<ul id="menu-drop-DNDCR7012307" class="f-dropdown content icn-list menu-drop" data-dropdown-content="">
+    <li><a href="http://localhost/MyAllianzPhase2/Product/Home/PolicyDetails?uJ3e%2bwZSk7osYCDZyyBHu2rq2YxVp2%2bBvICGYXMkxYw%3d" class="tab-icn"><span class="icn policy-icn"></span>Policy Details</a></li>
+    <li><a href="http://localhost/MyAllianzPhase2/Product/Home/Payments?uJ3e%2bwZSk7osYCDZyyBHu2rq2YxVp2%2bBvICGYXMkxYw%3d" class="tab-icn"><span class="icn policy-icn"></span>Payments</a></li>
+    <li><a href="http://localhost/MyAllianzPhase2/Product/Home/ViewDocuments?uJ3e%2bwZSk7osYCDZyyBHu2rq2YxVp2%2bBvICGYXMkxYw%3d" class="tab-icn"><span class="icn document-icn"></span>View Documents</a></li>
+    <li><a href="http://localhost/MyAllianzPhase2/Product/Home/RequestChange?qEJPI3i2ZkTrata8TquvqhhjMoEQraHmfxphP5RcVDUEyvIzNoZOUMOwfNEmU17o" class="tab-icn"><span class="icn changes-icn"></span>Request Changes</a></li>
+        <li><a href="http://localhost/MyAllianzPhase2/Product/Home/ClaimsHistory?uJ3e%2bwZSk7osYCDZyyBHu2rq2YxVp2%2bBvICGYXMkxYw%3d" class="tab-icn"><span class="icn policy-icn"></span>Claims History</a></li>
+    <li><a href="http://localhost/MyAllianzPhase2/Product/Home/ClaimNotification?uJ3e%2bwZSk7osYCDZyyBHu2rq2YxVp2%2bBvICGYXMkxYw%3d" class="tab-icn"><span class="icn claims-icn"></span>Claim Notification</a></li>
+    
+    <li><a href="http://localhost/MyAllianzPhase2/Access/Account/RemoveUserPolicy?uJ3e%2bwZSk7osYCDZyyBHu7XxF4fgzppWPmz5g7EWTdeWG%2ffB%2fLfyxCMAauYjRVeF" class="txt-link">Remove Policy from View</a></li>
+    <li><a href="http://localhost/MyAllianzPhase2/Product/DashBoard" class="txt-link">View Another Policy</a></li>
+</ul>
+    <h2 class="icn-title"><a href="http://localhost/MyAllianzPhase2/Product/Home/PolicyDetails?uJ3e%2bwZSk7osYCDZyyBHu2rq2YxVp2%2bBvICGYXMkxYw%3d"><span class="icn home-icn"></span> Home Policy</a></h2>
+    <dl class="inline-def-list">
+        <dt>Policy Number:</dt>
+        <dd>DNDCR7012307</dd>
+        <dt>Risk Address:</dt>
+        <dd>716 Kleinfeld Park, Fenoli Road, Killarney, Co Kerry</dd>
+                    <span>
+                    <dt>Balance:</dt>
+                <dd>
+€58.65                            <a href="http://localhost/MyAllianzPhase2/Product/Home/Payments?uJ3e%2bwZSk7osYCDZyyBHu2rq2YxVp2%2bBvICGYXMkxYw%3d" class="button tiny">Pay Now</a>
+                </dd>
+            </span>
+    </dl>
+</div>
+    <hr>
+
+
+
+
+
+
+
+
+
+
+<div class="pet policy">
+
+
+<a href="http://localhost/MyAllianzPhase2/Product/Dashboard#" data-dropdown="menu-drop-DNPET7012217" class="button menu-btn" data-options="is_hover:true"><span class="mobile-hide">Menu</span><span class="icn menu-icn"></span></a>
+<ul id="menu-drop-DNPET7012217" class="f-dropdown content icn-list menu-drop" data-dropdown-content="">
+    <li><a href="http://localhost/MyAllianzPhase2/Product/Pet/PolicyDetails?VINw1Q3tlxLd0YOmFFujAGUiOnl0puKjmPKLNCXRWko%3d" class="tab-icn"><span class="icn policy-icn"></span>Policy Details</a></li>
+    <li><a href="http://localhost/MyAllianzPhase2/Product/Pet/Payments?VINw1Q3tlxLd0YOmFFujAGUiOnl0puKjmPKLNCXRWko%3d" class="tab-icn"><span class="icn policy-icn"></span>Payments</a></li>
+    <li><a href="http://localhost/MyAllianzPhase2/Product/Pet/ViewDocuments?VINw1Q3tlxLd0YOmFFujAGUiOnl0puKjmPKLNCXRWko%3d" class="tab-icn"><span class="icn document-icn"></span>View Documents</a></li>
+    <li><a href="http://localhost/MyAllianzPhase2/Product/Pet/RequestChange?qEJPI3i2ZkTrata8TquvqjFuzMF8Exkfvyy4%2fY2jzsGnSOLPY%2b7EgRCwkOIFsJBf" class="tab-icn"><span class="icn changes-icn"></span>Request Changes</a></li>
+        <li><a href="http://localhost/MyAllianzPhase2/Product/Pet/ClaimsHistory?VINw1Q3tlxLd0YOmFFujAGUiOnl0puKjmPKLNCXRWko%3d" class="tab-icn"><span class="icn policy-icn"></span>Claims History</a></li>
+    <li><a href="http://localhost/MyAllianzPhase2/Product/Pet/ClaimNotification?VINw1Q3tlxLd0YOmFFujAGUiOnl0puKjmPKLNCXRWko%3d" class="tab-icn"><span class="icn claims-icn"></span>Claim Notification</a></li>
+    
+    <li><a href="http://localhost/MyAllianzPhase2/Access/Account/RemoveUserPolicy?VINw1Q3tlxLd0YOmFFujADtS%2blm3Vg9l7jXTxv2tcTtmrXQ5b3mvgCkXCwyCiFCI" class="txt-link">Remove Policy from View</a></li>
+    <li><a href="http://localhost/MyAllianzPhase2/Product/DashBoard" class="txt-link">View Another Policy</a></li>
+</ul>
+    <h2 class="icn-title"><a href="http://localhost/MyAllianzPhase2/Product/Pet/PolicyDetails?VINw1Q3tlxLd0YOmFFujAGUiOnl0puKjmPKLNCXRWko%3d"><span class="icn pet-icn"></span>Pet Policy</a></h2>
+    <dl class="inline-def-list">
+        <dt>Policy Number:</dt>
+        <dd>DNPET7012217</dd>
+        <dt>Pet(s) Name:</dt>
+        <dd>Sneezy, Happy, Doc, Grumpy, Dopey, Bashful, Sleepy, Dig, Trickcy, Ted</dd>
+                    <span>
+                    <dt>Balance:</dt>
+                <dd>
+€2,646.21                            <a href="http://localhost/MyAllianzPhase2/Product/Pet/Payments?VINw1Q3tlxLd0YOmFFujAGUiOnl0puKjmPKLNCXRWko%3d" class="button tiny">Pay Now</a>
+                </dd>
+            </span>
+    </dl>
+</div>
+
+
+
+<input id="IsClaimExists" name="IsClaimExists" type="hidden" value="">
+<input id="IsDocumentExists" name="IsDocumentExists" type="hidden" value="">
+        </div>
+        <div class="row">
+            <hr class="divider">
+        </div>
+    </div>
+<div class="large-7 columns sidebar">
+    
+    <ul class="icn-buttons no-bullet">
+        <li>
+            <a href="http://localhost/MyAllianzPhase2/Access/Account/GeneralEnquiry" class="button secondary expand"><span class="icn info-icn-cyan"></span>General Enquiry/Feedback</a>
+        </li>
+    </ul>
+    
+</div>
+
+    <!--Modals/Reveals-->
+    <div id="milestonenotexist" class="reveal-modal">
+        <h3> <span class="subheader"> There are no details for claims that have no tracking</span></h3>
+        <a class="close-reveal-modal ">×</a>
+    </div>
+    <div id="claimsdoesntexist" class="reveal-modal">
+        <h3> <span class="subheader">There is no claims history for this policy.</span></h3>
+        <a class="close-reveal-modal ">×</a>
+    </div>
+    <div id="documentdoesntexist" class="reveal-modal">
+        <h3> <span class="subheader">No documents available to view for this policy.</span></h3>
+        <a class="close-reveal-modal ">×</a>
+    </div>
+
+    <input id="DirectDebitOk" name="DirectDebitOk" type="hidden" value="False">
+    <input id="CreditCardOk" name="CreditCardOk" type="hidden" value="False">
+
+    <div id="payment-success-directDebit" class="reveal-modal">
+        <div>
+            <h3>
+                Thank you for setting up the renewal on Direct Debits;
+                <span class="subheader">
+                    your documents will be available in the View Documents section within 24 hours,during business hours.
+                </span>
+            </h3>
+        </div>
+        <a class="close-reveal-modal">×</a>
+    </div>
+
+    <div id="payment-success-creditCard" class="reveal-modal">
+        <div>
+            <h3>
+                Thank you for your payment of ;
+                <span class="subheader">
+                    your documents will be available in the View Documents section within 24 hours.
+                </span>
+            </h3>
+        </div>
+        <a class="close-reveal-modal">×</a>
+    </div>
+
+</section>
+
+
+
+<section id="content-section-02" class="row content-section sidebar-right">
+    <div class="large-17 columns">
+        <div id="more-allianz">
+            <h3>More from Allianz</h3>
+            <hr>
+            <div id="products" class="icn-buttons">
+                <h4 class="subheader">Get a new quote</h4>
+                <p>Mrs Myallianz Onlinepayment, why not get a quote for one of our other products:</p>
+                <ul class="small-block-grid-1 large-block-grid-2">
+                    <li><a class="sessionlogout button secondary large expand" href="https://net.allianz.ie/b2x/motor" target="_blank"><span class="icn car-icn"></span>Car Insurance</a></li>
+                    <li><a class="sessionlogout button secondary large expand" href="https://net.allianz.ie/b2x/household" target="_blank"><span class="icn home-icn"></span>Home Insurance</a></li>
+                        <li><a class="sessionlogout button secondary large expand" href="https://net.allianz.ie/b2x/Pet" target="_blank"><span class="icn pet-icn"></span>Pet Insurance</a></li>
+                    <li><a class="sessionlogout button secondary large expand" href="https://www.allianz.ie/Travel-Insurance/" target="_blank"><span class="icn travel-icn"></span>Travel Insurance</a></li>
+                    <li><a class="sessionlogout button secondary large expand" href="https://net.allianz.ie/B2X/Pleasurecraft" target="_blank"><span class="icn boat-icn"></span>Boat Insurance</a></li>
+                        <li><a class="sessionlogout button secondary large expand" href="https://net.allianz.ie/b2x/horseandrider" target="_blank"><span class="icn horse-icn"></span>Horse &amp; Rider</a></li>
+                    <li><a class="sessionlogout button secondary large expand" href="https://www.allianz.ie/Car-Insurance/Taxi_Quote/" target="_blank"><span class="icn taxi-icn"></span>Taxi Insurance</a></li>
+                    <li><a class="sessionlogout button secondary large expand" href="https://www.allianz.ie/Car-Insurance/Commercial_Motor/" target="_blank"><span class="icn commveh-icn"></span>Commercial Vehicle</a></li>
+                    <li><a class="sessionlogout button secondary large expand" href="https://net.allianz.ie/b2x/household" target="_blank"><span class="icn buytolet-icn"></span>Buy to Let Insurance</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="large-7 columns sidebar">
+        <div class="row">
+            
+            <div class="medium-12 large-24 columns">
+                <div id="twitter-feed">
+                    <h4 class="subheader">Allianz on Twitter</h4>
+                    <div>
+                        <div>
+                            <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-timeline twitter-timeline-rendered" allowfullscreen="true" style="position: static; visibility: visible; display: inline-block; width: 100%; height: 230px; padding: 0px; border: none; max-width: 520px; min-width: 180px; min-height: 200px; margin-top: 0px; margin-bottom: 0px;" data-widget-id="392594449873641472" data-user-id="84604038" title="Twitter Timeline"></iframe>
+                            <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = "https://platform.twitter.com/widgets.js"; js.setAttribute('onload', "twttr.events.bind('rendered',function(e){ afterTwitterRendered(e) });"); fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>
+                            <script>
+                                function afterTwitterRendered(e) {
+                                    var anchorTags = document.getElementById(e.target.id).contentWindow.document.getElementsByTagName('a');
+                                    for (var i = 0; i < anchorTags.length; i++) {
+                                        anchorTags[i].onclick = function (e) {
+                                            e.preventDefault();
+                                            e.stopImmediatePropagation();
+                                            $("#browesaway").prop('href', $(this).attr('href'));
+                                            $('#confirm-browse').foundation('reveal', 'open');
+                                        };
+                                    }
+                                }
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+<footer>
+    <div id="confirm-browse" class="reveal-modal small">
+        <h6>
+            Browse away from the site will result in session being terminated.
+        </h6>
+        <br>
+        <a id="browesaway" href="http://localhost/MyAllianzPhase2/Product/Dashboard#" target="_blank" class="button">Ok</a>
+        <a class="button secondary close-reveal-modal modal-close-button">Cancel</a>
+        <a class="close-reveal-modal">×</a>
+    </div>
+    <div class="footer-links row hide-for-print">
+        <div class="large-8 medium-7 columns">
+            <ul class="no-bullet">
+                <li><strong>More from Allianz</strong></li>
+                <li>
+                    <a class="sessionlogout" href="http://www.allianz.ie/" target="_blank">Main Allianz.ie Site</a>
+                </li>
+                <li>
+                    <a class="sessionlogout" href="https://www.allianz.ie/Terms-and-Conditions/MyAllianz-Terms-of-Service.html" target="_blank">Terms of Service</a>
+                    </li>
+               
+            </ul>
+        </div>
+        <div class="large-8 medium-7 columns">
+            <ul class="no-bullet">
+                <li><strong>Need Help?</strong></li>
+                <li>
+                    <a class="sessionlogout" href="http://www.allianz.ie/contact_us" target="_blank">Contact Allianz</a>
+                </li>
+                <li>
+                    <a href="tel:01 448 48 48" target="_blank" class="callable phonenumber" style="cursor: default;">Call: 01 448 48 48</a>
+                </li>
+                <li>
+                    <a class="sessionlogout" href="mailto:info@allianzdirect.ie" target="_blank">Email: info@allianzdirect.ie</a>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="large-8 medium-10 columns">
+            <ul class="no-bullet">
+                <li><strong>Terms &amp; Privacy</strong></li>
+                <li>
+                    <a class="sessionlogout" href="http://www.allianz.ie/Terms-and-Conditions/Terms_Conditions_Terms_of_Business.html" target="_blank">Terms &amp; Conditions / Terms of Business / Customer Information</a>
+                </li>
+                <li>
+                    <a class="sessionlogout" href="http://www.allianz.ie/Data_Protection_Policy/Data_Protection_Policy.html" target="_blank">Data Protection Policy</a>
+                </li>
+                <li>
+                    <a class="sessionlogout" href="http://www.allianz.ie/Privacy_Statement_and_Security/Privacy_Statement_and_Security.html" target="_blank">Use of Cookies, Privacy &amp; Security</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="row content-section hide-for-print">
+        <div class="large-24 columns">
+            <div class="social-links">
+                <a class="sessionlogout button radius social-btn facebook-btn" href="http://www.facebook.com/AllianzIreland/" target="_blank"></a>
+                <a class="sessionlogout button radius social-btn twitter-btn" href="http://twitter.com/AllianzIreland/" target="_blank"></a>
+                <a class="sessionlogout button radius social-btn youtube-btn" href="http://www.youtube.com/AllianzIreland/" target="_blank"></a>
+                <a class="sessionlogout button radius social-btn google-plus-btn" href="https://plus.google.com/105861600555318600955#105861600555318600955/posts" target="_blank"></a>
+            </div>
+        </div>
+    </div>
+    <div class="sign-off row">
+        <div class="large-24 columns">
+            <p class="small">
+                Allianz p.l.c. is regulated by the Central Bank of Ireland. <br>
+                Terms and conditions apply. Calls may be recorded.
+            </p>
+        </div>
+    </div>
+</footer>
+
+<script src="Scripts/jquery-2.1.4.js"></script> 
+<script src="Scripts/Custom/foundation/foundation.js"></script> 
+<script src="Scripts/Custom/foundation/foundation.abide.js"></script> 
+<script src="Scripts/Custom/foundation/foundation.alerts.js"></script> 
+<script src="Scripts/Custom/foundation/foundation.dropdown.js"></script> 
+<script src="Scripts/Custom/foundation/foundation.forms.js"></script> 
+<script src="Scripts/Custom/foundation/foundation.magellan.js"></script> 
+<script src="Scripts/Custom/allianz.foundation.magellan.js"></script> 
+<script src="Scripts/Custom/foundation/foundation.orbit.js"></script> 
+<script src="Scripts/Custom/allianz.foundation.orbit.js"></script> 
+<script src="Scripts/Custom/foundation/foundation.reveal.js"></script> 
+<script src="Scripts/Custom/foundation/foundation.section.js"></script> 
+<script src="Scripts/Custom/foundation/foundation.tooltips.js"></script> 
+<script src="Scripts/Custom/foundation/foundation.topbar.js"></script> 
+<script src="Scripts/Custom/foundation/foundation.placeholder.js"></script> 
+<script src="Scripts/Custom/vendor/pickdate/picker.js"></script> 
+<script src="Scripts/Custom/vendor/pickdate/picker.date.js"></script> 
+<script src="Scripts/Custom/vendor/pickdate/picker.time.js"></script> 
+<script src="Scripts/Custom/vendor/pickdate/legacy.js"></script> 
+<script src="Scripts/Custom/custom.js"></script> 
+<script>
+        $(document).foundation();
+    </script> 
+<script src="Scripts/jquery.validate.js"></script> 
+<script src="Scripts/jquery.validate.unobtrusive.js"></script> 
+<script src="Scripts/External/date-en-IE.js"></script> 
+<script src="Scripts/custom/allianz.jquery.library.js"></script> 
+<script type="text/javascript">
+    (function ($) {
+        $(function () {
+            if (!$.ALZ) {
+                $.ALZ = {};
+            }
+            if (!$.ALZ.AddressConfiguration) {
+                $.ALZ.AddressConfiguration = { ApplicationRoot: "/MyAllianzPhase2" };
+            }
+        });
+    }(jQuery));
+    </script>
+
+
+</body></html>
